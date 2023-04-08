@@ -1,0 +1,49 @@
+/* Therapist */
+
+.titlepoint {
+  width: "200px";
+  padding: "0.5rem";
+  margin: "1rem";
+  text-align: "center";
+  border-radius: "2rem";
+  background-color: "#cfeae1" !important;
+}
+
+.titletext {
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.titlepoint {
+  background-color: #cfeae1;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.subtitle {
+  background-color: #f7f1d8;
+  /* border-radius: 1rem; */
+  margin-top: 1rem;
+  /* width: 130px; */
+  /* left: 0;
+  right: 0;
+  margin: auto; */
+}
+
+.therapist_chip :active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.titlepoint2 {
+  background-color: #f7dfd8;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}

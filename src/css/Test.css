@@ -1,0 +1,71 @@
+/* 부트스트랩 ToggleButton 에 ToggleButton 이라는 이름으로 클래스를 부여하고 
+  hover 가 발생하면 아래의 css 가 적용 되도록 설정
+  단, 부트 스트랩은 !important 가 없으면 css 가 적용이 안되므로 !important 추가 */
+/* .ToggleButton {
+  background-color: rgb(52, 164, 181, 0.5) !important;
+} */
+
+/* .button:hover,
+.button.active {
+  background: #7ea338;
+  color: white;
+}
+.button:visited {
+  background: #7ea338;
+  color: white;
+}
+.button {
+  border: 0;
+} */
+
+.BtnContainer {
+  border: 1px solid #e6e0e0;
+  /* box-shadow: 0 0 30px rgb(13, 202, 240, 0.26); */
+  border-radius: 10px;
+  /* cursor: pointer; */
+  /* width: 80%; */
+  margin: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Testbtn {
+  width: 10rem;
+  height: 4rem;
+  margin: 0.2rem 0.2rem;
+  box-shadow: 0 0 30px rgb(13, 202, 240, 0.26);
+  font-size: 1.5rem;
+  border: none;
+  opacity: 0.6;
+  transition: 0.2s;
+  /* border-radius: 10px; */
+  background-color: #ffffff !important;
+}
+
+.Testbtn::after {
+  /* clear: "both"; */
+  /* display: "table"; */
+}
+
+.Testbtn:not(:last-child) {
+  border-right: none;
+}
+
+.Testbtn:hover {
+  background-color: #0dcaf0 !important;
+  /* box-shadow: 0 0 30px rgb(13, 202, 240, 0.26); */
+  color: white;
+  /* border: none; */
+  border-radius: 0.7rem;
+  opacity: 1;
+}
+
+.Testbtn.active {
+  background-color: #0dcaf0 !important;
+  color: white;
+
+  border-radius: 0.7rem;
+  opacity: 1;
+}
