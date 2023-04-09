@@ -4,7 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import VoucherListTotal from "./VoucherListTotal";
+
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import RestoreIcon from "@mui/icons-material/Restore";
@@ -13,6 +13,8 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Card from "react-bootstrap/Card";
 import FacilitiesImgSongpa from "./FacilitiesImgSongpa";
 import FacilitiesImgWirye from "./FacilitiesImgWirye";
+import FacilitiesImgSongpa1 from "./FacilitiesImgSongpa1";
+import FacilitiesImgWirye1 from "./FacilitiesImgWirye1";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -89,13 +91,20 @@ export default function BasicTabs() {
         </Box>
         <TabPanel value={value} index={0}>
           <Card.Body>
-            <Card.Title className="pb-3" style={{ lineHeight: "2rem" }}>
-              성원언어임상연구소(송파점)는
-              <br />
-              대기실, 상담실, 언어치료실(5), 놀이치료실(1), 인지치료실(1)
-              <br /> 완강기, 소화기 등이 구비되어있습니다.
+            <Card.Title className="p-2" style={{ lineHeight: "1.8rem" }}>
+              <p>
+                📍 주소: 서울시 송파구 올림픽로35길 10 파크리오B상가 505-2호
+              </p>
+
+              <p>
+                🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 토요일 오전 10시 ~ 오후
+                2시, 일/공휴일 휴무
+              </p>
+              <p>💁 상담 문의: 오후 12시 ~ 6시</p>
+              <p>📞 전화: 02-412-0505</p>
             </Card.Title>
-            <Row className="justify-content-md-center">
+
+            {/* <Row className="justify-content-md-center">
               <Col md="auto">
                 <Card>
                   <Card.Text
@@ -115,28 +124,25 @@ export default function BasicTabs() {
                   </Card.Text>
                 </Card>
               </Col>
-            </Row>
+            </Row> */}
+            <FacilitiesImgSongpa />
+            <FacilitiesImgSongpa1 />
           </Card.Body>
-          <FacilitiesImgSongpa />
         </TabPanel>
         <TabPanel value={value} index={1}>
           <Card.Body>
-            <Card.Title className="pb-3" style={{ lineHeight: "2rem" }}>
-              성원언어심리센터(위례점)는
-              <br />
-              대기실, 상담실, 언어치료실(5), 놀이치료실(1), 인지치료실(1)
-              <br /> 완강기, 소화기, 세면대 등이 구비되어있습니다.
+            <Card.Title className="p-2" style={{ lineHeight: "1.8rem" }}>
+              <p>
+                📍 주소: 경기도 성남시 수정구 위례광장로 320 (창곡동 509-3)
+                608호
+              </p>
+              <p>🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 주일/공휴일 휴무</p>
+              <p>💁 상담 문의: 오후 12시 ~ 6시</p>
+              <p>📞 전화: 031-757-0504</p>
             </Card.Title>
-            <Card.Text>
-              📍 주소: 경기도 성남시 수정구 위례광장로 320(창곡동 509-3)608호
-              <br />
-              📞 전화: 031-757-0504
-              <br />
-              🕙 운영시간: 평일 오전 10:00~오후 7:00, 토요일 오전 9:00~오후
-              2:00, 일/공휴일 휴무
-            </Card.Text>
+            <FacilitiesImgWirye />
+            <FacilitiesImgWirye1 />
           </Card.Body>
-          <FacilitiesImgWirye />
         </TabPanel>
         <TabPanel value={value} index={2}></TabPanel>
       </Box>

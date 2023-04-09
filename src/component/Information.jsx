@@ -46,7 +46,7 @@ export default function Information() {
             <img
               className="p-2"
               alt="informationimage"
-              src="/img/information_007.jpg"
+              src="/img/information_007.png"
               width={"100%"}
             />
 
@@ -94,7 +94,7 @@ export default function Information() {
                       <h5 calssName="p-3">
                         📞 성원언어심리센터 (위례점) <br /> 031-757-0504
                       </h5>
-                    </Card>{" "}
+                    </Card>
                   </a>
                 </Col>
               </Row>
@@ -107,6 +107,12 @@ export default function Information() {
                 width={"100%"}
               />
               <Step />
+              {/* <img
+                className="p-2"
+                alt="informationimage"
+                src="/img/process_005.png"
+                width={"100%"}
+              /> */}
             </Card.Text>
           </Card.Body>
         </Card>

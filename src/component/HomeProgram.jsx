@@ -3,34 +3,49 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
-import { Container } from "reactstrap";
-import Button from "./Button";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import "../css/HomeSection.css";
-import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 import FilterVintageIcon from "@mui/icons-material/FilterVintage";
 
 const images = [
   {
     url: "/img/photo_003.png",
     title: "언어치료",
-    width: "25%",
+    width: "30%",
+
+    href: "program/language",
   },
   {
-    url: "/img/photo_001.png",
+    url: "/img/1.jpg",
+    title: "인지치료",
+    width: "30%",
+    href: "program/cognitive",
+  },
+  {
+    url: "/img/photo_002.png",
     title: "놀이치료",
-    width: "25%",
+    width: "30%",
+    href: "program/play",
   },
   {
     url: "/img/photo_010.png",
     title: "성인상담",
-    width: "25%",
+    width: "30%",
+    href: "program/counseling",
+  },
+
+  {
+    url: "/img/2.jpg",
+    title: "그룹치료",
+    width: "30%",
+    href: "program/group",
   },
   {
-    url: "/img/photo_002.png",
-    title: "인지치료",
-    width: "25%",
+    url: "/image/003.jpg",
+    title: "부모교육",
+    width: "30%",
+    href: "program/family",
   },
 ];
 
@@ -104,9 +119,9 @@ export default function HomeProgram() {
       <section
         style={{
           padding: "3rem 0rem 0rem 0rem",
-          margin: "2rem 0rem",
+          margin: "1rem 0rem",
 
-          backgroundColor: "rgb(227, 155, 53,0.1)",
+          backgroundColor: "rgb(8, 118, 48, 0.2)",
         }}
       >
         <h2>
@@ -123,9 +138,11 @@ export default function HomeProgram() {
           <FilterVintageIcon color="warning" />
         </h2> */}
         <h5
-          style={{
-            color: "gray",
-          }}
+          style={
+            {
+              // color: "#fff",
+            }
+          }
         >
           성원의 전문 언어치료/놀이치료/성인상담/인지치료에 대해 알아보세요
         </h5>
@@ -135,7 +152,8 @@ export default function HomeProgram() {
             flexWrap: "wrap",
             minWidth: 300,
             width: "100%",
-            justifyContent: "space-between",
+            justifyContent: "center",
+            // justifyContent: "space-around",
             padding: "1rem 0rem",
           }}
         >
@@ -143,6 +161,7 @@ export default function HomeProgram() {
             <ImageButton
               focusRipple
               key={image.title}
+              href={image.href}
               style={{
                 width: image.width,
               }}
@@ -179,8 +198,8 @@ export default function HomeProgram() {
             className="HomeBtn"
             label="치료 프로그램 바로가기"
             component="a"
-            href="program/step"
-            color="primary"
+            href="program/language"
+            color="warning"
             variant="outlined"
             clickable
             style={{ fontSize: "1.3rem", padding: "1.3rem" }}

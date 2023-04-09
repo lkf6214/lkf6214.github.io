@@ -4,12 +4,11 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import VoucherListTotal from "./VoucherListTotal";
-import BottomNavigation from "@mui/material/BottomNavigation";
-import BottomNavigationAction from "@mui/material/BottomNavigationAction";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import KakaoMapSongpa from "./KakaoMapSongpa";
+import KakaoMapWirye from "./KakaoMapWirye";
+
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { Container } from "react-bootstrap";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -80,15 +79,15 @@ export default function BasicTabs() {
             <Tab label="위례점" icon={<LocationOnIcon />} {...a11yProps(1)} />
           </Tabs>
         </Box>
+        {/* <Container> */}
         <TabPanel value={value} index={0}>
-          <p>송파 오시는길</p>
-          <p>송파 지도</p>
+          <KakaoMapSongpa />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <p>위례 오시는길</p>
-          <p>위례 지도</p>
+          <KakaoMapWirye />
         </TabPanel>
-        <TabPanel value={value} index={2}></TabPanel>
+
+        {/* </Container> */}
       </Box>
     </>
   );

@@ -16,7 +16,8 @@ const GlobalStyle = createGlobalStyle`
   li {
     list-style-type: square;
     list-style-position : inside; 
-    text-indent: -1.8rem;
+    text-indent: -1.5rem;
+
   }
 
 

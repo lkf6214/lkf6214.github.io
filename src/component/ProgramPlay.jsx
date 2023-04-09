@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
+import ProgramPlayTable from "./ProgramPlayTable";
 
 export default function History() {
   return (
@@ -17,12 +18,15 @@ export default function History() {
           <Card.Header className="h2">놀이치료</Card.Header>
           <Card.Body>
             <Card.Text className="p-3">
-              <img
-                className=""
-                alt="ProgramImage"
-                src="/img/photo_018.png"
-                width={"100%"}
-              />
+              <Row className="justify-content-center">
+                <Col xs={12} lg={6}>
+                  <img
+                    alt="ProgramImage"
+                    src="/img/놀이치료.png"
+                    width={"100%"}
+                  />
+                </Col>
+              </Row>
               {/* 1 */}
               <Card.Title
                 className="pt-4"
@@ -65,7 +69,7 @@ export default function History() {
                       <img
                         className=""
                         alt="ProgramImage"
-                        src="/img/photo_012.png"
+                        src="/image/046.jpg"
                         width={"100%"}
                       />
                     </Col>
@@ -87,13 +91,35 @@ export default function History() {
                           marginLeft: "1.8rem",
                         }}
                       >
-                        <li>언어발달이 또래보다 느린 아동</li>
-                        <li>우리말 발음에 어려움을 보이는 아동 및 성인</li>
-                        <li>인지 및 사회성 발달에 어려움을 보이는 아동 </li>
-                        <li>말을 더듬거나 지나치게 빠른 아동 및 성인</li>
-                        <li>쉰 목소리나 콧소리가 심한 아동이나 성인</li>
-                        <li>질병이나 사고로 인한 실어증 및 마비말장애 </li>
-                        <li>글을 읽거나 쓰는데 어려움을 보이는 아동</li>
+                        <li>
+                          정신지체, 발달 장애 등 발달적 어려움을 가진 유아,
+                          아동, 청소년 및 성인
+                        </li>
+                        <li>
+                          고집, 떼 쓰기가 심하여 양육하기 어려운 유아, 아동,
+                          청소년 및 성인
+                        </li>
+                        <li>
+                          다양한 이유로 인해 불안, 위축, 우울한 정서를 가진
+                          유아, 아동, 청소년 및 성인
+                        </li>
+                        <li>
+                          주의 집중을 잘 못하고 산만한 유아, 아동, 청소년 및
+                          성인 충동적이고 공격적 행동을 보이거나 분노감을
+                          표현하는 유아, 아동, 청소년 및 성인
+                        </li>
+                        <li>
+                          다양한 실제 상황에서 문제 해결이 어려운 유아, 아동,
+                          청소년 및 성인
+                        </li>
+                        <li>
+                          정서, 인지, 행동 문제로 인해 유치원, 학교에서 또래와의
+                          적응이 어려운 유아, 아동, 청소년 및 성인
+                        </li>
+                        <li>
+                          부모와의 애착 관계가 불안정하고 관계의 개선과 향상이
+                          필요한 유아, 아동
+                        </li>
                       </Card.Title>
                       {/* </Card.Text> */}
                     </Col>
@@ -106,90 +132,6 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              {/* 3 숨김 */}
-              {/* <Card>
-                <Container>
-                  <Card.Title
-                    className="pt-4"
-                    style={{
-                      color: "#2f6597",
-                      fontWeight: "800",
-                      fontSize: "1.5rem",
-                    }}
-                  >
-                    그룹치료 대상자
-                  </Card.Title>
-
-                  <Row className="justify-content-lg-center">
-                    <Col lg className="p-3">
-                      <Card.Title
-                        // className="pt-4"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                          // fontSize: "1rem",
-                        }}
-                      >
-                        취학 전 아동 언어 그룹
-                      </Card.Title>
-                      <Card.Title
-                        className="p-2"
-                        style={{ lineHeight: "2rem" }}
-                      >
-                        <li>
-                          문장으로 의사 표현이 가능한 취학 전 아동들을 대상으로
-                          2-4명의 짝그룹이나 소그룹 형태로 구성됩니다.
-                        </li>
-                        <li>
-                          일반 교육 환경에 통합하여 잘 적응할 수 있도록 준비하는
-                          과정으로 실제 교육 환경에서 활용할 수 있는 실질적이고
-                          구체적인 기술을 배우고, 이를 바탕으로 가정과 학교,
-                          지역 사회 생활에서 필요한 자기 관리 기술, 의사소통
-                          기술, 문제 해결 능력, 사회성을 향상시키기 위한
-                          프로그램입니다.{" "}
-                        </li>
-                      </Card.Title>
-                    </Col>
-
-                    <Col lg className="p-3" style={{}}>
-                      <Card.Title
-                        // className="pt-4"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                          // fontSize: "1rem",
-                        }}
-                      >
-                        학령기 아동 언어 그룹
-                      </Card.Title>
-                      <Card.Title
-                        className="p-2"
-                        style={{ lineHeight: "2rem" }}
-                      >
-                        <li>
-                          현재 학교 생활을 하고 있는 초등 저학년을 대상으로 2-4
-                          명의 짝 그룹이나 소그룹 형태로 구성됩니다.
-                        </li>
-                        <li>
-                          아동들이 가정은 물론 학교와 지역 사회에서 일어날
-                          수있는 다양한 상황을 이해하고, 원인을 파악하거나
-                          결과를 예측하는 훈련을 통해 실제적인 다양한 문제
-                          상황에서의 적응력을 키워주게 됩니다. 또한 학교 나 집단
-                          내에서 지켜야하는 규칙을 이해하고 기억하는 훈련을 통해
-                          또래와의 기본적인 사회 기술 (대화와 대인 기술) 습득에
-                          도움을 주기위한 프로그램입니다.
-                        </li>
-                      </Card.Title>
-                    </Col>
-                  </Row>
-                </Container>
-              </Card>
-              <img
-                className="p-1"
-                alt="line"
-                src="/img/line_002.png"
-                width={"100%"}
-              /> */}
               {/* 3 */}
               <Card>
                 <Card.Title
@@ -202,6 +144,7 @@ export default function History() {
                 >
                   개별 치료 프로그램
                 </Card.Title>
+
                 <Box
                   className="p-2"
                   sx={{
@@ -216,36 +159,340 @@ export default function History() {
                       justifyContent: "center",
                       alignItems: "center",
                       lineHeight: "1.3rem ",
-                      width: "7.5rem",
-                      height: "7.5rem",
-                      border: "5px solid #ffffffc6",
+                      width: "8rem",
+                      height: "8rem",
+                      border: "5px solid #f7fbf7c5",
                       borderRadius: "5rem",
-                      backgroundColor: "rgb(13, 77, 5, 0.1)",
 
+                      backgroundColor: "rgb(13, 77, 5, 0.1)",
                       // color: "#ffffff",
                       // height: "auto",
                     },
                   }}
                 >
-                  <h6>언어발달 증진</h6>
-                  <h6>조음음운능력 증진</h6>
-                  <h6>유창성 증진</h6>
-                  <h6>음성장애 재활</h6>
-                  <h6>신경언어장애 재활</h6>
-                  <h6>구개열 언어재활</h6>
-                  <h6>읽기쓰기 증진</h6>
-                  <h6> 사회성 증진</h6>
+                  <h6>개인 심리 치료</h6>
+                  <h6>발달 놀이 치료</h6>
+                  <h6>소집단 치료</h6>
+                  <h6>모아 상호작용 증진 치료</h6>
+                  <h6>부모상담 및 부모교육</h6>
                 </Box>
-                {/* 
-                <Card.Text
-                  className="pb-3 m-2"
-                  style={{ lineHeight: "1.6rem" }}
-                >
-                  <Card.Title className="p-2 m-2">
-                  <li>언어발달이 또래보다 느린 아동</li>
-                  <li>우리말 발음에 어려움을 보이는 아동 및 성인</li>
-                  </Card.Title>
-                </Card.Text> */}
+
+                {/* <Row className="justify-content-lg-center">
+                  <Col xs={6} lg={4} className="p-3">
+                    <Card>
+                      <Card.Header
+                        className="h5"
+                        style={{
+                          color: "#cf9866",
+                          fontWeight: "600",
+                        }}
+                      >
+                        개인 심리 치료
+                      </Card.Header>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item
+                          style={{
+                            lineHeight: "2rem",
+                          }}
+                        >
+                          치료자와 내담 아동이 일대일 놀이를 통해 정서적,
+                          행동적, 사회적 어려움을 완화 시키도록 돕는 치료
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Card>
+                  </Col>
+
+                  <Col xs={6} lg={4} className="p-3">
+                    <Card>
+                      <Card.Header
+                        className="h5"
+                        style={{
+                          color: "#cf9866",
+                          fontWeight: "600",
+                        }}
+                      >
+                        발달 놀이 치료
+                      </Card.Header>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item
+                          style={{
+                            lineHeight: "2rem",
+
+                            textAlign: "left",
+                          }}
+                        >
+                          발달 지연이있는 내담 아동을 대상으로 놀이를 통해
+                          발달을 촉진시킬 수 있도록 돕는 치료
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Card>
+                  </Col>
+
+                  <Col xs={6} lg={4} className="p-3">
+                    <Card>
+                      <Card.Header
+                        className="h5"
+                        style={{
+                          color: "#cf9866",
+                          fontWeight: "600",
+                        }}
+                      >
+                        소집단 치료
+                      </Card.Header>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item
+                          style={{
+                            lineHeight: "2rem",
+
+                            textAlign: "left",
+                          }}
+                        >
+                          두 명 이상의 내담 아동을 대상으로 치료자가 대인 관계
+                          어려움을 완화시키고 사 회성을 증진시킬 수 있도록 하는
+                          치료로, 내담 아동의 특성에 따라 치료자도 2인 이상이
+                          참여
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Card>
+                  </Col>
+
+                  <Col xs={6} lg={4} className="p-3">
+                    <Card>
+                      <Card.Header
+                        className="h5"
+                        style={{
+                          color: "#cf9866",
+                          fontWeight: "600",
+                        }}
+                      >
+                        모아 상호 작용 증진 치료
+                      </Card.Header>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item
+                          style={{
+                            lineHeight: "2rem",
+
+                            textAlign: "left",
+                          }}
+                        >
+                          어머니와 아동 간 상호 작용을 증진시키고 애착 관계를
+                          향상시키기 위해 어머니와 아동을 대상으로 진행하는
+                          프로그램
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Card>
+                  </Col>
+                  <Col xs={6} lg={4} className="p-3">
+                    <Card>
+                      <Card.Header
+                        className="h5"
+                        style={{
+                          color: "#cf9866",
+                          fontWeight: "600",
+                        }}
+                      >
+                        부모 상담 및 부모 교육
+                      </Card.Header>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item
+                          style={{
+                            lineHeight: "2rem",
+
+                            textAlign: "left",
+                          }}
+                        >
+                          부모 역할의 어려움이나 부모를 개인적으로 변화시키고
+                          자하는 목표를 위해 개인 상담을 진행하며, 부모를
+                          대상으로 자녀를 이해하고 부모로서의 효능감을 가지며
+                          스트레스에 대처할 수 있도록 부모 교육을 실시
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </Card>
+                  </Col>
+                </Row> */}
+
+                <Container className="p-2">
+                  <Row className="justify-content-center">
+                    <Col
+                      xs={3}
+                      xl={1}
+                      className="mb-2"
+                      style={{
+                        // border: "5px solid #ffffffc6",
+                        borderRadius: "1rem",
+                        backgroundColor: "rgb(13, 77, 5, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        marginLeft: "0.5rem",
+                      }}
+                    >
+                      개인 심리치료
+                    </Col>
+                    <Col
+                      xs={8}
+                      xl={4}
+                      className="p-3 mb-2 "
+                      style={{
+                        border: "5px solid rgb(13, 77, 5, 0.1)",
+                        borderRadius: "1rem",
+                        textAlign: "left",
+                        marginRight: "0.5rem",
+                        display: "flex",
+                        alignItems: "center",
+                        // backgroundColor: "rgb(13, 77, 5, 0.1)",
+                      }}
+                    >
+                      치료자와 내담 아동이 일대일 놀이를 통해 정서적, 행동적,
+                      사회적 어려움을 완화 시키도록 돕는 치료
+                    </Col>
+
+                    <Col
+                      xs={3}
+                      xl={1}
+                      className=" mb-2"
+                      style={{
+                        // border: "5px solid #ffffffc6",
+                        borderRadius: "1rem",
+                        backgroundColor: "rgb(13, 77, 5, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        marginLeft: "0.5rem",
+                      }}
+                    >
+                      발달 놀이치료
+                    </Col>
+                    <Col
+                      xs={8}
+                      xl={4}
+                      className="p-3 mb-2 "
+                      style={{
+                        border: "5px solid rgb(13, 77, 5, 0.1)",
+                        borderRadius: "1rem",
+                        textAlign: "left",
+                        marginRight: "0.5rem",
+                        display: "flex",
+                        alignItems: "center",
+                        // justifyContent: "left",
+                        // backgroundColor: "rgb(13, 77, 5, 0.1)",
+                      }}
+                    >
+                      발달 지연이있는 내담 아동을 대상으로 놀이를 통해 발달을
+                      촉진시킬 수 있도록 돕는 치료
+                    </Col>
+                  </Row>
+
+                  <Row className="justify-content-center">
+                    <Col
+                      xs={3}
+                      xl={1}
+                      className=" mb-2"
+                      style={{
+                        // border: "5px solid #ffffffc6",
+                        borderRadius: "1rem",
+
+                        backgroundColor: "rgb(13, 77, 5, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        marginLeft: "0.5rem",
+                      }}
+                    >
+                      소집단 치료
+                    </Col>
+                    <Col
+                      xs={8}
+                      xl={4}
+                      className="p-3 mb-2 "
+                      style={{
+                        border: "5px solid rgb(13, 77, 5, 0.1)",
+                        borderRadius: "1rem",
+                        textAlign: "left",
+                        marginRight: "0.5rem",
+                        display: "flex",
+                        alignItems: "center",
+                        // backgroundColor: "rgb(13, 77, 5, 0.1)",
+                      }}
+                    >
+                      두 명 이상의 내담 아동을 대상으로 치료자가 대인 관계
+                      어려움을 완화시키고 사 회성을 증진시킬 수 있도록 하는
+                      치료로, 내담 아동의 특성에 따라 치료자도 2인 이상이 참여
+                    </Col>
+
+                    <Col
+                      xs={3}
+                      xl={1}
+                      className=" mb-2 p-2"
+                      style={{
+                        // border: "5px solid #ffffffc6",
+                        borderRadius: "1rem",
+                        backgroundColor: "rgb(13, 77, 5, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        marginLeft: "0.5rem",
+                      }}
+                    >
+                      모아 상호작용 증진 치료
+                    </Col>
+                    <Col
+                      xs={8}
+                      xl={4}
+                      className="p-3 mb-2 "
+                      style={{
+                        border: "5px solid rgb(13, 77, 5, 0.1)",
+                        borderRadius: "1rem",
+                        textAlign: "left",
+                        marginRight: "0.5rem",
+                        display: "flex",
+                        alignItems: "center",
+                        // backgroundColor: "rgb(13, 77, 5, 0.1)",
+                      }}
+                    >
+                      어머니와 아동 간 상호 작용을 증진시키고 애착 관계를
+                      향상시키기 위해 어머니와 아동을 대상으로 진행하는 프로그램
+                    </Col>
+                  </Row>
+
+                  <Row className="justify-content-center">
+                    <Col
+                      xs={3}
+                      xl={1}
+                      className=" mb-2"
+                      style={{
+                        // border: "5px solid #ffffffc6",
+                        borderRadius: "1rem",
+                        backgroundColor: "rgb(13, 77, 5, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        marginLeft: "0.5rem",
+                      }}
+                    >
+                      부모상담 및 부모교육
+                    </Col>
+                    <Col
+                      xs={8}
+                      xl={4}
+                      className="p-3 mb-2 "
+                      style={{
+                        border: "5px solid rgb(13, 77, 5, 0.1)",
+                        borderRadius: "1rem",
+                        textAlign: "left",
+                        marginRight: "0.5rem",
+                        display: "flex",
+                        alignItems: "center",
+                        // backgroundColor: "rgb(13, 77, 5, 0.1)",
+                      }}
+                    >
+                      부모 역할의 어려움이나 부모를 개인적으로 변화시키고 자하는
+                      목표를 위해 개인 상담을 진행하며, 부모를 대상으로 자녀를
+                      이해하고 부모로서의 효능감을 가지며 스트레스에 대처할 수
+                      있도록 부모 교육을 실시
+                    </Col>
+                  </Row>
+                </Container>
               </Card>
               <img
                 className="p-3"
@@ -264,7 +511,7 @@ export default function History() {
                       fontSize: "1.5rem",
                     }}
                   >
-                    그룹치료 대상자
+                    사회성 그룹치료 대상자
                   </Card.Title>
 
                   <Row className="justify-content-lg-center">
@@ -272,7 +519,7 @@ export default function History() {
                       <img
                         className=""
                         alt="ProgramImage"
-                        src="/img/photo_003.png"
+                        src="/image/045.jpg"
                         width={"100%"}
                       />
                     </Col>
@@ -294,17 +541,30 @@ export default function History() {
                           textAlign: "left",
                         }}
                       >
-                        <li>적절한 상호작용 및 의사소통이 안되는 아동</li>
-                        <li>충동적이고 감정 조절이 안되는 아동</li>
+                        <li>친구에게 관심은 있지만 다가가지 못하는 아이</li>
                         <li>
-                          친구를 사귀는 기술이 부족하거나 또래나 다른 사람에게
-                          자신의 감정이나 의사 전달이 어려운 아동
+                          높은 불안으로 또래 관계를 회피하거나 자기표현이 서툰
+                          아이
                         </li>
                         <li>
-                          양보하기, 차례 지키기, 도움 요청하기, 도와주기, 갈등
-                          상황 해결 등 자기 통제 기술이 안되는 아동
+                          수줍음이 많고 심리적인 위축으로 자신감이 부족하고
+                          소외감을 느끼는 아이
                         </li>
-                        <li>다양한 실제 상황에서 문제해결이 안되는 아동 </li>
+                        <li>작은 일에 상처를 받거나 다툼이 잦은 아이</li>
+                        <li>
+                          자신의 생각이나 감정을 제대로 표현하기 어려운 아이{" "}
+                        </li>
+                        <li>
+                          다양한 상황에 대한 이해와 상황판단 및 문제의 해결과
+                          대처능력에 어려움을 보이는 아이
+                        </li>
+                        <li>
+                          다른 사람의 감정이나 생각에 대한 이해가 부족하여
+                          상호작용에 어려움을 보이는 아이
+                        </li>
+                        <li>게임 내 규칙 및 순서지키기가 어려운 아이</li>
+                        <li>수업 및 단체활동에 집중하지 못하고 산만한 아이</li>
+                        <li>상황에 적절하지 않은 말이나 행동을 하는 아이</li>
                       </Card.Title>
                       {/* </Card.Text> */}
                     </Col>
@@ -327,7 +587,7 @@ export default function History() {
                       fontSize: "1.5rem",
                     }}
                   >
-                    그룹치료 프로그램
+                    사회성 그룹치료 프로그램
                   </Card.Title>
                   <Box
                     className="p-2"
@@ -353,66 +613,42 @@ export default function History() {
                       },
                     }}
                   >
-                    <h6>취학전 아동 사회성 증진</h6>
-                    <h6>학령기 아동 화용언어능력 증진</h6>
+                    <h6>자아 파악</h6>
+                    <h6>친구 사귀기</h6>
+                    <h6>갈등 대처</h6>
+                    <h6>문제해결능력</h6>
+                    <h6>적응 및 협동</h6>
+                    <h6>책임감, 자존감 높이기</h6>
                   </Box>
                   <Row className="justify-content-lg-center">
                     <Col lg className="p-3">
-                      <Card>
-                        <Card.Header
-                          className="h5"
-                          style={{
-                            color: "#cf9866",
-                            fontWeight: "600",
-                          }}
-                        >
-                          취학 전 아동 언어 그룹
-                        </Card.Header>
-                        <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            문장으로 의사 표현이 가능한 취학 전 아동들을
-                            대상으로 2-4명의 짝그룹이나 소그룹 형태로
-                            구성됩니다.
-                          </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            일반 교육 환경에 통합하여 잘 적응할 수 있도록
-                            준비하는 과정으로 실제 교육 환경에서 활용할 수 있는
-                            실질적이고 구체적인 기술을 배우고, 이를 바탕으로
-                            가정과 학교, 지역 사회 생활에서 필요한 자기 관리
-                            기술, 의사소통 기술, 문제 해결 능력, 사회성을
-                            향상시키기 위한 프로그램입니다.
-                          </ListGroup.Item>
-                        </ListGroup>
-                      </Card>
+                      <img
+                        className=""
+                        alt="ProgramImage"
+                        src="/image/044.jpg"
+                        width={"100%"}
+                      />
                     </Col>
 
                     <Col lg className="p-3">
-                      <Card>
-                        <Card.Header
-                          className="h5"
-                          style={{
-                            color: "#cf9866",
-                            fontWeight: "600",
-                          }}
-                        >
-                          학령기 아동 언어 그룹
-                        </Card.Header>
-                        <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            현재 학교 생활을 하고 있는 초등 저학년을 대상으로
-                            2-4명의 짝그룹이나 소그룹 형태로 구성됩니다.
-                          </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            아동들이 가정은 물론 학교와 지역 사회에서 일어날
-                            수있는 다양한 상황을 이해하고, 원인을 파악하거나
-                            결과를 예측하는 훈련을 통해 실제적인 다양한 문제
-                            상황에서의 적응력을 키워주게 됩니다. 또한 학교나
-                            집단 내에서 지켜야하는 규칙을 이해하고 기억하는
-                            훈련을 통해 또래와의 기본적인 사회 기술(대화와
-                            대인기술) 습득에 도움을 주기위한 프로그램입니다.
-                          </ListGroup.Item>
-                        </ListGroup>
-                      </Card>
+                      <Card.Title
+                        className="p-2"
+                        style={{ lineHeight: "2rem" }}
+                      >
+                        사회성 그룹치료는 또래와 어울리면서 친구를 사귀는
+                        즐거움을 체험하여, 친사회적 기술 및 바람직한 상호작용을
+                        배움으로써 유연한 또래와의 관계를 유지하도록 돕는
+                        프로그램입니다. <br />
+                        사회성 그룹치료 속 놀이를 통하여 자신에 대하여 파악할 수
+                        있으며, 새로운 친구를 사귀고, 문제가 발생하였을 때
+                        갈등을 대처하는 능력과 효율적인 문제해결 능력을 키울
+                        뿐만 아니라, 친구들과 적응하고 협동하고, 인내하는 방법을
+                        깨달으며 사회성을 증진할 수 있습니다. 사회적 기술의
+                        습득뿐만 아니라 원만한 또래관계를 형성하는 데 방해가
+                        되는 문제를 직접 다룸으로써, 아동이 속한 사회적인
+                        관계에서 정서적인 지지를 받고 협업, 책임감 및 자존감을
+                        높일 수 있습니다.
+                      </Card.Title>
                     </Col>
                   </Row>
                 </Container>
@@ -423,97 +659,6 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              {/* 4 찐 */}
-              {/* <Card>
-                <Container>
-                  <Card.Title
-                    className="pt-4"
-                    style={{
-                      color: "#2f6597",
-                      fontWeight: "800",
-                      fontSize: "1.5rem",
-                    }}
-                  >
-                    그룹치료 대상자
-                  </Card.Title>
-                  <Card.Title className="p-2" style={{ lineHeight: "2rem" }}>
-                    <li>✔ 적절한 상호 작용 및 의사 소통이 안되는 아동</li>
-                    <li>✔ 충동적이고 감정 조절이 안되는 아동</li>
-                    <li>
-                      ✔ 친구 사귀는 기술이 부족하거나 또래 나 다른 사람에게
-                      자신의 감정이나 의사 전달이 어려운 아동{" "}
-                    </li>
-                    <li>
-                      ✔ 양보하기, 차례 지키기, 도움 요청하기, 도와주기, 갈등
-                      상황 해결 등 자기 통제 기술이 안되는 아동
-                    </li>
-                    <li>✔ 다양한 실제 상황에서 문제 해결이 안되는 아동 </li>
-                  </Card.Title>
-                  <Row className="justify-content-lg-center">
-                    <Col lg className="p-3">
-                      <Card>
-                        <Card.Header
-                          style={{
-                            color: "#cf9866",
-                            fontWeight: "600",
-                          }}
-                        >
-                          취학 전 아동 언어 그룹
-                        </Card.Header>
-                        <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            문장으로 의사 표현이 가능한 취학 전 아동들을
-                            대상으로 2-4명의 짝그룹이나 소그룹 형태로
-                            구성됩니다.
-                          </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            일반 교육 환경에 통합하여 잘 적응할 수 있도록
-                            준비하는 과정으로 실제 교육 환경에서 활용할 수 있는
-                            실질적이고 구체적인 기술을 배우고, 이를 바탕으로
-                            가정과 학교, 지역 사회 생활에서 필요한 자기 관리
-                            기술, 의사소통 기술, 문제 해결 능력, 사회성을
-                            향상시키기 위한 프로그램입니다.
-                          </ListGroup.Item>
-                        </ListGroup>
-                      </Card>
-                    </Col>
-
-                    <Col lg className="p-3">
-                      <Card>
-                        <Card.Header
-                          style={{
-                            color: "#cf9866",
-                            fontWeight: "600",
-                          }}
-                        >
-                          학령기 아동 언어 그룹
-                        </Card.Header>
-                        <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            현재 학교 생활을 하고 있는 초등 저학년을 대상으로
-                            2-4명의 짝그룹이나 소그룹 형태로 구성됩니다.
-                          </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            아동들이 가정은 물론 학교와 지역 사회에서 일어날
-                            수있는 다양한 상황을 이해하고, 원인을 파악하거나
-                            결과를 예측하는 훈련을 통해 실제적인 다양한 문제
-                            상황에서의 적응력을 키워주게 됩니다. 또한 학교 나
-                            집단 내에서 지켜야하는 규칙을 이해하고 기억하는
-                            훈련을 통해 또래와의 기본적인 사회 기술 (대화와 대인
-                            기술) 습득에 도움을 주기위한 프로그램입니다.
-                          </ListGroup.Item>
-                        </ListGroup>
-                      </Card>
-                    </Col>
-                  </Row>
-                </Container>
-              </Card>
-              <img
-                className="p-1"
-                alt="line"
-                src="/img/line_002.png"
-                width={"100%"}
-              /> */}
               {/* 평가도구 */}
               <Card>
                 <Card.Title
@@ -523,319 +668,174 @@ export default function History() {
                     fontWeight: "800",
                   }}
                 >
-                  영역별 언어 검사도구 안내
+                  놀이 평가 안내
                 </Card.Title>
 
                 <Card.Text
-                  className="pb-3 m-2"
-                  // style={{ lineHeight: "1.6rem" }}
+                // className="pb-3 m-2"
+                // style={{ lineHeight: "1.6rem" }}
                 >
                   <Container>
+                    <Row className="justify-content-center">
+                      {/* 1-1 */}
+                      <Col xs={12} md={11}>
+                        <Card.Title
+                          className="pt-3"
+                          style={{
+                            color: "#e37114",
+                            fontWeight: "600",
+                            fontSize: "1rem",
+                          }}
+                        >
+                          놀이 평가 / 발달 평가 / 부모 및 가족평가
+                        </Card.Title>
+                        <Card className="m-2">
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                            }}
+                          >
+                            <Card.Title>놀이 평가</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            ></Card.Subtitle>
+                          </Card.Header>
+                          <ListGroup variant="flush">
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              영유아기부터 초등저학년 아동의 심리적 상태와
+                              양육자와의 관계의 질을 알아보기 위한 평가입니다.
+                              검사자와의 개별적인 놀이활동과 양육자와의 모-아
+                              상호작용 평가로 이루어집니다. 평가 후 양육코칭을
+                              받을 수 있는 검사입니다.
+                            </ListGroup.Item>
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              검사도구: 한국 아동 인성 평정척도(KPRC), 아동
+                              상호작용검사(CIBT), 영유아 기질 및
+                              비전형행동척도(K-TABS)
+                            </ListGroup.Item>
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              대상 : 불안이나 위축 같은 심리적 어려움이 있는
+                              아동, 산만하여 주의집중이 어려운 아동, 또래와
+                              어울리기 어려운 아동, 자신감이 없는 아동
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Card>
+                      </Col>
+                    </Row>
+                    {/* 2 */}
+
+                    <Row className="justify-content-center">
+                      {/* 1-1 */}
+                      <Col xs={12} md={11}>
+                        {/* <Card.Title
+                          className="pt-4"
+                          style={{
+                            color: "#cf9866",
+                            fontWeight: "600",
+                            fontSize: "1rem",
+                          }}
+                        >
+                          발달 평가
+                        </Card.Title> */}
+                        <Card className="m-2">
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                            }}
+                          >
+                            <Card.Title>발달 평가</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            ></Card.Subtitle>
+                          </Card.Header>
+                          <ListGroup variant="flush">
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              발달평가는 발달지연이나 발달상의 불균형이 의심되는
+                              0-5세 아동을 대상으로 합니다. 아동발달의 5가지
+                              영역인 언어, 인지, 사회성, 운동성, 신변처리의
+                              발달수준을 정확히 파악하여 적절한 치료적 도움을 줄
+                              수 있도록 하는 데 목적이 있습니다.
+                            </ListGroup.Item>
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              검사도구: 사회성숙도 검사(SMS), 아동발달
+                              검사(K-CDI), 자폐선별 검사(K-CARS), 아동상호작용
+                              검사(CIBT), 기질 및 성격 검사(J-TCI)
+                            </ListGroup.Item>
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              대상 - 발달상의 어려움이 있는 영유아 및 아동 -
+                              양육자와의 불안정한 애착관계에 있는 영유아 및 아동
+                              - 상호작용에 어려움이 있는 영유아 및 아동
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Card>
+                      </Col>
+                    </Row>
+
+                    {/* 2 */}
+
+                    <Row className="justify-content-center">
+                      {/* 1-1 */}
+                      <Col xs={12} md={11}>
+                        {/* <Card.Title
+                          className="pt-4"
+                          style={{
+                            color: "#cf9866",
+                            fontWeight: "600",
+                            fontSize: "1rem",
+                          }}
+                        >
+                          부모 및 가족평가
+                        </Card.Title> */}
+                        <Card className="m-2">
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                            }}
+                          >
+                            <Card.Title>부모 및 가족평가</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            ></Card.Subtitle>
+                          </Card.Header>
+                          <ListGroup variant="flush">
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              아동의 발달력과 양육, 학교생활 등 과거부터
+                              현재까지 아동을 둘러싼 환경적 요인의 정보를
+                              수집하고, 현재 아동을 포함한 가족이 처한 어려움의
+                              원인과 가족의 역동을 파악하여 문제해결을 위한
+                              치료적 방향과 자원을 찾도록 도와줍니다.
+                            </ListGroup.Item>
+                            <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                              검사도구: 부모양육태도 검사, 부모양육스트레스
+                              검사, 다면적 인성 검사(MMPI-2), 문장완성검사(SCT),
+                              기질 및 성격 검사(TCI)
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Card>
+                      </Col>
+                    </Row>
+
                     <Card.Title
-                      // className="pt-4"
+                      className="pt-5"
                       style={{
-                        color: "#cf9866",
+                        color: "#e37114",
                         fontWeight: "600",
                         fontSize: "1rem",
                       }}
                     >
-                      언어 / 어휘
+                      종합심리검사
                     </Card.Title>
-                    <Row className="justify-content-lg-center">
-                      {/* 1 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="mb-2">
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(36, 27, 162, 0.1)" }}
-                          >
-                            <Card.Title>PRES</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 1-1 */}
-                      <Col xs={6} lg={3}>
-                        <Card>
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(36, 27, 162, 0.1)" }}
-                          >
-                            <Card.Title>PRES</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-
-                      {/* 2 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>REVT</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            수용 표현 어휘력 검사
-                          </Card.Subtitle>
-                          <Card.Text>
-                            2세 6개월~16세 이상 성인의 수용▪표현어휘력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 3 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>K-BNT</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            한국 보스턴 이름대기 검사
-                          </Card.Subtitle>
-                          <Card.Text>15세 이상 성인의 이름대기 능력</Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 4 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>K-BNT-C</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            아동용 한국판 보스턴 이름대기 검사
-                          </Card.Subtitle>
-                          <Card.Text>3세~14세 아동의 이름대기 능력</Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 5 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>언어문제해결력검사</Card.Title>
-                          {/* <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            영유아 언어발달 선별검사
-                          </Card.Subtitle> */}
-                          <Card.Text>
-                            5세~12세 아동의 논리적인 사고과정을 언어화하는
-                            상위언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 6 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>U-TAP</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            우리말 조음음운평가
-                          </Card.Subtitle>
-                          <Card.Text>2세~12세 아동의 조음음운 능력</Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 7 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>APAC</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            우리말 조음음운평가
-                          </Card.Subtitle>
-                          <Card.Text>
-                            {" "}
-                            2세 6개월~6세 5개월 아동의 조음음운 능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 8 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>OSMSE-R</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            구강조음기관의 기능 선별검사
-                          </Card.Subtitle>
-                          <Card.Text>
-                            구강조음기관의 구조와 기능의 이상 여부 검사
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 8 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="p-2 mt-2 mb-2">
-                          <Card.Title>P-FA</Card.Title>
-                          <Card.Subtitle
-                            className="mb-2 text-muted"
-                            style={{ fontSize: "0.8rem" }}
-                          >
-                            파라다이스 유창성 검사
-                          </Card.Subtitle>
-                          <Card.Text>
-                            성인 및 아동의 말더듬 심한정도를 평가
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                    </Row>
-                  </Container>
-
-                  <Container>
-                    <Card.Title
-                      className="pt-4"
-                      style={{
-                        color: "#cf9866",
-                        fontWeight: "600",
-                        fontSize: "1rem",
-                      }}
-                    >
-                      발음 / 유창성
-                    </Card.Title>
-                    <Row className="justify-content-lg-center">
-                      {/* 1 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="mb-2">
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(33, 74, 236, 0.1)" }}
-                          >
-                            <Card.Title>PRES</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 1-1 */}
-                      <Col xs={6} lg={3}>
-                        <Card>
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(33, 74, 236, 0.1)" }}
-                          >
-                            <Card.Title>PRES</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                    </Row>
-                  </Container>
-
-                  <Container>
-                    <Card.Title
-                      className="pt-4"
-                      style={{
-                        color: "#cf9866",
-                        fontWeight: "600",
-                        fontSize: "1rem",
-                      }}
-                    >
-                      학령기 학습
-                    </Card.Title>
-                    <Row className="justify-content-lg-center">
-                      {/* 1 */}
-                      <Col xs={6} lg={3}>
-                        <Card className="mb-2">
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(237, 47, 47, 0.1)" }}
-                          >
-                            <Card.Title>LSSC</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      {/* 1-1 */}
-                      <Col xs={6} lg={3}>
-                        <Card>
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(237, 47, 47, 0.1)" }}
-                          >
-                            <Card.Title>KOLRA</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                      <Col xs={6} lg={3}>
-                        <Card>
-                          <Card.Header
-                            className="p-1"
-                            style={{ backgroundColor: "rgb(237, 47, 47, 0.1)" }}
-                          >
-                            <Card.Title>PRES</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              취학전 아동의 수용언어 및 표현언어 척도
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text className="p-2">
-                            학령전기 아동의 의미, 구문, 화용 영역에서 이해▪
-                            표현언어능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-                    </Row>
+                    <h6 className="p-2">
+                      검사 소요시간 : 120분 내외 검사결과 해석상담은 검사 일주일
+                      후 진행하며 소요시간 30분 내외 (추후 협의진행)
+                    </h6>
+                    <ProgramPlayTable />
                   </Container>
 
                   {/* </Card.Title> */}
@@ -847,7 +847,7 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              Seongwon speech and psychological treatment clinic since 2013
+              Seongwon speech and psychological therapist clinic since 2013
             </Card.Text>
           </Card.Body>
         </Card>

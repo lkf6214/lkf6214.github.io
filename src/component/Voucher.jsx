@@ -5,7 +5,7 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Unstable_Grid2";
 import VoucherHeader from "./VoucherHeader";
 import VoucherCard from "./VoucherCard";
-import VoucherCardTotal from "./VoucherCardTotal";
+// import VoucherCardTotal from "./VoucherCardTotal";
 import Card from "react-bootstrap/Card";
 import { Container } from "@mui/system";
 
@@ -61,7 +61,7 @@ export default function Voucher() {
       <Container>
         <Card border="light" className="text-center">
           <Card.Header className="h2" style={{ margin: "2rem 0rem 0rem 0rem" }}>
-            성원의 바우처 및 서비스
+            바우처 및 서비스 안내
           </Card.Header>
           <Card.Body>
             <VoucherHeader />

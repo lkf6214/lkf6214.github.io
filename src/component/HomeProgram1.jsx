@@ -30,7 +30,9 @@ export default function HomeProgram() {
         style={{
           padding: "3rem 0rem 0rem 0rem",
           // border: "1px solid gray",
-          margin: "2rem 0rem",
+          margin: "1rem 0rem",
+          // borderTop: "20px solid #89af89",
+          // borderBottom: "20px solid #89af89",
           backgroundColor: "rgb(0, 96, 161, 0.1)",
         }}
       >
@@ -57,6 +59,16 @@ export default function HomeProgram() {
         </h5>
 
         <Container>
+          <Row className="justify-content-center">
+            <Col md={12} lg={9}>
+              <img
+                className="p-2"
+                alt="greetingImage"
+                src="/image/005.jpg"
+                width={"100%"}
+              />
+            </Col>
+          </Row>
           <div style={{ padding: "1rem 0rem" }}>
             <Box
               sx={{
@@ -77,31 +89,31 @@ export default function HomeProgram() {
                 <h6>발달재활 서비스</h6>
               </Paper>
               <Paper elevation={3}>
-                <h6>난독현상 치유 서비스</h6>
-              </Paper>
-              <Paper elevation={3}>
                 <h6>굳센 카드</h6>
               </Paper>
               <Paper elevation={3}>
                 <h6>우리아이 심리지원 서비스</h6>
               </Paper>
               <Paper elevation={3}>
-                <h6>통합가족 상담 서비스</h6>
-              </Paper>
-              <Paper elevation={3}>
                 <h6>꿈이든 카드</h6>
               </Paper>
               <Paper elevation={3}>
-                <h6>읽기곤란(난독증)</h6>
+                <h6>난독현상 치유 서비스</h6>
               </Paper>
+              <Paper elevation={3}>
+                <h6>통합가족 상담 서비스</h6>
+              </Paper>
+
+              {/* <Paper elevation={3}>
+                <h6>읽기곤란(난독증)</h6>
+              </Paper> */}
               <Paper elevation={3}>
                 <h6>온맘</h6>
               </Paper>
             </Box>
           </div>
-
           <Row className="justify-content-center">
-            <Col xs={6} lg={4}>
+            <Col xs={6} lg={3}>
               <Card
                 style={{
                   marginTop: "1rem",
@@ -119,19 +131,16 @@ export default function HomeProgram() {
                       <span style={{ color: "#CB661C" }}>송파점</span>
                     </b>
                   </h4>
-
-                  <h6>발달재활 서비스</h6>
-                  <h6>난독현상 치유 서비스</h6>
+                  <p className="alert alert-warning p-2 ">바우처 / 서비스</p>
+                  <h6 className="pt-3">발달재활 서비스</h6>
                   <h6>굳센 카드</h6>
-                  <h6>우리아이 심리지원 서비스</h6>
-                  <h6>통합가족 상담 서비스</h6>
-                  <h6>꿈이든 카드</h6>
-                  <h6>읽기곤란(난독증)</h6>
-                  <h6>온맘</h6>
+
+                  <h6>난독현상 치유 서비스</h6>
+                  <h6 className="pb-2">온맘</h6>
                 </Card.Text>
               </Card>
             </Col>
-            <Col xs={6} lg={4}>
+            <Col xs={6} lg={3}>
               <Card
                 style={{
                   marginTop: "1rem",
@@ -150,15 +159,13 @@ export default function HomeProgram() {
                       <span style={{ color: "#CB661C" }}>위례점</span>
                     </b>
                   </h4>
-
+                  <p className="alert alert-warning p-2 ">바우처 / 서비스</p>
                   <h6>발달재활 서비스</h6>
-                  <h6>난독현상 치유 서비스</h6>
-                  <h6>굳센 카드</h6>
                   <h6>우리아이 심리지원 서비스</h6>
-                  <h6>통합가족 상담 서비스</h6>
                   <h6>꿈이든 카드</h6>
-                  <h6>읽기곤란(난독증)</h6>
-                  <h6>온맘</h6>
+
+                  <h6>통합가족 상담 서비스</h6>
+                  <h6>난독현상 치유 서비스</h6>
                 </Card.Text>
               </Card>
             </Col>
@@ -176,7 +183,7 @@ export default function HomeProgram() {
             label="바우처 바로가기"
             component="a"
             href="voucher"
-            color="primary"
+            color="warning"
             variant="outlined"
             clickable
             style={{ fontSize: "1.3rem", padding: "1.3rem" }}

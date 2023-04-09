@@ -27,9 +27,10 @@ export default function HomeProgram() {
       <section
         style={{
           padding: "3rem 0rem 0rem 0rem",
-          margin: "2rem 0rem",
+          margin: "1rem 0rem",
           // border: "1px solid gray",
-          backgroundColor: "rgb(29, 127, 78, 0.1)",
+          // backgroundColor: "rgb(29, 127, 78, 0.1)",
+          backgroundColor: "rgb(8, 118, 48, 0.2)",
         }}
       >
         <h2>
@@ -43,7 +44,15 @@ export default function HomeProgram() {
 
         <Container>
           <Row className="justify-content-center">
-            <Col md={12} lg={9}>
+            <Col md={12} lg={8}>
+              <img
+                className="pt-2"
+                alt="informationImage"
+                src="/img/process_002.png"
+                width={"100%"}
+              />
+            </Col>
+            {/* <Col md={12} lg={9}>
               <Card
                 style={{
                   marginTop: "1rem",
@@ -62,11 +71,11 @@ export default function HomeProgram() {
                   </Card.Text>
                 </h4>
               </Card>
-            </Col>
+            </Col> */}
           </Row>
 
           <Row className="justify-content-center">
-            <Col xs={12} lg={5}>
+            <Col xs={12} lg={8}>
               <Card
                 style={{
                   marginTop: "1rem",
@@ -81,21 +90,21 @@ export default function HomeProgram() {
                 >
                   <h4>🕙 운영시간</h4>
                   <h5>
-                    <b>
-                      <span style={{ color: "#0060a1" }}> 평일 </span>
-                    </b>
+                    <b>평일 </b>
                     오전 10:00 ~ 오후 7:00
                   </h5>
                   <h5>
-                    <b>
-                      <span style={{ color: "#0060a1" }}> 토요일 </span>
-                    </b>
+                    {/* <span style={{ color: "#0060a1" }}> 토요일 </span> */}
+                    <b>토요일 </b>
                     오전 9:00 ~ 오후 2:00
                   </h5>
                   <h5>
-                    <b>
-                      <span style={{ color: "#d22828" }}>일/공휴일 </span>
-                    </b>
+                    <b>상담 문의 </b>
+                    오후 12:00 ~ 오후 6:00
+                  </h5>
+                  <h5>
+                    {/* <span style={{ color: "#d22828" }}>일/공휴일 </span> */}
+                    <b> 일/공휴일 </b>
                     휴무
                   </h5>
                 </Card.Text>
@@ -161,7 +170,7 @@ export default function HomeProgram() {
             label="예약안내 바로가기"
             component="a"
             href="information"
-            color="primary"
+            color="warning"
             variant="outlined"
             clickable
             style={{ fontSize: "1.3rem", padding: "1.3rem" }}
