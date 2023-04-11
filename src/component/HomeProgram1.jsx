@@ -117,6 +117,7 @@ export default function HomeProgram() {
               <Card
                 style={{
                   marginTop: "1rem",
+                  height: "90%",
                   // backgroundColor: "rgb(19, 80, 212, 0.1)",
                 }}
               >
@@ -145,6 +146,7 @@ export default function HomeProgram() {
                 style={{
                   marginTop: "1rem",
                   marginBottom: "1rem",
+                  height: "90%",
                   // backgroundColor: "rgb(19, 80, 212, 0.1)",
                 }}
               >

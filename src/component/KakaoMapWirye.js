@@ -72,7 +72,7 @@ const MapContainer = () => {
         </Col>
       </Row>
 
-      <Container className="justify-content-center">
+      <Container>
         <div className="kakaomap">
           <div
             className="root_daum_roughmap"
@@ -81,7 +81,7 @@ const MapContainer = () => {
             style={{
               border: "5px solid red",
               maxWidth: "700px",
-              width: "90vw",
+              width: "70vw",
               height: "30vw",
               // margin: "auto",
               // left: "0",

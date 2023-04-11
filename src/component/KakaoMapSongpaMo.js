@@ -26,7 +26,7 @@ export default function KaKaoMapTest(props) {
               }}
             >
               <h5 className="p-1">
-                📞 성원언어심리센터 ({props.data.name}점) <br />{" "}
+                📞 성원언어심리센터 ({props.data.name}점) <br />
                 {props.data.tel}
               </h5>
             </Card>
