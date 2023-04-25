@@ -3,18 +3,23 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import "../css/KakaoMap.css";
+import { flexbox } from "@mui/system";
 
 const { kakao } = window;
 
 const MapContainer = () => {
   useEffect(() => {
-    const container = document.getElementById("myMap");
+    const container = document.getElementById("myMap-wirye");
     const options = {
       center: new kakao.maps.LatLng(37.472584894923585, 127.14290432171676),
       level: 3,
     };
     const map = new kakao.maps.Map(container, options);
+    let mapTypeControl = new kakao.maps.MapTypeControl();
+    map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+    let zoomControl = new kakao.maps.ZoomControl();
+    map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+
     const markerPosition = new kakao.maps.LatLng(
       37.472584894923585,
       127.14290432171676
@@ -22,38 +27,45 @@ const MapContainer = () => {
     const marker = new kakao.maps.Marker({
       position: markerPosition,
     });
+
     marker.setMap(map);
+
+    // tetz2,
+    // 마커 위에 뜨는 정보는 아래에 있는 문자열 HTML 을 수정하시면 됩니다!
+    // 다만 카카오 맵에서 일정 크기 이상으로는 못 만드는 것으로 보이니, 적당히 수정 하시면 될 것 같아요!!
+    // 길찾기의 경우는 주소에서 to/ 뒤 부분에 원하는 글 쓰시고, 위도 경도 정보 넘기시면 됩니다!
+    let iwContent =
+      '<div style="padding:1rem">성원언어심리센터<br><a href="https://map.kakao.com/link/to/성원언어심리센터(위례점),37.472584894923585,127.14290432171676" style="color:blue" target="_blank">길찾기</a></div>';
+
+    let iwPosition = new kakao.maps.LatLng(
+      37.472584894923585,
+      127.14290432171676
+    );
+
+    var infowindow = new kakao.maps.InfoWindow({
+      position: iwPosition,
+      content: iwContent,
+    });
+
+    infowindow.open(map, marker);
   }, []);
 
   return (
     <>
-      {/* <Row>
-        <Col
-          xs={10}
-          lg={9}
-          id="myMap"
-          style={{
-            width: "100vh",
-            height: "70vh",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            // margin-left: auto;
-            // margin-right: auto;
-            // border-style: solid;
-            // border-width: medium;
-            // border-color: #D8D8D8;
-          }}
-        ></Col>
-      </Row> */}
-
+      {/* <Container> */}
       <Row className="justify-content-center">
+        <Col xs={12} md={8}>
+          <h5 className="pb-3">
+            주소 : 경기도 성남시 수정구 위례광장로 320 아이에스센트럴타워 608호
+          </h5>
+          <h5 className="pb-3">주차 등록: 1시간 무료 </h5>
+          <h5 className="pb-3 text-info">문의사항은 전화 주시기 바랍니다.</h5>
+        </Col>
         <Col xs={12} md={6}>
           <a href="tel:031-757-0504">
             <Card
               style={{
                 margin: "auto",
-                marginTop: " 1rem",
                 marginBottom: " 1rem",
                 left: "0",
                 right: "0",
@@ -71,25 +83,18 @@ const MapContainer = () => {
           </a>
         </Col>
       </Row>
-
-      <Container>
-        <div className="kakaomap">
-          <div
-            className="root_daum_roughmap"
-            // className="justify-content-center"
-            id="myMap"
-            style={{
-              border: "5px solid red",
-              maxWidth: "700px",
-              width: "70vw",
-              height: "30vw",
-              // margin: "auto",
-              // left: "0",
-              // right: "0",
-            }}
-          ></div>
-        </div>
-      </Container>
+      <Row className="justify-content-center">
+        <div
+          id="myMap-wirye"
+          style={{
+            // tetz2, 간단한 반응형을 위해 max-width 값 부여!
+            width: "60vw",
+            maxWidth: "100vw",
+            height: "40vw",
+          }}
+        ></div>
+      </Row>
+      {/* </Container> */}
     </>
   );
 };

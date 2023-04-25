@@ -1,0 +1,13 @@
+/* tetz2, 중앙 정렬 효과를 주기 위해 패딩 값을 따로 부여하여 중앙 정렬 처럼 보이게 처리 */
+
+.first .accordion-button {
+  padding-left: 31% !important;
+}
+
+.secondW .accordion-button {
+  padding-left: 20% !important;
+}
+
+.third .accordion-button {
+  padding-left: 14% !important;
+}

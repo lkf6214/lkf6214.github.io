@@ -2,7 +2,7 @@ import React from "react";
 import HomeProgram from "./HomeProgram";
 import HomeProgram1 from "./HomeProgram1";
 import HomeProgram2 from "./HomeProgram2";
-import Test from "./Test";
+// import Test from "./Test";
 
 import Rolling from "./Rolling";
 // import styled from "styled-components";
@@ -24,7 +24,7 @@ export default function Home() {
         src="/img/메인헤더1.jpg"
         width={"100%"}
       />
-      <Test />
+      {/* <Test /> */}
 
       <HomeProgram />
       <HomeProgram1 />

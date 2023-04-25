@@ -7,6 +7,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 import { Container } from "react-bootstrap";
+import "../css/VoucherListWirye.css";
 
 export default function SimplePaper() {
   return (
@@ -96,7 +97,10 @@ export default function SimplePaper() {
             <Card id="발달재활서비스위례">
               <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>발달재활 서비스</Accordion.Header>
+                  <Accordion.Header className="first">
+                    {" "}
+                    발달재활 서비스
+                  </Accordion.Header>
 
                   <Accordion.Body>
                     <ListGroup
@@ -131,7 +135,10 @@ export default function SimplePaper() {
             <Card id="우리아이심리지원서비스">
               <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>우리아이 심리지원 서비스</Accordion.Header>
+                  <Accordion.Header className="secondW">
+                    {" "}
+                    우리아이 심리지원 서비스
+                  </Accordion.Header>
 
                   <Accordion.Body>
                     <ListGroup
@@ -165,7 +172,7 @@ export default function SimplePaper() {
             <Card id="꿈이든">
               <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>
+                  <Accordion.Header className="third">
                     꿈이든 카드 (경기도 특수교육대상)
                   </Accordion.Header>
 

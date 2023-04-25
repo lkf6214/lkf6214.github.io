@@ -12,6 +12,7 @@ import ProgramCognitive from "./ProgramCognitive";
 import ProgramPlay from "./ProgramPlay";
 import ProgramCounseling from "./ProgramCounseling";
 import ProgramGroup from "./ProgramGroup";
+import "../css/AboutBtn.css";
 
 function BasicExample() {
   const [radioValue, setRadioValue] = useState("1");
@@ -44,22 +45,11 @@ function BasicExample() {
         >
           {radios.map((radio, idx) => (
             <ToggleButton
-              style={{
-                border: "1px solid #9c9c9c",
-                backgroundColor: "white",
-                color: "black",
-              }}
-              // tetz2, 현재 페이지의 주소 값에 따라서 active 클래스를 부여 하여 active 클래스가 있을 경우 배경색이 유지되도록 수정
-              className={
-                "ToggleButton" +
-                (location.pathname === `/program/${radio.link}`
-                  ? " active"
-                  : "")
-              }
+              className="ToggleButton"
               key={idx}
               id={`radio-${idx}`}
               type="radio"
-              variant={idx % 6 ? "outline-primary" : "outline-primary"}
+              variant={idx % 6 ? "outline-info" : "outline-info"}
               size="lg"
               name="radio"
               value={radio.value}

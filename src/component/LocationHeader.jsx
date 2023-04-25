@@ -23,7 +23,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box sx={{ p: 2 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -61,7 +61,8 @@ export default function BasicTabs() {
           flexWrap: "wrap",
           // justifyContent: "center",
           "& > :not(style)": {
-            m: 1,
+            m: 3,
+            mb: 0,
             textAlign: "center",
             width: "auto",
             height: "auto",

@@ -14,7 +14,6 @@ function BasicExample() {
   const [radioValue, setRadioValue] = useState("1");
   // tetz2, 현재 주소 값을 받아오기 위한 useLocation
   const [btnActive, setBtnActive] = useState(false);
-
   const toggleActive = (e) => {
     setBtnActive((prev) => {
       return !prev;
@@ -33,7 +32,6 @@ function BasicExample() {
   // tetz, Link를 쓰면 부트 스트랩과 충돌이 나기 때문에 주소 이동은
   // useNavigate 로 이동 시기키 위해 useNavigate 설정
   const navigate = useNavigate();
-  // const [btnActive, setBtnActive] = useState("");
 
   return (
     <>
@@ -51,23 +49,20 @@ function BasicExample() {
         >
           {radios.map((radio, idx) => (
             <ToggleButton
-              // style={({ isActive, isPending }) => {
-              //   return {
-              //     fontWeight: isActive ? "bold" : "",
-              //     color: isPending ? "red" : "black",
-              //   };
-              // }}
               style={{
-                border: "1px solid #c8c8c8",
+                border: "1px solid #9c9c9c",
                 backgroundColor: "white",
                 color: "black",
               }}
-              // className="ToggleButton"
-              className={"ToggleButton" + (idx == btnActive ? " active" : "")}
+              // tetz2, 현재 페이지의 주소 값에 따라서 active 클래스를 부여 하여 active 클래스가 있을 경우 배경색이 유지되도록 수정
+              className={
+                "ToggleButton" +
+                (location.pathname === `/about/${radio.link}` ? " active" : "")
+              }
               key={idx}
               id={`radio-${idx}`}
               type="radio"
-              // variant={idx % 4 ? "outline-primary" : "outline-primary"}
+              // variant={idx % 4 ? "outline-dark" : "outline-dark"}
               size="lg"
               name="radio"
               value={radio.value}

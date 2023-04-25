@@ -7,6 +7,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 import { Container } from "react-bootstrap";
+import "../css/VoucherListSongpa.css";
 
 export default function SimplePaper() {
   return (
@@ -87,7 +88,11 @@ export default function SimplePaper() {
             <Card id="발달재활서비스">
               <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>발달재활 서비스</Accordion.Header>
+                  {/* tetz2, 중앙 정렬 효과를 주기 위한 클래스 부여 */}
+                  {/* 중앙 정렬 효과는 VoucherListSongpa.css 파일에서 패딩 값으로 주고 있음, 온갖 중앙 정렬 방법이 안먹히더군요 -_-;;; */}
+                  <Accordion.Header className="first">
+                    발달재활 서비스
+                  </Accordion.Header>
 
                   <Accordion.Body>
                     <ListGroup
@@ -122,7 +127,11 @@ export default function SimplePaper() {
             <Card id="굳센카드">
               <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>굳센 카드</Accordion.Header>
+                  {/* tetz2, 중앙 정렬 효과를 주기 위한 클래스 부여 */}
+                  {/* 중앙 정렬 효과는 VoucherListSongpa.css 파일에서 패딩 값으로 주고 있음, 온갖 중앙 정렬 방법이 안먹히더군요 -_-;;; */}
+                  <Accordion.Header className="second">
+                    굳센 카드
+                  </Accordion.Header>
 
                   <Accordion.Body>
                     <ListGroup

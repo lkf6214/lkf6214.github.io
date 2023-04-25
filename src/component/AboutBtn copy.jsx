@@ -1,21 +1,29 @@
-import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
-import { Link, Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import Facilities from "./Facilities";
 import Greeting from "./Greeting";
 import History from "./History";
 import Therapist from "./Therapist";
+import Container from "react-bootstrap/Container";
 // tetz, Hover 효과를 위한 css 파일 추가
 import "../css/AboutBtn.css";
 
 function BasicExample() {
   const [radioValue, setRadioValue] = useState("1");
+  // tetz2, 현재 주소 값을 받아오기 위한 useLocation
+  const [btnActive, setBtnActive] = useState(false);
+  const toggleActive = (e) => {
+    setBtnActive((prev) => {
+      return !prev;
+    });
+  };
+  const location = useLocation();
 
   // tetz, 버튼에 주소 값도 전달을 해야 하기 때문에, link 키 및 이동해야할 주소 값 추가
   const radios = [
-    { name: "인사말 ", value: "1", link: "greeting" },
+    { name: "인사말", value: "1", link: "greeting" },
     { name: "연혁", value: "2", link: "history" },
     { name: "연구원 소개", value: "3", link: "therapist" },
     { name: "센터 전경", value: "4", link: "facilities" },
@@ -27,44 +35,58 @@ function BasicExample() {
 
   return (
     <>
-      {/* tetz, 중복 부분이므로 주석 처리 */}
-      {/* <ButtonGroup aria-label="Basic example">
-        <Link to="greeting">
-          <Button variant="outline-success">인사말 위</Button>
-        </Link>
-        <Link to="history">
-          <Button variant="outline-success">연혁</Button>
-        </Link>
-        <Link to="therapist">
-          <Button variant="outline-success">연구원 소개</Button>
-        </Link>
-        <Link to="facilities">
-          <Button variant="outline-success">센터 전경</Button>
-        </Link>
-      </ButtonGroup>
-      <br /> */}
-
       {/* 아래의 버튼그룹 모양으로, 누르면 배경이 유지되게, link to 연결하고 싶은데 어떻게 해야하나요..?  */}
 
-      <ButtonGroup>
-        {radios.map((radio, idx) => (
-          <ToggleButton
-            className="ToggleButton"
-            key={idx}
-            id={`radio-${idx}`}
-            type="radio"
-            variant={idx % 4 ? "outline-success" : "outline-success"}
-            name="radio"
-            value={radio.value}
-            checked={radioValue === radio.value}
-            onChange={(e) => setRadioValue(e.currentTarget.value)}
-            // tetz, 주소 이동 부분을 useNavigate 로 처리, radios 객체 배열에 저장된 주소 값(link) 를 부여
-            onClick={() => navigate(radio.link)}
-          >
-            {radio.name}
-          </ToggleButton>
-        ))}
-      </ButtonGroup>
+      <Container>
+        <ButtonGroup
+          style={{
+            borderRadius: "10px",
+            margin: "1rem",
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+          }}
+        >
+          {radios.map((radio, idx) => (
+            <ToggleButton
+              style={{
+                width: "10rem",
+                height: "4rem",
+                margin: "0.2rem 0.2rem",
+                boxShadow: "0 0 30px rgb(13, 202, 240, 0.26)",
+                fontSize: "1.5rem",
+                border: "none",
+                opacity: "0.6",
+                transition: "0.2s",
+                backgroundColor: " #ffffff !important",
+              }}
+              // tetz2, 현재 페이지의 주소 값에 따라서 active 클래스를 부여 하여 active 클래스가 있을 경우 배경색이 유지되도록 수정
+              className={
+                "ToggleButton" +
+                (location.pathname === `/about/${radio.link}` ? " active" : "")
+              }
+              key={idx}
+              id={`radio-${idx}`}
+              type="radio"
+              // variant={idx % 4 ? "outline-dark" : "outline-dark"}
+              size="lg"
+              name="radio"
+              value={radio.value}
+              // tetz2, 현재 페이지의 주소 값에 따라서 버튼이 클릭 된 것 같은 효과를 위해 OR 조건을 추가
+              checked={
+                radioValue === radio.value ||
+                location.pathname === `/about/${radio.link}`
+              }
+              onChange={(e) => setRadioValue(e.currentTarget.value)}
+              // tetz, 주소 이동 부분을 useNavigate 로 처리, radios 객체 배열에 저장된 주소 값(link) 를 부여
+              onClick={() => navigate(radio.link)}
+              // onClick={toggleActive}
+            >
+              {radio.name}
+            </ToggleButton>
+          ))}
+        </ButtonGroup>
+      </Container>
 
       <Routes>
         <Route path="greeting" element={<Greeting />} />
