@@ -449,11 +449,11 @@ export default function History() {
                 >
                   <Container>
                     <Card.Title
-                      // className="pt-4"
+                      className="pb-2"
                       style={{
                         color: "#e37114",
                         fontWeight: "600",
-                        fontSize: "1rem",
+                        fontSize: "1.1rem",
                       }}
                     >
                       언어 / 어휘 / 화용
@@ -466,7 +466,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>SELSI </Card.Title>

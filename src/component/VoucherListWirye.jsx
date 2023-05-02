@@ -208,6 +208,7 @@ export default function SimplePaper() {
         </h4>
 
         <Row className="justify-content-center">
+          {/* 1 */}
           <Col xs={11} md={5} lg={4} className="pt-3">
             <Card>
               <Card.Img
@@ -219,6 +220,22 @@ export default function SimplePaper() {
               <Card.Body>
                 <Card.Title>경기도 교육청 </Card.Title>
                 <Card.Text class="text-muted">난독 전문 지원 기관</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          {/* 2 */}
+          <Col xs={11} md={5} lg={4} className="pt-3">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="/img/mou_logo_8.png"
+                className="p-4 pt-5"
+              />
+
+              <Card.Body>
+                <Card.Title>서울대학교병원 행동발달증진센터</Card.Title>
+                <Card.Text class="text-muted">지역언어협력센터 지정</Card.Text>
               </Card.Body>
             </Card>
           </Col>

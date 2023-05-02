@@ -15,9 +15,9 @@ export default function SimplePaper() {
       <div style={{ padding: "1rem 0rem" }}>
         <h4>
           성원언어임상연구소는 바우처 카드 이용 가능한 전문 언어치료 / 심리치료
-          기관입니다🌻
+          기관🌻
         </h4>
-        <h4 className="p-3">☎ 바우처 및 서비스 문의는 전화 주세요</h4>
+        <h4 className="p-3">☎ 바우처 및 서비스 문의는 전화 상담</h4>
 
         <a href="tel:02-412-0505">
           <Col
@@ -210,6 +210,36 @@ export default function SimplePaper() {
                 <Card.Text class="text-muted">
                   [ 온맘 ] 부모학습 코칭 프로그램 치유 기관
                 </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col xs={11} md={5} lg={4} className="pt-3">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="/img/mou_logo_9.png"
+                className="p-4 pt-5"
+              />
+
+              <Card.Body>
+                <Card.Title>서울시장애인의사소통권리증진센터</Card.Title>
+                <Card.Text class="text-muted">협력업체</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col xs={11} md={5} lg={4} className="pt-3">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="/img/mou_logo_8.png"
+                className="p-4 pt-5"
+              />
+
+              <Card.Body>
+                <Card.Title>서울대학교병원 행동발달증진센터</Card.Title>
+                <Card.Text class="text-muted">지역언어협력센터 지정</Card.Text>
               </Card.Body>
             </Card>
           </Col>

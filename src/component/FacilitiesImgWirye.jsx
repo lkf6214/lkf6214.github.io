@@ -5,23 +5,6 @@ function CarouselFadeExample() {
   return (
     <Carousel fade>
       {/* 1 복도 */}
-      {/* <Carousel.Item>
-        <CardMedia component="img" image="/img/위례_1.jpg" alt="wiryeimg" />
-
-        <Carousel.Caption>
-          <h3>복도</h3>
-          <h6>성원언어심리센터 위례점</h6>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <CardMedia component="img" image="/img/위례_26.jpg" alt="wiryeimg" />
-
-        <Carousel.Caption>
-          <h3>복도</h3>
-          <h6>성원언어심리센터 위례점</h6>
-        </Carousel.Caption>
-      </Carousel.Item> */}
 
       <Carousel.Item>
         <CardMedia component="img" image="/img/위례_27.jpg" alt="wiryeimg" />

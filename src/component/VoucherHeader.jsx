@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import VoucherListSongpa from "./VoucherListSongpa";
 import VoucherListWirye from "./VoucherListWirye";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -57,6 +58,7 @@ export default function BasicTabs() {
           // flexWrap: "wrap",
           // justifyContent: "center",
           "& > :not(style)": {
+            m: 1,
             textAlign: "center",
             // width: "auto",
             // height: "auto",
@@ -69,8 +71,8 @@ export default function BasicTabs() {
             onChange={handleChange}
             aria-label="basic tabs example"
           >
-            <Tab label="송파점" {...a11yProps(0)} />
-            <Tab label="위례점" {...a11yProps(1)} />
+            <Tab label="송파점" icon={<LocationOnIcon />} {...a11yProps(0)} />
+            <Tab label="위례점" icon={<LocationOnIcon />} {...a11yProps(1)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>

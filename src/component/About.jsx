@@ -7,7 +7,13 @@ export default function About() {
     <>
       <div
         style={{
-          backgroundImage: "url(/img/4.jpg)",
+          // backgroundImage: "url(/img/4.jpg)",
+
+          // background:     "linear-gradient( 45deg,  #fffffd,   rgb(229, 94, 39, 0.8), rgb(242, 195, 36, 0.8) )",
+          background:
+            "linear-gradient( 45deg, #fffffd,  rgb(242, 195, 36, 0.7),  rgb(17, 167, 176,0.7) )",
+          // background:            "linear-gradient( to right, #E55E27, #F2C324, #11A7B0, #53B53F )",
+
           position: "relative",
           display: "table",
           width: "100%",
@@ -20,7 +26,7 @@ export default function About() {
       >
         <div
           style={{
-            color: "#fff",
+            color: "#ffffff",
             fontSize: "2rem",
             fontWeight: "500",
             lineHeight: "1.5em",

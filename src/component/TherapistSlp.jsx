@@ -706,89 +706,6 @@ function KitchenSinkExample() {
             </Card>
           </Col>
 
-          {/* 8 강현자*/}
-          <Col sm={6} lg={5}>
-            <Card className="m-4">
-              <CardMedia
-                style={{
-                  padding: "1rem 0rem 0rem 0rem ",
-                  width: "10rem",
-                  display: "flex",
-                  margin: "auto",
-                  left: "0",
-                  right: "0",
-                  borderRadius: "20% 20% 2rem 2rem",
-                  overflow: "Hidden",
-                }}
-                component="img"
-                image="/img/강현자.png"
-                alt="therapist8"
-              />
-              <Card.Body>
-                <Card.Title>강현자 연구원</Card.Title>
-                <Card.Text>1급 언어재활사</Card.Text>
-              </Card.Body>
-
-              <Accordion defaultActiveKey="0" flush>
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>경력사항</Accordion.Header>
-                  <Accordion.Body>
-                    <ListGroup className="list-group-flush">
-                      <ListGroup.Item>現 성원언어심리센터 위례</ListGroup.Item>
-                      <ListGroup.Item>
-                        現 서초한우리정보문화센터/생애지원팀/초기언어진단및 평가
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        풍납종합사회복지관 해오름센터
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        연세대학교 인문학부(심리,사회) 심리학 학사
-                      </ListGroup.Item>
-                      <ListGroup.Item>아이코리아 아동발달교육원</ListGroup.Item>
-                      <ListGroup.Item>
-                        한국육영학교 방과후언어치료
-                      </ListGroup.Item>
-                      <ListGroup.Item>아이샘아동발달센터</ListGroup.Item>
-                      <ListGroup.Item>
-                        용납초등학교 방과후 언어치료
-                      </ListGroup.Item>
-                      <ListGroup.Item>장애전문 한마음어린이집</ListGroup.Item>
-                      <ListGroup.Item>
-                        KOICA 해외봉사단 강사/보완대체의사소통 AAC 교육
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        강동ㆍ송파 장애인가족지원센터 AAC 부모교육
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                  <Accordion.Header>자격사항</Accordion.Header>
-                  <Accordion.Body>
-                    <ListGroup className="list-group-flush">
-                      <ListGroup.Item>
-                        한국언어청각임상학회 정회원
-                      </ListGroup.Item>
-                      <ListGroup.Item>한국재활사협회 정회원</ListGroup.Item>
-                    </ListGroup>
-                  </Accordion.Body>
-                </Accordion.Item>
-
-                <Accordion.Item eventKey="2">
-                  <Accordion.Header>학력</Accordion.Header>
-                  <Accordion.Body>
-                    <ListGroup className="list-group-flush">
-                      <ListGroup.Item>
-                        단국대학교 대학원 특수교육과
-                        석사(청각ㆍ언어장애아교육전공)
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </Card>
-          </Col>
-
           {/* 9 이은경*/}
           <Col sm={6} lg={5}>
             <Card className="m-4">
@@ -897,6 +814,89 @@ function KitchenSinkExample() {
                     <ListGroup className="list-group-flush">
                       <ListGroup.Item>
                         단국대학교 특수교육대학원 언어치료학과
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </Card>
+          </Col>
+
+          {/* 8 강현자*/}
+          <Col sm={6} lg={5}>
+            <Card className="m-4">
+              <CardMedia
+                style={{
+                  padding: "1rem 0rem 0rem 0rem ",
+                  width: "10rem",
+                  display: "flex",
+                  margin: "auto",
+                  left: "0",
+                  right: "0",
+                  borderRadius: "20% 20% 2rem 2rem",
+                  overflow: "Hidden",
+                }}
+                component="img"
+                image="/img/강현자.png"
+                alt="therapist8"
+              />
+              <Card.Body>
+                <Card.Title>강현자 연구원</Card.Title>
+                <Card.Text>1급 언어재활사</Card.Text>
+              </Card.Body>
+
+              <Accordion defaultActiveKey="0" flush>
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>경력사항</Accordion.Header>
+                  <Accordion.Body>
+                    <ListGroup className="list-group-flush">
+                      <ListGroup.Item>現 성원언어심리센터 위례</ListGroup.Item>
+                      <ListGroup.Item>
+                        現 서초한우리정보문화센터/생애지원팀/초기언어진단및 평가
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        풍납종합사회복지관 해오름센터
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        연세대학교 인문학부(심리,사회) 심리학 학사
+                      </ListGroup.Item>
+                      <ListGroup.Item>아이코리아 아동발달교육원</ListGroup.Item>
+                      <ListGroup.Item>
+                        한국육영학교 방과후언어치료
+                      </ListGroup.Item>
+                      <ListGroup.Item>아이샘아동발달센터</ListGroup.Item>
+                      <ListGroup.Item>
+                        용납초등학교 방과후 언어치료
+                      </ListGroup.Item>
+                      <ListGroup.Item>장애전문 한마음어린이집</ListGroup.Item>
+                      <ListGroup.Item>
+                        KOICA 해외봉사단 강사/보완대체의사소통 AAC 교육
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        강동ㆍ송파 장애인가족지원센터 AAC 부모교육
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>자격사항</Accordion.Header>
+                  <Accordion.Body>
+                    <ListGroup className="list-group-flush">
+                      <ListGroup.Item>
+                        한국언어청각임상학회 정회원
+                      </ListGroup.Item>
+                      <ListGroup.Item>한국재활사협회 정회원</ListGroup.Item>
+                    </ListGroup>
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header>학력</Accordion.Header>
+                  <Accordion.Body>
+                    <ListGroup className="list-group-flush">
+                      <ListGroup.Item>
+                        단국대학교 대학원 특수교육과
+                        석사(청각ㆍ언어장애아교육전공)
                       </ListGroup.Item>
                     </ListGroup>
                   </Accordion.Body>

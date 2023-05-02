@@ -133,7 +133,7 @@ export default function BasicTabs() {
           <Card.Body>
             <Card.Title className="p-2" style={{ lineHeight: "1.8rem" }}>
               <p>
-                📍 주소: 경기도 성남시 수정구 위례광장로 320 (창곡동 509-3)
+                📍 주소: 경기도 성남시 수정구 위례광장로 320 아이에스센트럴타워
                 608호
               </p>
               <p>🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 주일/공휴일 휴무</p>

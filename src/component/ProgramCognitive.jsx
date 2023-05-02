@@ -592,7 +592,7 @@ export default function History() {
                         height: "8rem",
                         border: "5px solid #fff9f9c5",
                         borderRadius: "2rem",
-
+                        fontSize: "1.1rem",
                         backgroundColor: "rgb(255, 152, 0, 0.2)",
 
                         // color: "#e37114",
@@ -659,7 +659,7 @@ export default function History() {
                             <li>칠판 보기</li>
                             <li>시간표 보기</li>
                             <li>알림장 작성하기</li>
-                            <li>쉬는 시간과 수업시간 구분하기 등</li>
+                            <li>쉬는 시간과 수업시간 구분하기</li>
                           </ListGroup.Item>
                         </ListGroup>
                       </Card>

@@ -69,7 +69,7 @@ export default function History() {
                       <img
                         className=""
                         alt="ProgramImage"
-                        src="/image/046.jpg"
+                        src="/image/029.jpg"
                         width={"100%"}
                       />
                     </Col>
@@ -614,7 +614,7 @@ export default function History() {
                     }}
                   >
                     <h6>자아 파악</h6>
-                    <h6>친구 사귀기</h6>
+                    <h6>상호작용</h6>
                     <h6>갈등 대처</h6>
                     <h6>문제해결능력</h6>
                     <h6>적응 및 협동</h6>
@@ -625,7 +625,7 @@ export default function History() {
                       <img
                         className=""
                         alt="ProgramImage"
-                        src="/image/044.jpg"
+                        src="/image/014.jpg"
                         width={"100%"}
                       />
                     </Col>

@@ -12,11 +12,11 @@ function BasicExample() {
             <thead>
               <tr
                 style={{
-                  backgroundColor: "#CFF4FC",
+                  backgroundColor: "rgb(13, 77, 5, 0.1)",
                   verticalAlign: "middle",
                 }}
               >
-                <th>검사 항목</th>
+                <th>항목</th>
                 <th>평가 도구</th>
                 <th>측정 내용</th>
               </tr>

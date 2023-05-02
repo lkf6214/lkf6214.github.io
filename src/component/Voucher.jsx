@@ -31,7 +31,10 @@ export default function Voucher() {
     <>
       <div
         style={{
-          backgroundImage: "url(/img/bg_001.jpg)",
+          // backgroundImage: "url(/img/bg_001.jpg)",
+          background:
+            "linear-gradient( 45deg, #fffffd,    rgb(83, 181, 63, 0.6), rgb(17, 167, 176,0.6) )",
+
           position: "relative",
           display: "table",
           width: "100%",

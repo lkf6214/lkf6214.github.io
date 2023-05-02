@@ -10,7 +10,10 @@ export default function Information() {
     <>
       <div
         style={{
-          backgroundImage: "url(/img/029.jpg)",
+          // backgroundImage: "url(/img/029.jpg)",
+          background:
+            "linear-gradient( 45deg,  #fffffd,   rgb(229, 94, 39, 0.8), rgb(242, 195, 36, 0.8) )",
+
           position: "relative",
           display: "table",
           width: "100%",

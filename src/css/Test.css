@@ -19,13 +19,8 @@
 } */
 
 .BtnContainer {
-  /* border: 1px solid #e6e0e0; */
-  /* box-shadow: 0 0 30px rgb(13, 202, 240, 0.26); */
   border-radius: 10px;
-  /* cursor: pointer; */
-  /* width: 80%; */
   margin: 1rem;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -42,11 +37,6 @@
   transition: 0.2s;
   /* border-radius: 10px; */
   background-color: #ffffff !important;
-}
-
-.Testbtn::after {
-  /* clear: "both"; */
-  /* display: "table"; */
 }
 
 .Testbtn:not(:last-child) {

@@ -24,6 +24,7 @@ export default function Rolling() {
                   />
                 </a>
               </li>
+
               <li>
                 <a href="javascript:void(0)">
                   <img
@@ -109,6 +110,26 @@ export default function Rolling() {
                   <img
                     alt="mou_logo_0"
                     src="/img/mou_logo_7.png"
+                    width={"80%"}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)">
+                  <img
+                    alt="mou_logo_0"
+                    src="/img/mou_logo_8.png"
+                    width={"80%"}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)">
+                  <img
+                    alt="mou_logo_0"
+                    src="/img/mou_logo_9.png"
                     width={"80%"}
                   />
                 </a>
@@ -217,6 +238,26 @@ export default function Rolling() {
               <li>
                 <a href="javascript:void(0)">
                   <img
+                    alt="mou_logo_0"
+                    src="/img/mou_logo_8.png"
+                    width={"80%"}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)">
+                  <img
+                    alt="mou_logo_0"
+                    src="/img/mou_logo_9.png"
+                    width={"80%"}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)">
+                  <img
                     alt="mou_logo_KSLP"
                     src="/img/mou_logo_0.jpg"
                     width={"90%"}
@@ -309,6 +350,26 @@ export default function Rolling() {
                   <img
                     alt="mou_logo_0"
                     src="/img/mou_logo_7.png"
+                    width={"80%"}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)">
+                  <img
+                    alt="mou_logo_0"
+                    src="/img/mou_logo_8.png"
+                    width={"80%"}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)">
+                  <img
+                    alt="mou_logo_0"
+                    src="/img/mou_logo_9.png"
                     width={"80%"}
                   />
                 </a>
