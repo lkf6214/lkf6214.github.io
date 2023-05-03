@@ -53,24 +53,24 @@ const itemData = [
     title: "복도",
   },
 
-  {
-    img: "/img/송파_7.jpg",
-    title: "복도",
-  },
+  // {
+  //   img: "/img/송파_7.jpg",
+  //   title: "복도",
+  // },
 
   {
     img: "/img/송파_8.jpg",
     title: "복도",
   },
 
-  {
-    img: "/img/송파_8_2.jpg",
-    title: "언어치료실",
-  },
-  {
-    img: "/img/송파_9.jpg",
-    title: "언어치료실",
-  },
+  // {
+  //   img: "/img/송파_8_2.jpg",
+  //   title: "언어치료실",
+  // },
+  // {
+  //   img: "/img/송파_9.jpg",
+  //   title: "언어치료실",
+  // },
   {
     img: "/img/송파_10.jpg",
     title: "언어치료실",
@@ -81,10 +81,10 @@ const itemData = [
     title: "언어치료실",
   },
 
-  {
-    img: "/img/송파_12.jpg",
-    title: "놀이치료실",
-  },
+  // {
+  //   img: "/img/송파_12.jpg",
+  //   title: "놀이치료실",
+  // },
 
   {
     img: "/img/송파_13.jpg",
@@ -92,18 +92,8 @@ const itemData = [
   },
 
   {
-    img: "/img/송파_14.jpg",
-    title: "놀이치료실",
-  },
-
-  {
     img: "/img/송파_14_1.jpg",
     title: "놀이치료실",
-  },
-
-  {
-    img: "/img/송파_18.jpg",
-    title: "Information",
   },
 
   {

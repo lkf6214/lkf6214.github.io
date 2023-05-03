@@ -35,33 +35,6 @@ function CarouselFadeExample() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      {/* 4 */}
-      <Carousel.Item>
-        <CardMedia component="img" image="/img/위례_4.jpg" alt="therapist1" />
-
-        <Carousel.Caption>
-          <h3>대기실</h3>
-          <h6>성원언어심리센터 위례점</h6>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      {/* 5 */}
-      <Carousel.Item>
-        <CardMedia component="img" image="/img/위례_6.jpg" alt="therapist1" />
-        <Carousel.Caption>
-          <h3>대기실</h3>
-          <h6>성원언어심리센터 위례점</h6>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <CardMedia component="img" image="/img/위례_25.jpg" alt="therapist1" />
-        <Carousel.Caption>
-          <h3>대기실</h3>
-          <h6>성원언어심리센터 위례점</h6>
-        </Carousel.Caption>
-      </Carousel.Item>
-
       <Carousel.Item>
         <CardMedia component="img" image="/img/위례_7_1.jpg" alt="therapist1" />
         <Carousel.Caption>
@@ -96,14 +69,6 @@ function CarouselFadeExample() {
 
       <Carousel.Item>
         <CardMedia component="img" image="/img/위례_15.jpg" alt="therapist1" />
-        <Carousel.Caption>
-          <h3>언어치료실</h3>
-          <h6>성원언어심리센터 위례점</h6>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <CardMedia component="img" image="/img/위례_17.jpg" alt="therapist1" />
         <Carousel.Caption>
           <h3>언어치료실</h3>
           <h6>성원언어심리센터 위례점</h6>

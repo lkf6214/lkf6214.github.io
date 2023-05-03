@@ -100,31 +100,10 @@ export default function BasicTabs() {
                 🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 토요일 오전 10시 ~ 오후
                 2시, 일/공휴일 휴무
               </p>
-              <p>💁 상담 문의: 오후 12시 ~ 6시</p>
+              <p>💁 상담 문의: 오후 12시 ~ 6시 30분</p>
               <p>📞 전화: 02-412-0505</p>
             </Card.Title>
 
-            {/* <Row className="justify-content-md-center">
-              <Col md="auto">
-                <Card>
-                  <Card.Text
-                    className="p-3"
-                    style={{
-                      lineHeight: "2rem",
-                      textAlign: "left",
-                      width: "auto",
-                    }}
-                  >
-                    🕙 운영시간: 평일 오전 10:00~오후 7:00, 토요일 오전
-                    9:00~오후 2:00, 일/공휴일 휴무
-                    <br />
-                    📍 주소: 서울 송파구 올림픽로35길 10 파크리오B상가 505-2호
-                    <br />
-                    📞 전화: 02-412-0505
-                  </Card.Text>
-                </Card>
-              </Col>
-            </Row> */}
             <FacilitiesImgSongpa />
             <FacilitiesImgSongpa1 />
           </Card.Body>
@@ -137,7 +116,7 @@ export default function BasicTabs() {
                 608호
               </p>
               <p>🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 주일/공휴일 휴무</p>
-              <p>💁 상담 문의: 오후 12시 ~ 6시</p>
+              <p>💁 상담 문의: 오후 1시 ~ 6시</p>
               <p>📞 전화: 031-757-0504</p>
             </Card.Title>
             <FacilitiesImgWirye />

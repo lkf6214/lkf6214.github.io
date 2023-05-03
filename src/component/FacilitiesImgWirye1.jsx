@@ -34,22 +34,6 @@ const itemData = [
     img: "/img/위례_5.jpg",
     title: "로비",
   },
-  {
-    img: "/img/위례_4.jpg",
-    title: "로비",
-  },
-  {
-    img: "/img/위례_6.jpg",
-    title: "로비",
-  },
-  // {
-  //   img: "/img/위례_7.jpg",
-  //   title: "로비",
-  // },
-  {
-    img: "/img/위례_25.jpg",
-    title: "로비",
-  },
 
   {
     img: "/img/위례_7_1.jpg",
@@ -72,18 +56,7 @@ const itemData = [
     img: "/img/위례_12.jpg",
     title: "로비",
   },
-  {
-    img: "/img/위례_13.jpg",
-    title: "로비",
-  },
-  // {
-  //   img: "/img/위례_8.jpg",
-  //   title: "로비",
-  // },
-  // {
-  //   img: "/img/위례_9.jpg",
-  //   title: "로비",
-  // },
+
   {
     img: "/img/위례_14.jpg",
     title: "로비",
@@ -120,10 +93,7 @@ const itemData = [
     img: "/img/위례_22.jpg",
     title: "로비",
   },
-  // {
-  //   img: "/img/위례_23.jpg",
-  //   title: "로비",
-  // },
+
   {
     img: "/img/위례_2.jpg",
     title: "로비",
