@@ -488,7 +488,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>K-SNAP</Card.Title>
@@ -510,7 +510,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>PRES</Card.Title>
@@ -533,7 +533,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>REVT</Card.Title>
@@ -555,7 +555,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>K-BNT-C</Card.Title>
@@ -578,7 +578,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>K-BNT</Card.Title>
@@ -600,7 +600,7 @@ export default function History() {
                           <Card.Header
                             className="p-3 pb-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>언어문제해결력검사</Card.Title>
@@ -624,11 +624,11 @@ export default function History() {
 
                   <Container>
                     <Card.Title
-                      className="pt-4"
+                      className="pt-3 pb-2"
                       style={{
                         color: "#e37114",
                         fontWeight: "600",
-                        fontSize: "1rem",
+                        fontSize: "1.1rem",
                       }}
                     >
                       발음 / 유창성
@@ -642,7 +642,7 @@ export default function History() {
                             style={{
                               // backgroundColor: "rgb(93, 176, 220, 0.3)",
 
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>APAC</Card.Title>
@@ -664,7 +664,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>U-TAP</Card.Title>
@@ -686,7 +686,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>OSMSE-R</Card.Title>
@@ -708,7 +708,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>P-FA</Card.Title>
@@ -729,11 +729,11 @@ export default function History() {
 
                   <Container>
                     <Card.Title
-                      className="pt-4"
+                      className="pt-3 pb-2"
                       style={{
                         color: "#e37114",
                         fontWeight: "600",
-                        fontSize: "1rem",
+                        fontSize: "1.1rem",
                       }}
                     >
                       학령기 학습
@@ -745,7 +745,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>LSSC</Card.Title>
@@ -768,7 +768,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>KOLRA</Card.Title>
@@ -790,7 +790,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>BASA:R</Card.Title>
