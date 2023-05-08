@@ -693,7 +693,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>놀이 평가</Card.Title>
@@ -743,7 +743,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>발달 평가</Card.Title>
@@ -794,7 +794,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(248, 208, 99, 0.5)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
                           >
                             <Card.Title>부모 및 가족평가</Card.Title>

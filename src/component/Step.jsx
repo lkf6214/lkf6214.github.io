@@ -12,7 +12,7 @@ export default function VerticalLinearStepper() {
             <Card.Header className="h2">치료 과정</Card.Header>
             <Card.Body>
               <img
-                className="p-3"
+                className="p-1"
                 alt="information_step"
                 src="/img/process_006.png"
                 width={"100%"}
