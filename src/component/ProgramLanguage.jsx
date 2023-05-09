@@ -2,13 +2,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Box from "@mui/material/Box";
-import Chip from "@mui/material/Chip";
-import Stack from "@mui/material/Stack";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
-import { color } from "@mui/system";
 
 export default function History() {
   return (
@@ -109,90 +106,6 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              {/* 3 숨김 */}
-              {/* <Card>
-                <Container>
-                  <Card.Title
-                    className="pt-4"
-                    style={{
-                      color: "#2f6597",
-                      fontWeight: "800",
-                      fontSize: "1.5rem",
-                    }}
-                  >
-                    그룹치료 대상자
-                  </Card.Title>
-
-                  <Row className="justify-content-lg-center">
-                    <Col lg className="p-3">
-                      <Card.Title
-                        // className="pt-4"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                          // fontSize: "1rem",
-                        }}
-                      >
-                        취학 전 아동 언어 그룹
-                      </Card.Title>
-                      <Card.Title
-                        className="p-2"
-                        style={{ lineHeight: "2rem" }}
-                      >
-                        <li>
-                          문장으로 의사 표현이 가능한 취학 전 아동들을 대상으로
-                          2-4명의 짝그룹이나 소그룹 형태로 구성됩니다.
-                        </li>
-                        <li>
-                          일반 교육 환경에 통합하여 잘 적응할 수 있도록 준비하는
-                          과정으로 실제 교육 환경에서 활용할 수 있는 실질적이고
-                          구체적인 기술을 배우고, 이를 바탕으로 가정과 학교,
-                          지역 사회 생활에서 필요한 자기 관리 기술, 의사소통
-                          기술, 문제 해결 능력, 사회성을 향상시키기 위한
-                          프로그램입니다.{" "}
-                        </li>
-                      </Card.Title>
-                    </Col>
-
-                    <Col lg className="p-3" style={{}}>
-                      <Card.Title
-                        // className="pt-4"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                          // fontSize: "1rem",
-                        }}
-                      >
-                        학령기 아동 언어 그룹
-                      </Card.Title>
-                      <Card.Title
-                        className="p-2"
-                        style={{ lineHeight: "2rem" }}
-                      >
-                        <li>
-                          현재 학교 생활을 하고 있는 초등 저학년을 대상으로 2-4
-                          명의 짝 그룹이나 소그룹 형태로 구성됩니다.
-                        </li>
-                        <li>
-                          아동들이 가정은 물론 학교와 지역 사회에서 일어날
-                          수있는 다양한 상황을 이해하고, 원인을 파악하거나
-                          결과를 예측하는 훈련을 통해 실제적인 다양한 문제
-                          상황에서의 적응력을 키워주게 됩니다. 또한 학교 나 집단
-                          내에서 지켜야하는 규칙을 이해하고 기억하는 훈련을 통해
-                          또래와의 기본적인 사회 기술 (대화와 대인 기술) 습득에
-                          도움을 주기위한 프로그램입니다.
-                        </li>
-                      </Card.Title>
-                    </Col>
-                  </Row>
-                </Container>
-              </Card>
-              <img
-                className="p-1"
-                alt="line"
-                src="/img/line_002.png"
-                width={"100%"}
-              /> */}
               {/* 3 */}
               <Card>
                 <Card.Title
@@ -239,16 +152,6 @@ export default function History() {
                   <h6>구개열</h6>
                   <h6>사회성 언어</h6>
                 </Box>
-                {/* 
-                <Card.Text
-                  className="pb-3 m-2"
-                  style={{ lineHeight: "1.6rem" }}
-                >
-                  <Card.Title className="p-2 m-2">
-                  <li>언어발달이 또래보다 느린 아동</li>
-                  <li>우리말 발음에 어려움을 보이는 아동 및 성인</li>
-                  </Card.Title>
-                </Card.Text> */}
               </Card>
               <img
                 className="p-3"
