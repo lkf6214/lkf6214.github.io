@@ -52,15 +52,6 @@ function BasicExample() {
             <Nav.Link href="/Voucher">바우처</Nav.Link>
             <Nav.Link href="/location">오시는 길</Nav.Link>
           </Nav>
-          {/* <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-             
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
