@@ -1,7 +1,7 @@
 import { Container } from "@mui/system";
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Step from "./Step";
+// import Step from "./Step";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -49,7 +49,8 @@ export default function Information() {
             <img
               className="p-2"
               alt="informationimage"
-              src="/img/information_007.png"
+              // src="/img/information_007.png"
+              src={process.env.PUBLIC_URL + "/img/information_007.png"}
               width={"100%"}
             />
 
@@ -109,14 +110,22 @@ export default function Information() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              <Step />
-              {/* <img
-                className="p-2"
-                alt="informationimage"
-                src="/img/process_005.png"
-                width={"100%"}
-              /> */}
+              {/* 치료과정 이미지 */}
+
+              {/* <Step /> */}
             </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card border="light" className="text-center">
+          <Card.Header className="h2">치료 과정</Card.Header>
+          <Card.Body>
+            <img
+              className="p-1"
+              alt="information_step"
+              src="/img/process_006.png"
+              width={"100%"}
+            />
           </Card.Body>
         </Card>
       </Container>

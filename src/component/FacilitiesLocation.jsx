@@ -4,19 +4,12 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-
-import BottomNavigation from "@mui/material/BottomNavigation";
-import BottomNavigationAction from "@mui/material/BottomNavigationAction";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Card from "react-bootstrap/Card";
 import FacilitiesImgSongpa from "./FacilitiesImgSongpa";
 import FacilitiesImgWirye from "./FacilitiesImgWirye";
 import FacilitiesImgSongpa1 from "./FacilitiesImgSongpa1";
 import FacilitiesImgWirye1 from "./FacilitiesImgWirye1";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;

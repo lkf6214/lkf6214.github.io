@@ -666,9 +666,6 @@ function KitchenSinkExample() {
                       <ListGroup.Item>
                         풍납종합사회복지관 해오름센터
                       </ListGroup.Item>
-                      <ListGroup.Item>
-                        연세대학교 인문학부(심리,사회) 심리학 학사
-                      </ListGroup.Item>
                       <ListGroup.Item>아이코리아 아동발달교육원</ListGroup.Item>
                       <ListGroup.Item>
                         한국육영학교 방과후언어치료

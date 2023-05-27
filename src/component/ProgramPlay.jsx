@@ -2,8 +2,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Box from "@mui/material/Box";
-import Chip from "@mui/material/Chip";
-import Stack from "@mui/material/Stack";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -691,7 +689,7 @@ export default function History() {
                         </Card.Title>
                         <Card className="m-2">
                           <Card.Header
-                            className="p-1"
+                            className="pb-1"
                             style={{
                               backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
@@ -741,7 +739,7 @@ export default function History() {
                         </Card.Title> */}
                         <Card className="m-2">
                           <Card.Header
-                            className="p-1"
+                            className="pb-1"
                             style={{
                               backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}
@@ -792,7 +790,7 @@ export default function History() {
                         </Card.Title> */}
                         <Card className="m-2">
                           <Card.Header
-                            className="p-1"
+                            className="pb-1"
                             style={{
                               backgroundColor: "rgb(13, 77, 5, 0.1)",
                             }}

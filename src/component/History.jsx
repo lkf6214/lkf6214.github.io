@@ -11,10 +11,10 @@ export default function History() {
           <Card.Header className="h2">연혁</Card.Header>
           <Card.Body>
             <img
-              className="p-2"
+              className="pt-2"
               alt="greetingImage"
               src="/img/연혁.jpg"
-              width={"90%"}
+              width={"100%"}
             />
             <Mou />
             <Card.Text className="p-1">

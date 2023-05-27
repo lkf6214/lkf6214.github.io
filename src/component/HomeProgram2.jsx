@@ -1,27 +1,13 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import ButtonBase from "@mui/material/ButtonBase";
-import Typography from "@mui/material/Typography";
 import { Container } from "reactstrap";
-import Button from "./Button";
-import Information from "./Information";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 export default function HomeProgram() {
-  const navigate = useNavigate();
-
-  const InformationButton = () => {
-    navigate("/information");
-  };
-
   return (
     <>
       <section
@@ -52,26 +38,6 @@ export default function HomeProgram() {
                 width={"100%"}
               />
             </Col>
-            {/* <Col md={12} lg={9}>
-              <Card
-                style={{
-                  marginTop: "1rem",
-                }}
-              >
-                <h4>
-                  <Card.Text
-                    className="p-3"
-                    style={{
-                      lineHeight: "2.5rem",
-                    }}
-                  >
-                    성원언어임상연구소(송파점)와 성원언어심리센터(위례점)에서는
-                    모든 평가와 상담 및 치료프로그램을 <mark>사전 예약제</mark>
-                    로 운영하고 있습니다. <br /> 반드시 1~2일 전 예약해 주세요.
-                  </Card.Text>
-                </h4>
-              </Card>
-            </Col> */}
           </Row>
 
           <Row className="justify-content-center">
@@ -126,7 +92,7 @@ export default function HomeProgram() {
                     borderRadius: "1rem",
                   }}
                 >
-                  <h5 calssName="p-3">
+                  <h5 className="p-3">
                     <div style={{ paddingBottom: "0.5rem" }}>📞 </div>
                     성원언어임상연구소 (송파점) <br /> 02-412-0505
                   </h5>
@@ -149,7 +115,7 @@ export default function HomeProgram() {
                     borderRadius: "1rem",
                   }}
                 >
-                  <h5 calssName="p-3">
+                  <h5 className="p-3">
                     <div style={{ paddingBottom: "0.5rem" }}>📞 </div>
                     성원언어심리센터 (위례점) <br /> 031-757-0504
                   </h5>

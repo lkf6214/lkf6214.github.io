@@ -15,9 +15,9 @@ export default function SimplePaper() {
       <div style={{ padding: "1rem 0rem" }}>
         <h4>
           성원언어심리센터는 바우처 카드 이용 가능한 전문 언어치료 / 심리치료
-          기관입니다🌻
+          기관🌻
         </h4>
-        <h4 className="p-3">☎ 바우처 및 서비스 문의는 전화 주세요</h4>
+        <h4 className="p-3">☎ 바우처 및 서비스 문의는 전화 상담</h4>
 
         <a href="tel:02-412-0505">
           <Col

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+// import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 
 const { kakao } = window;
 
@@ -51,54 +50,17 @@ const MapContainer = () => {
   return (
     <>
       {/* <Container> */}
-      <Row className="justify-content-center">
-        <Col xs={12} md={8}>
-          <h5 className="pb-3">
-            주소 : 경기도 성남시 수정구 위례광장로 320 아이에스센트럴타워 608호
-          </h5>
-          <h5 className="pb-3">주차 등록: 1시간 무료 </h5>
-          <h5
-            className="pb-3"
-            style={{
-              color: "#e37114",
-            }}
-          >
-            문의사항은 전화 주시기 바랍니다.
-          </h5>
-        </Col>
-        <Col xs={12} md={6}>
-          <a href="tel:031-757-0504">
-            <Card
-              style={{
-                margin: "auto",
-                marginBottom: " 1rem",
-                left: "0",
-                right: "0",
-                padding: "1rem",
-                paddingTop: "1.5rem",
-                width: "auto",
-                // backgroundColor: "#fcf9e5",
-                borderRadius: "1rem",
-              }}
-            >
-              <h5 className="p-1">
-                📞 성원언어심리센터 (위례점) <br /> 031-757-0504
-              </h5>
-            </Card>
-          </a>
-        </Col>
-      </Row>
-      <Row className="justify-content-center">
-        <div
-          id="myMap-wirye"
-          style={{
-            // tetz2, 간단한 반응형을 위해 max-width 값 부여!
-            width: "60vw",
-            maxWidth: "100vw",
-            height: "40vw",
-          }}
-        ></div>
-      </Row>
+      {/* <Row className="justify-content-center"> */}
+      <div
+        id="myMap-wirye"
+        style={{
+          // tetz2, 간단한 반응형을 위해 max-width 값 부여!
+          width: "70vw",
+          maxWidth: "100vw",
+          height: "40vw",
+        }}
+      ></div>
+      {/* </Row> */}
       {/* </Container> */}
     </>
   );

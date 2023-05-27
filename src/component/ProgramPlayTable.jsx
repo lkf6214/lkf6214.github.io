@@ -1,5 +1,4 @@
 import Table from "react-bootstrap/Table";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -21,7 +20,13 @@ function BasicExample() {
                 <th>측정 내용</th>
               </tr>
             </thead>
-            <tbody style={{ textAlign: "center", verticalAlign: "middle" }}>
+            <tbody
+              style={{
+                textAlign: "center",
+                verticalAlign: "middle",
+                fontSize: "0.9rem",
+              }}
+            >
               {/* 1 */}
               <tr>
                 <td rowspan="3">인지검사</td>

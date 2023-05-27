@@ -1,29 +1,15 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import ButtonBase from "@mui/material/ButtonBase";
-import Typography from "@mui/material/Typography";
 import { Container } from "reactstrap";
-import Button from "./Button";
-import Information from "./Information";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import Paper from "@mui/material/Paper";
-import CardMembershipIcon from "@mui/icons-material/CardMembership";
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 
 export default function HomeProgram() {
-  const navigate = useNavigate();
-
-  const InformationButton = () => {
-    navigate("/information");
-  };
-
   return (
     <>
       <section
@@ -45,11 +31,6 @@ export default function HomeProgram() {
         </h2>
         <h2>바우처 및 서비스</h2>
 
-        {/* <h2>
-          {" "}
-          <CardGiftcardIcon color="primary" /> 바우처 및 서비스{" "}
-          <CardGiftcardIcon color="primary" />{" "}
-        </h2> */}
         <h5
           style={{
             color: "gray",
@@ -191,8 +172,6 @@ export default function HomeProgram() {
             style={{ fontSize: "1.3rem", padding: "1.3rem" }}
           />
         </Stack>
-
-        {/* <Button onClick={InformationButton} /> */}
       </section>
     </>
   );

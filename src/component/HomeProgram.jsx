@@ -137,13 +137,7 @@ export default function HomeProgram() {
           <FilterVintageIcon color="warning" /> 치료 프로그램{" "}
           <FilterVintageIcon color="warning" />
         </h2> */}
-        <h5
-          style={
-            {
-              // color: "#fff",
-            }
-          }
-        >
+        <h5 className="p-1">
           성원의 전문 언어치료/놀이치료/성인상담/인지치료에 대해 알아보세요
         </h5>
         <Box

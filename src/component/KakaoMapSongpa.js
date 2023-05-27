@@ -48,58 +48,60 @@ const MapContainer = () => {
   }, []);
 
   return (
-    <Container>
-      <Row className="justify-content-center">
-        <Col xs={12} md={8}>
-          <h5 className="pb-3">
-            주소: 서울 송파구 올림픽로35길 10 파크리오B상가 505-2호
-          </h5>
-          <h5 className="pb-3">주차 등록: 1시간 무료 </h5>
-          <h5
-            className="pb-3"
-            style={{
-              color: "#e37114",
-            }}
-          >
-            문의사항은 전화 주시기 바랍니다.
-          </h5>
-        </Col>
-
-        <Col xs={12} md={6}>
-          <a href="tel:031-757-0504">
-            <Card
+    <>
+      <Container>
+        <Row className="justify-content-center">
+          <Col xs={12} md={8}>
+            <h5 className="pb-3">
+              주소: 서울 송파구 올림픽로35길 10 파크리오 B상가 505-2호
+            </h5>
+            <h5 className="pb-3">주차 등록: 1시간 무료 </h5>
+            <h5
+              className="pb-3"
               style={{
-                margin: "auto",
-
-                marginBottom: " 1rem",
-                left: "0",
-                right: "0",
-                padding: "1rem",
-                paddingTop: "1.5rem",
-                width: "auto",
-                // backgroundColor: "#fcf9e5",
-                borderRadius: "1rem",
+                color: "#e37114",
               }}
             >
-              <h5 className="p-1">
-                📞 성원언어임상연구소 (송파점) <br /> 02-412-0505
-              </h5>
-            </Card>
-          </a>
-        </Col>
-      </Row>
-      <Row className="justify-content-center">
-        <div
-          id="myMap-sonpa"
-          style={{
-            // tetz2, 간단한 반응형을 위해 max-width 값 부여!
-            width: "60vw",
-            maxWidth: "100vw",
-            height: "40vw",
-          }}
-        ></div>
-      </Row>
-    </Container>
+              문의사항은 전화 주시기 바랍니다.
+            </h5>
+          </Col>
+
+          <Col xs={12} md={6}>
+            <a href="tel:031-757-0504">
+              <Card
+                style={{
+                  margin: "auto",
+
+                  marginBottom: " 1rem",
+                  left: "0",
+                  right: "0",
+                  padding: "1rem",
+                  paddingTop: "1.5rem",
+                  width: "auto",
+                  // backgroundColor: "#fcf9e5",
+                  borderRadius: "1rem",
+                }}
+              >
+                <h5 className="p-1">
+                  📞 성원언어임상연구소 (송파점) <br /> 02-412-0505
+                </h5>
+              </Card>
+            </a>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <div
+            id="myMap-sonpa"
+            style={{
+              // tetz2, 간단한 반응형을 위해 max-width 값 부여!
+              width: "60vw",
+              maxWidth: "100vw",
+              height: "40vw",
+            }}
+          ></div>
+        </Row>
+      </Container>
+    </>
   );
 };
 

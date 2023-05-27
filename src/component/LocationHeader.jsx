@@ -6,10 +6,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import KakaoMapSongpa from "./KakaoMapSongpa";
 import KakaoMapWirye from "./KakaoMapWirye";
-
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-
-import { Container } from "react-bootstrap";
+import MapTest from "./MapTest";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -84,6 +82,7 @@ export default function BasicTabs() {
         {/* <Container> */}
         <TabPanel value={value} index={0}>
           <KakaoMapSongpa />
+          {/* <MapTest /> */}
         </TabPanel>
         <TabPanel value={value} index={1}>
           <KakaoMapWirye />

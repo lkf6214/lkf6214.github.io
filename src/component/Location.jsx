@@ -1,6 +1,4 @@
 import React from "react";
-import FacilitiesImgSongpa from "./FacilitiesImgSongpa";
-import FacilitiesLocation from "./FacilitiesLocation";
 import Card from "react-bootstrap/Card";
 import { Container } from "@mui/system";
 import LocationHeader from "./LocationHeader";
