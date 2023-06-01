@@ -46,11 +46,17 @@ export default function Information() {
             예약 안내
           </Card.Header>
           <Card.Body>
-            <img
+            {/* <img
               className="p-2"
               alt="informationimage"
-              // src="/img/information_007.png"
+              src="/img/information_007.png"
               src={process.env.PUBLIC_URL + "/img/information_007.png"}
+              width={"100%"}
+            /> */}
+            <img
+              className="p-1"
+              alt="information_img"
+              src="/img/information_007.png"
               width={"100%"}
             />
 
