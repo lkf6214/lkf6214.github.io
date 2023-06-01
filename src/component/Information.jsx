@@ -53,41 +53,58 @@ export default function Information() {
               width={"100%"}
             />
 
-            <Container>
-              <Row className="justify-content-md-center">
-                <Col xs={6} md={5}>
-                  <a href="tel:02-412-0505">
-                    <Card
+            {/* <Container> */}
+            <Row className="justify-content-md-center">
+              <Col xs={6} lg={4}>
+                <a href="tel:02-412-0505">
+                  <Card
+                    style={{
+                      height: "100%",
+                      borderRadius: "1rem",
+                      padding: "1rem 0rem",
+                    }}
+                  >
+                    <h5
+                      className="p-2"
                       style={{
-                        height: "80%",
-                        padding: "2rem 0.5rem 3rem 0.5rem",
-                        borderRadius: "1rem",
+                        margin: "auto",
+                        left: "0",
+                        right: "0",
                       }}
                     >
-                      <h5 calssName="p-3">
-                        📞 성원언어상담연구소 (송파점) <br />
-                        02-412-0505
-                      </h5>
-                    </Card>
-                  </a>
-                </Col>
-                <Col xs={6} md={5}>
-                  <a href="tel:031-757-0504">
-                    <Card
+                      <p>📞</p>
+                      성원언어상담연구소 (송파점)
+                      <p>02-412-0505</p>
+                    </h5>
+                  </Card>
+                </a>
+              </Col>
+              <Col xs={6} lg={4}>
+                <a href="tel:031-757-0504">
+                  <Card
+                    style={{
+                      height: "100%",
+                      borderRadius: "1rem",
+                      padding: "1rem 0rem",
+                    }}
+                  >
+                    <h5
+                      className="p-2"
                       style={{
-                        height: "80%",
-                        padding: "2rem 1rem 3rem 1rem",
-                        borderRadius: "1rem",
+                        margin: "auto",
+                        left: "0",
+                        right: "0",
                       }}
                     >
-                      <h5>
-                        📞 성원언어심리센터 (위례점) <br /> 031-757-0504
-                      </h5>
-                    </Card>
-                  </a>
-                </Col>
-              </Row>
-            </Container>
+                      <p>📞</p>
+                      성원언어심리센터 (위례점)
+                      <p> 031-757-0504</p>
+                    </h5>
+                  </Card>
+                </a>
+              </Col>
+            </Row>
+            {/* </Container> */}
             <Card.Text className="p-1">
               <img
                 className="p-3"

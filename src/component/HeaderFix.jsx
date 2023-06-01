@@ -8,19 +8,17 @@ export default function HeaderFix() {
           left: 0,
           right: 0,
           margin: "auto",
-          padding: "1%",
+          // padding: "1%",
           textAlign: "center",
         }}
       >
         <a href="/">
-          {/* <Link to="/"> */}
           <img
             className="logoImage"
             alt="logo"
             src="/img/logo.png"
-            width={"300"}
+            width={"250"}
           />
-          {/* </Link> */}
         </a>
       </div>
     </>
