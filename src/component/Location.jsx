@@ -6,13 +6,16 @@ import LocationHeader from "./LocationHeader";
 export default function Facilities() {
   return (
     <>
+      {/* <Container> */}
+      {/* <div style={{ width: "90vw", backgroundPosition: "center" }}> */}
       <div
         style={{
-          backgroundImage: "url(/img/photo_013.png)",
+          background:
+            "linear-gradient( 45deg,  #fffffd,   rgb(17, 167, 176,0.7), rgb(229, 94, 39, 0.8) )",
           position: "relative",
           display: "table",
           width: "100%",
-          height: "16rem",
+          height: "10rem",
           backgroundPosition: "50% 50%",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -34,8 +37,10 @@ export default function Facilities() {
           오시는 길
         </div>
       </div>
+      {/* </div> */}
+      {/* </Container> */}
 
-      <Container>
+      <Container fluid={true} className="p-0">
         <Card border="light" className="text-center pb-3">
           <Card.Header className="h2" style={{ margin: "2rem 0rem 0rem 0rem" }}>
             오시는 길

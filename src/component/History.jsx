@@ -6,7 +6,7 @@ import Mou from "./Mou";
 export default function History() {
   return (
     <>
-      <Container>
+      <Container fluid={true} className="p-0">
         <Card border="light" className="text-center">
           <Card.Header className="h2">연혁</Card.Header>
           <Card.Body>

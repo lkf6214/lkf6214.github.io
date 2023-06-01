@@ -76,7 +76,7 @@ export default function HomeProgram() {
                 <h6>우리아이 심리지원 서비스</h6>
               </Paper>
               <Paper elevation={3}>
-                <h6>꿈이든 카드</h6>
+                <h6>꿈e든 카드</h6>
               </Paper>
               <Paper elevation={3}>
                 <h6>난독현상 치유 서비스</h6>
@@ -85,11 +85,12 @@ export default function HomeProgram() {
                 <h6>통합가족 상담 서비스</h6>
               </Paper>
 
-              {/* <Paper elevation={3}>
-                <h6>읽기곤란(난독증)</h6>
-              </Paper> */}
               <Paper elevation={3}>
                 <h6>온맘</h6>
+              </Paper>
+
+              <Paper elevation={3}>
+                <h6>서울시 장애인 의사소통 권리 증진</h6>
               </Paper>
             </Box>
           </div>
@@ -114,10 +115,11 @@ export default function HomeProgram() {
                     </b>
                   </h4>
                   <p className="alert alert-warning p-2 ">바우처 / 서비스</p>
-                  <h6 className="pt-3">발달재활 서비스</h6>
+                  <h6 className="pt-0">발달재활 서비스</h6>
                   <h6>굳센 카드</h6>
 
                   <h6>난독현상 치유 서비스</h6>
+                  <h6>서울시 장애인 의사소통 권리 증진</h6>
                   <h6 className="pb-2">온맘</h6>
                 </Card.Text>
               </Card>
@@ -145,8 +147,7 @@ export default function HomeProgram() {
                   <p className="alert alert-warning p-2 ">바우처 / 서비스</p>
                   <h6>발달재활 서비스</h6>
                   <h6>우리아이 심리지원 서비스</h6>
-                  <h6>꿈이든 카드</h6>
-
+                  <h6>꿈e든 카드</h6>
                   <h6>통합가족 상담 서비스</h6>
                   <h6>난독현상 치유 서비스</h6>
                 </Card.Text>

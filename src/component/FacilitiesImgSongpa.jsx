@@ -9,7 +9,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_1.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>입구</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -18,7 +18,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_2.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>송파사랑상품권 가맹점</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -27,7 +27,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_2_1.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>서울아산병원 감사패</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -36,7 +36,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_3.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>Information</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -45,7 +45,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_4.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>대기실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -54,7 +54,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_5.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>복도</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -63,7 +63,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_6.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>복도</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -72,7 +72,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_8.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>언어치료실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -81,7 +81,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_8_1.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>언어치료실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -90,7 +90,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_10.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>놀이치료실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -99,7 +99,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_11.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>놀이치료실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -108,7 +108,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_13.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>놀이치료실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -117,7 +117,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_14_1.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>언어치료실</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -126,7 +126,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_15.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>로고</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -135,7 +135,7 @@ function CarouselFadeExample() {
         <CardMedia component="img" image="/img/송파_16.jpg" alt="송파" />
         <Carousel.Caption>
           <h3>Since 2013</h3>
-          <p>성원언어임상연구소 송파점</p>
+          <p>성원언어상담연구소 송파점</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

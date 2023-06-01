@@ -252,7 +252,7 @@ export default function History() {
                 width={"100%"}
               />
               {/* 평가도구 */}
-              Seongwon speech and psychological therapist clinic since 2013
+              Seongwon Language Psychology Center since 2013
             </Card.Text>
           </Card.Body>
         </Card>

@@ -46,62 +46,41 @@ export default function Information() {
             예약 안내
           </Card.Header>
           <Card.Body>
-            {/* <img
-              className="p-2"
-              alt="informationimage"
-              src="/img/information_007.png"
-              src={process.env.PUBLIC_URL + "/img/information_007.png"}
-              width={"100%"}
-            /> */}
             <img
-              className="p-1"
+              className="p-1 pb-4"
               alt="information_img"
-              src="/img/information_007.png"
+              src="./img/logo1.png"
               width={"100%"}
             />
 
             <Container>
               <Row className="justify-content-md-center">
-                <Col xs={6} md={4}>
+                <Col xs={6} md={5}>
                   <a href="tel:02-412-0505">
                     <Card
                       style={{
-                        margin: "auto",
-                        marginTop: " 1rem",
-                        marginBottom: " 1rem",
-                        left: "0",
-                        right: "0",
-                        padding: "1rem",
-                        paddingTop: "1.5rem",
-                        width: "auto",
-                        // backgroundColor: "#ece5fc",
+                        height: "80%",
+                        padding: "2rem 0.5rem 3rem 0.5rem",
                         borderRadius: "1rem",
                       }}
                     >
                       <h5 calssName="p-3">
-                        📞 성원언어임상연구소 (송파점) <br />
+                        📞 성원언어상담연구소 (송파점) <br />
                         02-412-0505
                       </h5>
                     </Card>
                   </a>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={5}>
                   <a href="tel:031-757-0504">
                     <Card
                       style={{
-                        margin: "auto",
-                        marginTop: " 1rem",
-                        marginBottom: " 1rem",
-                        left: "0",
-                        right: "0",
-                        padding: "1rem",
-                        paddingTop: "1.5rem",
-                        width: "auto",
-                        // backgroundColor: "#fcf9e5",
+                        height: "80%",
+                        padding: "2rem 1rem 3rem 1rem",
                         borderRadius: "1rem",
                       }}
                     >
-                      <h5 calssName="p-3">
+                      <h5>
                         📞 성원언어심리센터 (위례점) <br /> 031-757-0504
                       </h5>
                     </Card>

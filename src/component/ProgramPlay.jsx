@@ -20,7 +20,7 @@ export default function History() {
                 <Col xs={12} lg={6}>
                   <img
                     alt="ProgramImage"
-                    src="/img/놀이치료.png"
+                    src="/img/놀이치료.jpg"
                     width={"100%"}
                   />
                 </Col>
@@ -63,24 +63,22 @@ export default function History() {
                   </Card.Title>
 
                   <Row className="justify-content-lg-center">
-                    <Col lg className="p-3">
+                    {/* <Col lg className="p-3">
                       <img
                         className=""
                         alt="ProgramImage"
                         src="/image/029.jpg"
                         width={"100%"}
                       />
-                    </Col>
+                    </Col> */}
 
                     <Col
-                      lg
-                      className="p-3"
-                      style={{ display: "table-cell", verticalAlign: "middle" }}
+                      xs={12}
+                      lg={8}
+                      className="pt-1 p-3"
+                      // style={{ display: "table-cell", verticalAlign: "middle" }}
+                      style={{ display: "flex", justifyContent: "center" }}
                     >
-                      {/* <Card.Text
-                        className="p-3"
-                        style={{ lineHeight: "2rem", textAlign: "left" }}
-                      > */}
                       <Card.Title
                         className="p-2"
                         style={{
@@ -845,7 +843,7 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              Seongwon speech and psychological therapist clinic since 2013
+              Seongwon Language Psychology Center since 2013
             </Card.Text>
           </Card.Body>
         </Card>

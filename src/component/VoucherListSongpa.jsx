@@ -14,7 +14,7 @@ export default function SimplePaper() {
     <>
       <div style={{ padding: "1rem 0rem" }}>
         <h4>
-          성원언어임상연구소는 바우처 카드 이용 가능한 전문 언어치료 / 심리치료
+          성원언어상담연구소는 바우처 카드 이용 가능한 전문 언어치료 / 심리치료
           기관🌻
         </h4>
         <h4 className="p-3">☎ 바우처 및 서비스 문의는 전화 상담</h4>
@@ -33,7 +33,7 @@ export default function SimplePaper() {
               borderRadius: "1rem",
             }}
           >
-            <h5 className="p-1">📞 성원언어임상연구소 (송파점) 02-412-0505</h5>
+            <h5 className="p-1">📞 성원언어상담연구소 (송파점) 02-412-0505</h5>
           </Col>
         </a>
       </div>

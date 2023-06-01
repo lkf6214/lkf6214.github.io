@@ -63,19 +63,19 @@ export default function History() {
                   </Card.Title>
 
                   <Row className="justify-content-lg-center">
-                    <Col lg className="p-3">
+                    {/* <Col lg className="p-3">
                       <img
                         className=""
                         alt="ProgramImage"
                         src="/image/037.jpg"
                         width={"100%"}
                       />
-                    </Col>
+                    </Col> */}
 
                     <Col
-                      lg
-                      className="p-3"
-                      style={{ display: "table-cell", verticalAlign: "middle" }}
+                      className="pt-1 p-3"
+                      // style={{ display: "table-cell", verticalAlign: "middle" }}
+                      style={{ display: "flex", justifyContent: "center" }}
                     >
                       {/* <Card.Text
                         className="p-3"
@@ -214,14 +214,14 @@ export default function History() {
                     <h6>언어 발달 촉진을 위한 부모교육</h6>
                   </Box>
                   <Row className="justify-content-lg-center">
-                    <Col xs={12} lg={6}>
+                    {/* <Col xs={12} lg={6}>
                       <img
                         className="pt-3"
                         alt="ProgramImage"
                         src="/image/038.jpg"
                         width={"100%"}
                       />
-                    </Col>
+                    </Col> */}
 
                     <Col lg className="p-3">
                       <Card>
@@ -247,14 +247,14 @@ export default function History() {
                         </ListGroup>
                       </Card>
                     </Col>
-                    <Col xs={12} lg={6}>
+                    {/* <Col xs={12} lg={6}>
                       <img
                         className="pt-3"
                         alt="ProgramImage"
                         src="/image/036.jpg"
                         width={"100%"}
                       />
-                    </Col>
+                    </Col> */}
                     <Col lg className="p-3">
                       <Card>
                         <Card.Header
@@ -456,7 +456,7 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              Seongwon speech and psychological therapist clinic since 2013
+              Seongwon Language Psychology Center since 2013
             </Card.Text>
           </Card.Body>
         </Card>

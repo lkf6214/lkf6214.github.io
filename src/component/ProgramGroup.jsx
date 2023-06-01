@@ -138,17 +138,17 @@ export default function History() {
                   </Box>
 
                   <Row className="justify-content-lg-center">
-                    <Col xs={12} lg={6}>
+                    {/* <Col xs={12} lg={6}>
                       <img
                         className="pt-3"
                         alt="ProgramImage"
                         src="/image/013.jpg"
                         width={"100%"}
                       />
-                    </Col>
+                    </Col> */}
 
-                    <Col xs={12} lg={6} className="p-3">
-                      <Card>
+                    <Col xs={12} lg={6} className="p-3 ">
+                      <Card style={{ height: "100%" }}>
                         <Card.Header
                           className="h5"
                           style={{
@@ -159,7 +159,10 @@ export default function History() {
                           취학 전 아동 언어 그룹
                         </Card.Header>
                         <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item
+                            className="p-3"
+                            style={{ lineHeight: "2.1rem" }}
+                          >
                             일반 교육 환경에 통합하여 잘 적응할 수 있도록
                             준비하는 과정으로 실제 교육 환경에서 활용할 수 있는
                             실질적이고 구체적인 기술을 배우고, 이를 바탕으로
@@ -168,42 +171,28 @@ export default function History() {
                             향상시키기 위한 프로그램입니다.
                           </ListGroup.Item>
 
-                          <ListGroup.Item
-                            style={{
-                              // textAlign: "left",
-                              marginLeft: "0.5rem",
-                              paddingTop: "1.5rem",
-                            }}
-                          >
-                            <p>
-                              - 자기 관리 기술, 의사소통 기술, 문제 해결 능력,
-                              사회성 향상
-                            </p>
+                          <ListGroup.Item>
+                            자기 관리 기술, 의사소통 기술, 문제 해결 능력,
+                            사회성 향상
                           </ListGroup.Item>
                           <ListGroup.Item style={{ lineHeight: "2rem" }}>
                             대상자: 문장으로 의사 표현이 가능한 취학 전 아동들을
                             대상으로 2-4명의 짝그룹이나 소그룹 형태로
                             구성됩니다.
                           </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item
+                            style={{
+                              lineHeight: "2rem",
+                            }}
+                          >
                             소요시간: 50분
                           </ListGroup.Item>
                         </ListGroup>
                       </Card>
                     </Col>
-                  </Row>
-                  <Row className="justify-content-lg-center">
-                    <Col xs={12} lg={6}>
-                      <img
-                        className="pt-3"
-                        alt="ProgramImage"
-                        src="/image/025.jpg"
-                        width={"100%"}
-                      />
-                    </Col>
 
-                    <Col xs={12} lg={6} className="p-3">
-                      <Card>
+                    <Col xs={12} lg={6} className="p-3 ">
+                      <Card style={{ height: "100%" }}>
                         <Card.Header
                           className="h5"
                           style={{
@@ -224,21 +213,19 @@ export default function History() {
                             대인기술) 습득에 도움을 주기위한 프로그램입니다.
                           </ListGroup.Item>
 
-                          <ListGroup.Item
-                            style={{
-                              paddingTop: "1rem",
-                              paddingBottom: "0rem",
-                              lineHeight: "1.3rem",
-                            }}
-                          >
-                            <p>- 규칙이해, 사회 기술(대화와 대인기술) 등</p>
+                          <ListGroup.Item>
+                            - 규칙이해, 사회 기술(대화와 대인기술) 등
                           </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item style={{ lineHeight: "1.9rem" }}>
                             대상자: 현재 학교 생활을 하고 있는 초등 저학년을
                             대상으로 2-4명의 짝그룹이나 소그룹 형태로
                             구성됩니다.
                           </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item
+                            style={{
+                              lineHeight: "2rem",
+                            }}
+                          >
                             소요시간: 50분
                           </ListGroup.Item>
                         </ListGroup>
@@ -498,7 +485,7 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              Seongwon speech and psychological therapist clinic since 2013
+              Seongwon Language Psychology Center since 2013
             </Card.Text>
           </Card.Body>
         </Card>

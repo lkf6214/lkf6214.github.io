@@ -61,24 +61,21 @@ export default function History() {
                   </Card.Title>
 
                   <Row className="justify-content-lg-center">
-                    <Col lg className="p-3">
+                    {/* <Col lg className="p-3">
                       <img
                         className=""
                         alt="ProgramImage"
                         src="/image/026.jpg"
                         width={"100%"}
                       />
-                    </Col>
+                    </Col> */}
 
                     <Col
-                      lg
-                      className="p-3"
-                      style={{ display: "table-cell", verticalAlign: "middle" }}
+                      // xl={7}
+                      className="pt-1 p-3"
+                      // style={{ display: "table-cell", verticalAlign: "middle" }}
+                      style={{ display: "flex", justifyContent: "center" }}
                     >
-                      {/* <Card.Text
-                        className="p-3"
-                        style={{ lineHeight: "2rem", textAlign: "left" }}
-                      > */}
                       <Card.Title
                         className="p-2"
                         style={{
@@ -608,7 +605,11 @@ export default function History() {
                   </Box>
                   <Row className="justify-content-lg-center">
                     <Col lg className="p-3">
-                      <Card>
+                      <Card
+                        style={{
+                          height: "100%",
+                        }}
+                      >
                         <Card.Header
                           className="h5"
                           style={{
@@ -618,12 +619,19 @@ export default function History() {
                         >
                           수업참여
                         </Card.Header>
-                        <ListGroup variant="flush">
+                        <ListGroup
+                          variant="flush"
+                          style={{
+                            // margin: "auto",
+                            // left: "0",
+                            // right: "0",
+                            textAlign: "left",
+                          }}
+                        >
                           <ListGroup.Item
                             style={{
                               lineHeight: "2rem",
                               marginLeft: "1.8rem",
-                              textAlign: "left",
                             }}
                           >
                             <li>착석 유지</li>
@@ -637,7 +645,11 @@ export default function History() {
                     </Col>
 
                     <Col lg className="p-3">
-                      <Card>
+                      <Card
+                        style={{
+                          height: "100%",
+                        }}
+                      >
                         <Card.Header
                           className="h5"
                           style={{
@@ -647,13 +659,19 @@ export default function History() {
                         >
                           학교적응
                         </Card.Header>
-                        <ListGroup variant="flush">
+                        <ListGroup
+                          variant="flush"
+                          style={{
+                            // margin: "auto",
+                            // left: "0",
+                            // right: "0",
+                            textAlign: "left",
+                          }}
+                        >
                           <ListGroup.Item
                             style={{
                               lineHeight: "2rem",
                               marginLeft: "1.8rem",
-                              textAlign: "left",
-                              wordBreak: "break-all",
                             }}
                           >
                             <li>칠판 보기</li>
@@ -666,7 +684,11 @@ export default function History() {
                     </Col>
 
                     <Col lg className="p-3">
-                      <Card>
+                      <Card
+                        style={{
+                          height: "100%",
+                        }}
+                      >
                         <Card.Header
                           className="h5"
                           style={{
@@ -676,12 +698,19 @@ export default function History() {
                         >
                           자기관리
                         </Card.Header>
-                        <ListGroup variant="flush">
+                        <ListGroup
+                          variant="flush"
+                          style={{
+                            // margin: "auto",
+                            // left: "0",
+                            // right: "0",
+                            textAlign: "left",
+                          }}
+                        >
                           <ListGroup.Item
                             style={{
                               lineHeight: "2rem",
                               marginLeft: "1.8rem",
-                              textAlign: "left",
                             }}
                           >
                             <li>물건 챙기기</li>
@@ -693,7 +722,11 @@ export default function History() {
                     </Col>
 
                     <Col lg className="p-3">
-                      <Card>
+                      <Card
+                        style={{
+                          height: "100%",
+                        }}
+                      >
                         <Card.Header
                           className="h5"
                           style={{
@@ -703,9 +736,18 @@ export default function History() {
                         >
                           사회성
                         </Card.Header>
-                        <ListGroup variant="flush">
+                        <ListGroup
+                          variant="flush"
+                          style={{
+                            // margin: "auto",
+                            // left: "0",
+                            // right: "0",
+                            textAlign: "left",
+                          }}
+                        >
                           <ListGroup.Item
                             style={{
+                              padding: "0.5rem 1.2rem",
                               lineHeight: "2rem",
                               marginLeft: "1.8rem",
                               textAlign: "left",
@@ -725,7 +767,7 @@ export default function History() {
                 src="/img/line_002.png"
                 width={"100%"}
               />
-              Seongwon speech and psychological therapist clinic since 2013
+              Seongwon Language Psychology Center since 2013
             </Card.Text>
           </Card.Body>
         </Card>

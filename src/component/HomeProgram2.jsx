@@ -83,18 +83,18 @@ export default function HomeProgram() {
               <a href="tel:02-412-0505">
                 <Card
                   style={{
+                    height: "80%",
                     margin: "auto",
                     marginTop: " 1rem",
                     marginBottom: " 1rem",
-                    padding: "1rem",
+                    padding: "1rem 0rem",
                     paddingTop: "1.5rem",
-                    // backgroundColor: "#ece5fc",
                     borderRadius: "1rem",
                   }}
                 >
                   <h5 className="p-3">
-                    <div style={{ paddingBottom: "0.5rem" }}>📞 </div>
-                    성원언어임상연구소 (송파점) <br /> 02-412-0505
+                    <div style={{ paddingBottom: "0.5rem" }}>📞</div>
+                    성원언어상담연구소 (송파점) <br /> 02-412-0505
                   </h5>
                 </Card>
               </a>
@@ -103,15 +103,12 @@ export default function HomeProgram() {
               <a href="tel:031-757-0504">
                 <Card
                   style={{
+                    height: "80%",
                     margin: "auto",
                     marginTop: " 1rem",
                     marginBottom: " 1rem",
-                    // left: "0",
-                    // right: "0",
-                    padding: "1rem",
+                    padding: "1rem 0rem",
                     paddingTop: "1.5rem",
-
-                    // backgroundColor: "#fcf9e5",
                     borderRadius: "1rem",
                   }}
                 >

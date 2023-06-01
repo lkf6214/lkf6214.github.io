@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -7,7 +7,10 @@ import Card from "react-bootstrap/Card";
 const { kakao } = window;
 
 const MapContainer = () => {
+  const [mobile, setMobile] = useState(false);
+
   useEffect(() => {
+    setMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
     const container = document.getElementById("myMap-sonpa");
     const options = {
       center: new kakao.maps.LatLng(37.5202, 127.113174),
@@ -32,7 +35,7 @@ const MapContainer = () => {
     // 길찾기의 경우는 주소에서 to/ 뒤 부분에 원하는 글 쓰시고, 위도 경도 정보 넘기시면 됩니다!
 
     let iwContent =
-      '<div style="padding:1rem;">  성원언어임상연구소 <br><a href="https://map.kakao.com/link/to/성원언어심리센터(송파점),37.520200, 127.113174" style="color:blue" target="_blank">길찾기</a></div>';
+      '<div style="padding:1rem;">  성원언어상담연구소 <br><a href="https://map.kakao.com/link/to/성원언어심리센터(송파점),37.520200, 127.113174" style="color:blue" target="_blank">길찾기</a></div>';
 
     let iwPosition = new kakao.maps.LatLng(
       37.472584894923585,
@@ -49,7 +52,7 @@ const MapContainer = () => {
 
   return (
     <>
-      <Container>
+      <Container fluid={true} className="p-0">
         <Row className="justify-content-center">
           <Col xs={12} md={8}>
             <h5 className="pb-3">
@@ -83,20 +86,20 @@ const MapContainer = () => {
                 }}
               >
                 <h5 className="p-1">
-                  📞 성원언어임상연구소 (송파점) <br /> 02-412-0505
+                  📞 성원언어상담연구소 (송파점) <br /> 02-412-0505
                 </h5>
               </Card>
             </a>
           </Col>
         </Row>
-        <Row className="justify-content-center">
+        <Row className="p-0">
           <div
             id="myMap-sonpa"
             style={{
               // tetz2, 간단한 반응형을 위해 max-width 값 부여!
-              width: "60vw",
+              width: mobile ? "100%" : "60vw",
               maxWidth: "100vw",
-              height: "40vw",
+              height: mobile ? "60vw" : "40vw",
             }}
           ></div>
         </Row>
