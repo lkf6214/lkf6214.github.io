@@ -12,7 +12,7 @@ import "../css/VoucherListSongpa.css";
 export default function SimplePaper() {
   return (
     <>
-      <div style={{ padding: "1rem 0rem" }}>
+      <div style={{ padding: "1rem 1rem" }}>
         <h4>
           성원언어상담연구소는 바우처 카드 이용 가능한 전문 언어치료 / 심리치료
           기관🌻
@@ -21,7 +21,7 @@ export default function SimplePaper() {
 
         <a href="tel:02-412-0505">
           <Col
-            // lg={10}
+            xs={12}
             style={{
               margin: "auto",
               left: "0",
@@ -33,7 +33,9 @@ export default function SimplePaper() {
               borderRadius: "1rem",
             }}
           >
-            <h5 className="p-1">📞 성원언어상담연구소 (송파점) 02-412-0505</h5>
+            <h5 className="p-1">
+              📞 성원언어상담연구소 (송파점) <br /> 02-412-0505
+            </h5>
           </Col>
         </a>
       </div>

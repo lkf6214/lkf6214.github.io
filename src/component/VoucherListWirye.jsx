@@ -21,6 +21,7 @@ export default function SimplePaper() {
 
         <a href="tel:02-412-0505">
           <Col
+            xs={12}
             style={{
               margin: "auto",
               left: "0",
@@ -32,7 +33,9 @@ export default function SimplePaper() {
               borderRadius: "1rem",
             }}
           >
-            <h5 className="p-1"> 📞 성원언어심리센터 (위례점) 031-757-0504</h5>
+            <h5 className="p-1">
+              📞 성원언어심리센터 (위례점) <br /> 031-757-0504
+            </h5>
           </Col>
         </a>
       </div>
