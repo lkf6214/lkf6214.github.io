@@ -17,7 +17,7 @@ export default function Information() {
           position: "relative",
           display: "table",
           width: "100%",
-          height: "16rem",
+          height: "10rem",
           backgroundPosition: "50% 50%",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
