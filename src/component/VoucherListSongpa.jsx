@@ -170,7 +170,7 @@ export default function SimplePaper() {
 
         <Row className="justify-content-center">
           <Col xs={11} md={5} lg={4} className="pt-3">
-            <Card>
+            <Card style={{ height: "100%" }}>
               <Card.Img
                 variant="top"
                 src="/img/mou_logo_3.gif"
@@ -185,7 +185,7 @@ export default function SimplePaper() {
           </Col>
 
           <Col xs={11} md={5} lg={4} className="pt-3">
-            <Card>
+            <Card style={{ height: "100%" }}>
               <Card.Img
                 variant="top"
                 src="/img/mou_logo_5.png"
@@ -210,14 +210,14 @@ export default function SimplePaper() {
               <Card.Body>
                 <Card.Title>서울특별시 강동 송파 교육지원청</Card.Title>
                 <Card.Text class="text-muted">
-                  [ 온맘 ] 부모학습 코칭 프로그램 치유 기관
+                  맞춤형 학부모 학습상담 「온맘(溫마음)」
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
 
           <Col xs={11} md={5} lg={4} className="pt-3">
-            <Card>
+            <Card style={{ height: "100%" }}>
               <Card.Img
                 variant="top"
                 src="/img/mou_logo_9.png"
@@ -226,7 +226,9 @@ export default function SimplePaper() {
 
               <Card.Body>
                 <Card.Title>서울시장애인의사소통권리증진센터</Card.Title>
-                <Card.Text class="text-muted">협력업체</Card.Text>
+                <Card.Text class="text-muted">
+                  장애인 의사소통 지원 서비스
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -241,7 +243,7 @@ export default function SimplePaper() {
 
               <Card.Body>
                 <Card.Title>서울대학교병원 행동발달증진센터</Card.Title>
-                <Card.Text class="text-muted">지역언어협력센터 지정</Card.Text>
+                <Card.Text class="text-muted">지역언어협력센터</Card.Text>
               </Card.Body>
             </Card>
           </Col>

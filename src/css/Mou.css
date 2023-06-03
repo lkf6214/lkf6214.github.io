@@ -1,21 +1,13 @@
-.ImageListItemBar-tittle {
-  background-color: black !important;
-  font-size: "0.1rem" !important;
-  color: black !important;
-  /* will-change:transform;animation: marquee 60s linear infinite; }
-  @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
-  }
-  @media (hover: hover) and (min-width: 700px){
-  .animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
-      } */
+.mou_container {
+  width: 31%;
+  border: 2px solid rgb(17, 167, 176, 0.7);
+  padding: 0rem;
+  margin: 0.1rem;
 }
 
-.MuiImageListItemBar-title {
-  font-size: "0.5rem" !important;
-}
-
-.css-hk6gwf-MuiImageListItemBar-subtitle {
-  font-size: "0.2rem";
+.mou_underbox {
+  background-color: rgb(17, 167, 176, 0.6);
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
 }

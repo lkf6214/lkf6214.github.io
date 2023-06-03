@@ -13,7 +13,6 @@ const images = [
     url: "/img/photo_003.png",
     title: "언어치료",
     width: "30%",
-
     href: "program/language",
   },
   {
@@ -37,7 +36,7 @@ const images = [
 
   {
     url: "/img/2.jpg",
-    title: "사회성 그룹치료",
+    title: "그룹치료",
     width: "30%",
     href: "program/group",
   },

@@ -24,7 +24,7 @@ function BasicExample() {
     { name: "인지치료", value: "2", link: "cognitive" },
     { name: "놀이치료", value: "3", link: "play" },
     { name: "성인상담", value: "4", link: "counseling" },
-    { name: "사회성 그룹치료", value: "5", link: "group" },
+    { name: "그룹치료", value: "5", link: "group" },
     { name: "부모교육", value: "6", link: "family" },
   ];
 

@@ -213,7 +213,7 @@ export default function SimplePaper() {
         <Row className="justify-content-center">
           {/* 1 */}
           <Col xs={11} md={5} lg={4} className="pt-3">
-            <Card>
+            <Card style={{ height: "100%" }}>
               <Card.Img
                 variant="top"
                 src="/img/mou_logo_4.png"

@@ -60,8 +60,6 @@ export default function BasicTabs() {
           "& > :not(style)": {
             // m: 1,
             textAlign: "center",
-            // width: "auto",
-            // height: "auto",
           },
         }}
       >

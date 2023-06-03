@@ -95,66 +95,123 @@ export default function HomeProgram() {
               </Paper>
             </Box>
           </div>
+
           <Row className="justify-content-center">
             <Col xs={6} lg={3}>
               <Card
                 style={{
-                  height: "100%",
+                  height: "22rem",
+                  padding: "0.5rem",
                 }}
               >
-                <Card.Text className="p-2">
-                  <h4
-                    className="p-3"
-                    style={{ color: "#CB661C", fontWeight: "bold" }}
-                  >
-                    송파점
-                  </h4>
+                {/* <Card.Text className="p-2"> */}
+                <div
+                  style={{
+                    color: "#CB661C",
+                    fontWeight: "bold",
+                    fontSize: "1.5rem",
 
-                  <div className="alert alert-warning p-3 ">
-                    바우처 / 서비스
-                  </div>
-                  <div
-                    className="p-1"
-                    style={{ border: "0px solid red", lineHeight: "2rem" }}
-                  >
-                    <div>발달재활 서비스</div>
-                    <div>굳센 카드</div>
-                    <div>난독현상 치유 서비스</div>
-                    <div>온맘 : 맞춤형 학부모 상담</div>
-                    <h6>권리증진센터 : 장애인 의사소통 지원 서비스</h6>
-                  </div>
-                </Card.Text>
+                    height: "20%",
+                    // border: "1px solid red",
+
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                  }}
+                >
+                  송파점
+                </div>
+                <div
+                  style={{
+                    height: "15%",
+                    // border: "1px solid red",
+                    borderRadius: "0.5rem",
+
+                    backgroundColor: "#FFF3CD",
+
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                  }}
+                >
+                  바우처 / 서비스
+                </div>
+
+                <div
+                  style={{
+                    height: "65%",
+                    // border: "1px solid red",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    padding: "1rem 0.5rem",
+                  }}
+                >
+                  <div>발달재활 서비스</div>
+                  <div>굳센 카드</div>
+                  <div>난독현상 치유 서비스</div>
+                  <div>온맘 : 맞춤형 학부모 상담</div>
+                  <div>권리증진센터 : 장애인 의사소통 지원 서비스</div>
+                </div>
               </Card>
             </Col>
 
             <Col xs={6} lg={3}>
               <Card
                 style={{
-                  height: "100%",
+                  height: "22rem",
+                  padding: "0.5rem",
                 }}
               >
-                <Card.Text className="p-2">
-                  <h4
-                    className="p-3"
-                    style={{ color: "#CB661C", fontWeight: "bold" }}
-                  >
-                    위례점
-                  </h4>
+                {/* <Card.Text className="p-2"> */}
+                <div
+                  style={{
+                    color: "#CB661C",
+                    fontWeight: "bold",
+                    fontSize: "1.5rem",
 
-                  <div className="alert alert-warning p-3 ">
-                    바우처 / 서비스
-                  </div>
-                  <div
-                    className="p-2"
-                    style={{ border: "0px solid red", lineHeight: "2rem" }}
-                  >
-                    <div>발달재활 서비스</div>
-                    <div>우리아이 심리지원 서비스</div>
-                    <div>꿈e든 카드</div>
-                    <div>통합가족 상담 서비스</div>
-                    <div>난독현상 치유 서비스</div>
-                  </div>
-                </Card.Text>
+                    height: "20%",
+                    // border: "1px solid red",
+
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                  }}
+                >
+                  송파점
+                </div>
+                <div
+                  style={{
+                    height: "15%",
+                    // border: "1px solid red",
+                    borderRadius: "0.5rem",
+
+                    backgroundColor: "#FFF3CD",
+
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                  }}
+                >
+                  바우처 / 서비스
+                </div>
+
+                <div
+                  style={{
+                    height: "65%",
+                    // border: "1px solid red",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    padding: "1rem 0.5rem",
+                  }}
+                >
+                  <div>발달재활 서비스</div>
+                  <div>우리아이 심리지원 서비스</div>
+                  <div>꿈e든 카드</div>
+                  <div>통합가족 상담 서비스</div>
+                  <div>난독현상 치유 서비스</div>
+                </div>
               </Card>
             </Col>
           </Row>

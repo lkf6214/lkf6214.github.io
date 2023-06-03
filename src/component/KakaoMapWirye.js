@@ -98,8 +98,8 @@ const MapContainer = () => {
             id="myMap-sonpa"
             style={{
               // tetz2, 간단한 반응형을 위해 max-width 값 부여!
-              width: "110%",
-              maxWidth: "110%",
+              width: "100%",
+              maxWidth: "100%",
               height: mobile ? "70vw" : "40vw",
             }}
           ></div>
