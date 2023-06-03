@@ -8,6 +8,7 @@ import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import Paper from "@mui/material/Paper";
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
+import { fontWeight } from "@mui/system";
 
 export default function HomeProgram() {
   return (
@@ -86,11 +87,11 @@ export default function HomeProgram() {
               </Paper>
 
               <Paper elevation={3}>
-                <h6>온맘</h6>
+                <h6>온맘 : 맞춤형 학부모 상담</h6>
               </Paper>
 
               <Paper elevation={3}>
-                <h6>서울시 장애인 의사소통 권리 증진</h6>
+                <h6>권리증진센터 : 장애인 의사소통 지원 서비스</h6>
               </Paper>
             </Box>
           </div>
@@ -98,58 +99,61 @@ export default function HomeProgram() {
             <Col xs={6} lg={3}>
               <Card
                 style={{
-                  marginTop: "1rem",
-                  height: "90%",
-                  // backgroundColor: "rgb(19, 80, 212, 0.1)",
+                  height: "100%",
                 }}
               >
-                <Card.Text
-                  className="p-3"
-                  style={{
-                    lineHeight: "2rem",
-                  }}
-                >
-                  <h4 style={{ padding: "1rem" }}>
-                    <b>
-                      <span style={{ color: "#CB661C" }}>송파점</span>
-                    </b>
+                <Card.Text className="p-2">
+                  <h4
+                    className="p-3"
+                    style={{ color: "#CB661C", fontWeight: "bold" }}
+                  >
+                    송파점
                   </h4>
-                  <p className="alert alert-warning p-2 ">바우처 / 서비스</p>
-                  <h6 className="pt-0">발달재활 서비스</h6>
-                  <h6>굳센 카드</h6>
 
-                  <h6>난독현상 치유 서비스</h6>
-                  <h6>서울시 장애인 의사소통 권리 증진</h6>
-                  <h6 className="pb-2">온맘</h6>
+                  <div className="alert alert-warning p-3 ">
+                    바우처 / 서비스
+                  </div>
+                  <div
+                    className="p-1"
+                    style={{ border: "0px solid red", lineHeight: "2rem" }}
+                  >
+                    <div>발달재활 서비스</div>
+                    <div>굳센 카드</div>
+                    <div>난독현상 치유 서비스</div>
+                    <div>온맘 : 맞춤형 학부모 상담</div>
+                    <h6>권리증진센터 : 장애인 의사소통 지원 서비스</h6>
+                  </div>
                 </Card.Text>
               </Card>
             </Col>
+
             <Col xs={6} lg={3}>
               <Card
                 style={{
-                  marginTop: "1rem",
-                  marginBottom: "1rem",
-                  height: "90%",
-                  // backgroundColor: "rgb(19, 80, 212, 0.1)",
+                  height: "100%",
                 }}
               >
-                <Card.Text
-                  className="p-3"
-                  style={{
-                    lineHeight: "2rem",
-                  }}
-                >
-                  <h4 style={{ padding: "1rem" }}>
-                    <b>
-                      <span style={{ color: "#CB661C" }}>위례점</span>
-                    </b>
+                <Card.Text className="p-2">
+                  <h4
+                    className="p-3"
+                    style={{ color: "#CB661C", fontWeight: "bold" }}
+                  >
+                    위례점
                   </h4>
-                  <p className="alert alert-warning p-2 ">바우처 / 서비스</p>
-                  <h6>발달재활 서비스</h6>
-                  <h6>우리아이 심리지원 서비스</h6>
-                  <h6>꿈e든 카드</h6>
-                  <h6>통합가족 상담 서비스</h6>
-                  <h6>난독현상 치유 서비스</h6>
+
+                  <div className="alert alert-warning p-3 ">
+                    바우처 / 서비스
+                  </div>
+                  <div
+                    className="p-2"
+                    style={{ border: "0px solid red", lineHeight: "2rem" }}
+                  >
+                    <div>발달재활 서비스</div>
+                    <div>우리아이 심리지원 서비스</div>
+                    <div>꿈e든 카드</div>
+                    <div>통합가족 상담 서비스</div>
+                    <div>난독현상 치유 서비스</div>
+                  </div>
                 </Card.Text>
               </Card>
             </Col>

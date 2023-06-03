@@ -24,7 +24,7 @@ function BasicExample() {
     { name: "인지치료", value: "2", link: "cognitive" },
     { name: "놀이치료", value: "3", link: "play" },
     { name: "성인상담", value: "4", link: "counseling" },
-    { name: "그룹치료", value: "5", link: "group" },
+    { name: "사회성 그룹치료", value: "5", link: "group" },
     { name: "부모교육", value: "6", link: "family" },
   ];
 
@@ -48,6 +48,8 @@ function BasicExample() {
                 border: "1px solid #9c9c9c",
                 backgroundColor: "white",
                 color: "black",
+                // width: "30%",
+                // height: "auto",
               }}
               // tetz2, 현재 페이지의 주소 값에 따라서 active 클래스를 부여 하여 active 클래스가 있을 경우 배경색이 유지되도록 수정
               className={

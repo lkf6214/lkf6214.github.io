@@ -89,7 +89,7 @@ export default function SimplePaper() {
           </Paper>
         </Box>
       </div>
-      <Container>
+      <Container fluid={true}>
         <h4 calssName="p-3" style={{ paddingTop: "2rem" }}>
           🔽 바우처 자세히 보기
         </h4>

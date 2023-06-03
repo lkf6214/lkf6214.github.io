@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Voucher from "./component/Voucher";
 import HeaderFix from "./component/HeaderFix";
 import Footer from "./component/Footer";

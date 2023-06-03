@@ -10,6 +10,8 @@ import FacilitiesImgSongpa from "./FacilitiesImgSongpa";
 import FacilitiesImgWirye from "./FacilitiesImgWirye";
 import FacilitiesImgSongpa1 from "./FacilitiesImgSongpa1";
 import FacilitiesImgWirye1 from "./FacilitiesImgWirye1";
+// import { Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -94,7 +96,26 @@ export default function BasicTabs() {
                 2시, 일/공휴일 휴무
               </p>
               <p>💁 상담 문의: 오후 12시 ~ 6시 30분</p>
-              <p>📞 전화: 02-412-0505</p>
+              <a href="tel:02-412-0505">
+                <Col
+                  xs={12}
+                  md={5}
+                  style={{
+                    margin: "auto",
+                    left: "0",
+                    right: "0",
+                    padding: "1rem",
+                    paddingTop: "1.5rem",
+
+                    backgroundColor: "#fcf9e5",
+                    borderRadius: "1rem",
+                  }}
+                >
+                  <h5 className="p-1">
+                    📞 성원언어상담연구소 (송파점) <br /> 02-412-0505
+                  </h5>
+                </Col>
+              </a>
             </Card.Title>
 
             <FacilitiesImgSongpa />
@@ -110,7 +131,26 @@ export default function BasicTabs() {
               </p>
               <p>🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 주일/공휴일 휴무</p>
               <p>💁 상담 문의: 오후 1시 ~ 6시</p>
-              <p>📞 전화: 031-757-0504</p>
+              <a href="tel:02-412-0505">
+                <Col
+                  xs={12}
+                  md={5}
+                  style={{
+                    margin: "auto",
+                    left: "0",
+                    right: "0",
+                    padding: "1rem",
+                    paddingTop: "1.5rem",
+
+                    backgroundColor: "#fcf9e5",
+                    borderRadius: "1rem",
+                  }}
+                >
+                  <h5 className="p-1">
+                    📞 성원언어심리센터 (위례점) <br /> 031-757-0504
+                  </h5>
+                </Col>
+              </a>
             </Card.Title>
             <FacilitiesImgWirye />
             <FacilitiesImgWirye1 />

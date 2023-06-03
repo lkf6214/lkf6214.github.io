@@ -58,7 +58,7 @@ export default function BasicTabs() {
           // flexWrap: "wrap",
           // justifyContent: "center",
           "& > :not(style)": {
-            m: 1,
+            // m: 1,
             textAlign: "center",
             // width: "auto",
             // height: "auto",

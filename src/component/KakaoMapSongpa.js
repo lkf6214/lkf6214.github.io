@@ -35,7 +35,7 @@ const MapContainer = () => {
     // 길찾기의 경우는 주소에서 to/ 뒤 부분에 원하는 글 쓰시고, 위도 경도 정보 넘기시면 됩니다!
 
     let iwContent =
-      '<div style="padding:1.5rem;">  성원언어임상연구소 <br><a href="https://map.kakao.com/link/to/성원언어심리센터(송파점),37.520200, 127.113174" style="color:blue" target="_blank">길찾기</a></div>';
+      '<div style="padding:0.1rem; margin:0.8rem 2rem; ">성원언어상담연구소<br><a href="https://map.kakao.com/link/to/성원언어심리센터(송파점),37.520200, 127.113174" style="color:blue" target="_blank">길찾기</a></div>';
 
     let iwPosition = new kakao.maps.LatLng(
       37.472584894923585,
@@ -51,7 +51,7 @@ const MapContainer = () => {
   }, []);
 
   return (
-    <Container>
+    <Container fluid={true} className="p-0">
       <Row className="justify-content-center">
         <Col xs={12} md={8}>
           <h5 className="pb-3">
@@ -68,7 +68,7 @@ const MapContainer = () => {
           </h5>
         </Col>
 
-        <Col xs={12} md={6}>
+        <Col xs={11} md={6}>
           <a href="tel:031-757-0504">
             <Card
               style={{
@@ -85,7 +85,7 @@ const MapContainer = () => {
               }}
             >
               <h5 className="p-1">
-                📞 성원언어임상연구소 (송파점) <br /> 02-412-0505
+                📞 성원언어상담연구소 (송파점) <br /> 02-412-0505
               </h5>
             </Card>
           </a>
@@ -96,8 +96,8 @@ const MapContainer = () => {
           id="myMap-sonpa"
           style={{
             // tetz2, 간단한 반응형을 위해 max-width 값 부여!
-            width: "70vw",
-            maxWidth: "100vw",
+            width: "110%",
+            maxWidth: "110%",
             height: mobile ? "70vw" : "40vw",
           }}
         ></div>

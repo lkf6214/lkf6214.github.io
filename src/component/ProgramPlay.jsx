@@ -532,7 +532,7 @@ export default function History() {
                       <Card.Title
                         className="p-2"
                         style={{
-                          lineHeight: "2rem",
+                          lineHeight: "1.8rem",
                           marginLeft: "1.8rem",
                           textAlign: "left",
                         }}

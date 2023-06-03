@@ -330,14 +330,14 @@ export default function History() {
                   <Row className="justify-content-lg-center">
                     <Col xs={12} lg={6}>
                       <img
-                        className="pt-3"
+                        className="p-3"
                         alt="ProgramImage"
                         src="/image/035.jpg"
                         width={"100%"}
                       />
                     </Col>
                     <Col lg className="p-3">
-                      <Card>
+                      <Card style={{ height: "100%" }}>
                         <Card.Header
                           className="h5"
                           style={{
@@ -410,7 +410,7 @@ export default function History() {
                   <Row className="justify-content-lg-center">
                     <Col xs={12} lg={6}>
                       <img
-                        className="pt-3"
+                        className="p-3"
                         alt="ProgramImage"
                         src="/image/034.jpg"
                         width={"100%"}

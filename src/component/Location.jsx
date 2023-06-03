@@ -40,7 +40,7 @@ export default function Facilities() {
       {/* </div> */}
       {/* </Container> */}
 
-      <Container fluid={true} className="p-0">
+      <Container>
         <Card border="light" className="text-center pb-3">
           <Card.Header className="h2" style={{ margin: "2rem 0rem 0rem 0rem" }}>
             오시는 길

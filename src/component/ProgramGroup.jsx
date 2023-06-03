@@ -298,8 +298,11 @@ export default function History() {
                         >
                           사회성 프로그램
                         </Card.Header>
-                        <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                        <ListGroup
+                          style={{ lineHeight: "1.6rem" }}
+                          variant="flush"
+                        >
+                          <ListGroup.Item>
                             사회성 그룹치료는 또래와 어울리면서 친구를 사귀는
                             즐거움을 체험하여, 친사회적 기술 및 바람직한
                             상호작용을 배움으로써 유연한 또래와의 관계를
@@ -314,57 +317,30 @@ export default function History() {
                             관계에서 정서적인 지지를 받고 협업, 책임감 및
                             자존감을 높일 수 있습니다.
                           </ListGroup.Item>
-                          <ListGroup.Item
-                            style={{
-                              // padding: "1rem",
-                              lineHeight: "1.8rem",
-                            }}
-                          >
+                          <ListGroup.Item>
                             - 자아 파악, 친구 사귀기, 갈등 대처, 문제해결능력,
                             적응 및 협동, 책임감과 자존감 높이기
                           </ListGroup.Item>
                           <ListGroup.Item
                             style={{
                               paddingTop: "1rem",
-                              paddingBottom: "0rem",
-                              lineHeight: "1.3rem",
                             }}
                           >
-                            <p> 대상자: 학령전기, 학령기 아동 (2~4명)</p>
-                            <p>- 친구에게 관심은 있지만 다가가지 못하는 아이</p>
-                            <p>
+                            <h6> 대상자: 학령전기, 학령기 아동 (2~4명)</h6>
+                            <h6>
+                              - 친구에게 관심은 있지만 다가가지 못하는 아이
+                            </h6>
+                            <h6>
                               - 높은 불안으로 또래 관계를 회피하거나 자기표현이
                               서툰 아이
-                            </p>
-                            <p>
+                            </h6>
+                            <h6>
                               - 수줍음이 많고 심리적인 위축으로 자신감이
                               부족하고 소외감을 느끼는 아이 등
-                            </p>
-                            {/* <p> - 작은 일에 상처를 받거나 다툼이 잦은 아이</p>
-                            <p>
-                              - 자신의 생각이나 감정을 제대로 표현하기 어려운
-                              아이
-                            </p>
-                            <p>
-                              - 다양한 상황에 대한 이해와 상황판단 및 문제의
-                              해결과 대처능력에 어려움을 보이는 아이
-                            </p>
-                            <p>
-                              - 다른 사람의 감정이나 생각에 대한 이해가 부족하여
-                              상호작용에 어려움을 보이는 아이
-                            </p>
-                            <p> - 게임 내 규칙 및 순서지키기가 어려운 아이</p>
-                            <p>
-                              - 수업 및 단체활동에 집중하지 못하고 산만한 아이
-                            </p>
-                            <p>
-                              - 상황에 적절하지 않은 말이나 행동을 하는 아이
-                            </p> */}
+                            </h6>
                           </ListGroup.Item>
 
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            소요시간: 50분
-                          </ListGroup.Item>
+                          <ListGroup.Item>소요시간: 50분</ListGroup.Item>
                         </ListGroup>
                       </Card>
                     </Col>
@@ -435,8 +411,11 @@ export default function History() {
                         >
                           학교 준비반
                         </Card.Header>
-                        <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                        <ListGroup
+                          style={{ lineHeight: "1.6rem" }}
+                          variant="flush"
+                        >
+                          <ListGroup.Item>
                             초등학교는 유치원과 어린이집과는 운영방식과
                             교육과정의 차이가 있기 때문에 초등학교 입학을 앞둔
                             아동들은 학교적응을 위한 준비과정이 필요합니다. 학교
@@ -448,31 +427,29 @@ export default function History() {
                           <ListGroup.Item
                             style={{
                               paddingTop: "1rem",
-                              paddingBottom: "0rem",
-                              lineHeight: "1.3rem",
                             }}
                           >
-                            <p>
+                            <h6>
                               - 수업참여: 착석 유지, 선생님의 지시를 듣고
                               수행하기, 발표하기
-                            </p>
-                            <p>
+                            </h6>
+                            <h6>
                               - 학교적응: 칠판 보기, 시간표 보기, 알림장
                               작성하기, 쉬는 시간과 수업시간 구분하기 등
-                            </p>
-                            <p>
+                            </h6>
+                            <h6>
                               - 자기관리: 물건 챙기기, 자기 자리 찾기, 가방
                               챙기기 등
-                            </p>
-                            <p>- 사회성: 집단 활동 및 또래와의 상호작용 증진</p>
+                            </h6>
+                            <h6>
+                              - 사회성: 집단 활동 및 또래와의 상호작용 증진
+                            </h6>
                           </ListGroup.Item>
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item>
                             대상자: 입학 예정 아동 (2~4명)
                           </ListGroup.Item>
 
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                            소요시간: 4-50분
-                          </ListGroup.Item>
+                          <ListGroup.Item>소요시간: 4-50분</ListGroup.Item>
                         </ListGroup>
                       </Card>
                     </Col>

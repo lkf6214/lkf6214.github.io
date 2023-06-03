@@ -4,19 +4,13 @@ import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 import ListSubheader from "@mui/material/ListSubheader";
 import IconButton from "@mui/material/IconButton";
+import "../css/Mou.css";
 
 export default function TitlebarImageList() {
   return (
     <>
-      {/* <Container> */}
-      {/* <Card>
-        <Card border="light" className="text-center">
-          <Card.Header className="h2">협약서</Card.Header>
-          <Card.Body> */}
       <ImageListItem key="Subheader" cols={1}>
-        <ListSubheader component="div" className="pt-5">
-          지원사업 / 협력기관
-        </ListSubheader>
+        <h5 className="pt-5 pb-2">지원사업 / 협력기관</h5>
       </ImageListItem>
       <ImageList sx={{ width: "100%", height: "auto" }} cols={3}>
         {itemData.map((item) => (
@@ -31,10 +25,13 @@ export default function TitlebarImageList() {
               loading="lazy"
             />
             <ImageListItemBar
+              className="ImageListItemBar"
               style={{
                 backgroundColor: "rgb(17, 167, 176,0.7)",
+                fontSize: "0.5rem",
               }}
               title={item.title}
+              size="sm"
               subtitle={item.author}
               actionIcon={
                 <IconButton
@@ -46,10 +43,6 @@ export default function TitlebarImageList() {
           </ImageListItem>
         ))}
       </ImageList>
-      {/* </Card.Body>
-        </Card>
-      </Card> */}
-      {/* </Container> */}
     </>
   );
 }
@@ -92,9 +85,6 @@ const itemData = [
     img: "/img/mou_005.png",
     title: "통합가족서비스",
     author: "@위례점",
-    // rows: 2,
-    // cols: 2,
-    // featured: true,
   },
   {
     img: "/img/mou_006.png",
@@ -103,12 +93,12 @@ const itemData = [
   },
   {
     img: "/img/mou_008.png",
-    title: "맞춤형학부모학습상담 「온맘(溫마음)」",
+    title: "맞춤형 학부모 학습상담 「온맘」",
     author: "@송파점",
   },
   {
     img: "/img/mou_007.jpg",
-    title: "서울시장애인의사소통권리증진센터",
+    title: "장애인 의사소통 지원",
     author: "@송파점",
   },
 ];

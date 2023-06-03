@@ -10,7 +10,7 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand href="/">
           <h6 className="pt-1">
-            성원언어임상연구소 (송파) 02-412-0505
+            성원언어상담연구소 (송파) 02-412-0505
             <br />
             성원언어심리센터 (위례) 031-757-0504
           </h6>

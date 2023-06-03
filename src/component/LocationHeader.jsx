@@ -79,7 +79,7 @@ export default function BasicTabs() {
             <Tab label="위례점" icon={<LocationOnIcon />} {...a11yProps(1)} />
           </Tabs>
         </Box>
-        {/* <Container> */}
+
         <TabPanel value={value} index={0}>
           <KakaoMapSongpa />
           {/* <MapTest /> */}
@@ -87,8 +87,6 @@ export default function BasicTabs() {
         <TabPanel value={value} index={1}>
           <KakaoMapWirye />
         </TabPanel>
-
-        {/* </Container> */}
       </Box>
     </>
   );

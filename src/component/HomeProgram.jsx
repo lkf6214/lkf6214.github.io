@@ -37,7 +37,7 @@ const images = [
 
   {
     url: "/img/2.jpg",
-    title: "그룹치료",
+    title: "사회성 그룹치료",
     width: "30%",
     href: "program/group",
   },

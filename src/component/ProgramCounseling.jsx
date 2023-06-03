@@ -11,7 +11,7 @@ export default function History() {
     <>
       <Container>
         <Card border="light" className="text-center">
-          <Card.Header className="h2">성인 상담</Card.Header>
+          <Card.Header className="h2">성인상담</Card.Header>
           <Card.Body>
             <Card.Text className="p-3">
               <Row className="justify-content-center">
