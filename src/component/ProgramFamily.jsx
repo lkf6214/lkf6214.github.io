@@ -330,7 +330,7 @@ export default function History() {
                   <Row className="justify-content-lg-center">
                     <Col xs={12} lg={6}>
                       <img
-                        className="p-3"
+                        className="p-1"
                         alt="ProgramImage"
                         src="/image/035.jpg"
                         width={"100%"}
@@ -410,7 +410,7 @@ export default function History() {
                   <Row className="justify-content-lg-center">
                     <Col xs={12} lg={6}>
                       <img
-                        className="p-3"
+                        className="p-1"
                         alt="ProgramImage"
                         src="/image/034.jpg"
                         width={"100%"}

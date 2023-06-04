@@ -1,13 +1,75 @@
-.mou_container {
+#mou_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#mou_container {
   width: 31%;
   border: 2px solid rgb(17, 167, 176, 0.7);
   padding: 0rem;
-  margin: 0.1rem;
+  margin: 0.2rem;
+  height: 100%;
+  position: relative;
 }
 
-.mou_underbox {
+#mou_image {
+  width: 100%;
+}
+
+#mou_under_box {
   background-color: rgb(17, 167, 176, 0.6);
   color: #fff;
   width: 100%;
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20%;
+  position: absolute;
+  bottom: 0rem;
+  padding: 3px;
+}
+
+#mou_title {
+  font-size: 1.3rem;
+}
+
+#mou_subtitle {
+  font-size: 1rem;
+}
+
+@media (max-width: 450px) {
+  #mou_container {
+    width: 47%;
+    border: 2px solid rgb(17, 167, 176, 0.7);
+    padding: 0rem;
+    margin: 0.2rem;
+    /* height: 100%; */
+    /* position: relative; */
+  }
+
+  #mou_under_box {
+    height: 40%;
+  }
+
+  #mou_title {
+    font-size: 0.7rem;
+  }
+
+  #mou_subtitle {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  #mou_under_box {
+    height: 30%;
+  }
+
+  #mou_title {
+    font-size: 1rem;
+  }
+
+  #mou_subtitle {
+    font-size: 0.8rem;
+  }
 }

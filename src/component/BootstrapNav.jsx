@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="xl">
+    <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand href="/">
@@ -16,7 +16,16 @@ function BasicExample() {
           </h6>
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          style={
+            {
+              // display: "flex",
+              // flexFlow: "row",
+              // justifyContent: "space-around",
+            }
+          }
+        >
           {/* <Nav className="me-auto p-2 my-lg-2 h5"> */}
           <Nav className="m-2 h5 ">
             <NavDropdown title="성원 소개" id="basic-nav-dropdown">
@@ -53,6 +62,9 @@ function BasicExample() {
             <Nav.Link href="/location">오시는 길</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        {/* <Navbar.Brand href="/">
+          <h6 className="pt-2">성원은 전문 언어치료기관입니다</h6>
+        </Navbar.Brand> */}
       </Container>
     </Navbar>
   );

@@ -8,7 +8,6 @@ import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import Paper from "@mui/material/Paper";
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
-import { fontWeight } from "@mui/system";
 
 export default function HomeProgram() {
   return (
@@ -16,7 +15,6 @@ export default function HomeProgram() {
       <section
         style={{
           padding: "3rem 0rem 0rem 0rem",
-          // border: "1px solid gray",
           margin: "1rem 0rem",
           // borderTop: "20px solid #89af89",
           // borderBottom: "20px solid #89af89",
@@ -178,7 +176,7 @@ export default function HomeProgram() {
                     justifyContent: "center",
                   }}
                 >
-                  송파점
+                  위례점
                 </div>
                 <div
                   style={{

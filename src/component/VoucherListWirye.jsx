@@ -19,7 +19,7 @@ export default function SimplePaper() {
         </h4>
         <h4 className="p-3">☎ 바우처 및 서비스 문의는 전화 상담</h4>
 
-        <a href="tel:02-412-0505">
+        <a href="tel:031-757-0504">
           <Col
             xs={12}
             style={{
