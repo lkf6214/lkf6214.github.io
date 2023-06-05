@@ -131,7 +131,7 @@ export default function BasicTabs() {
               </p>
               <p>🕙 운영시간: 평일 오전 10시 ~ 오후 7시, 주일/공휴일 휴무</p>
               <p>💁 상담 문의: 오후 1시 ~ 6시</p>
-              <a href="tel:02-412-0505">
+              <a href="tel:031-757-0504">
                 <Col
                   xs={12}
                   md={5}

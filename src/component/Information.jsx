@@ -64,7 +64,7 @@ export default function Information() {
                       padding: "1rem 0rem",
                     }}
                   >
-                    <h5
+                    <div
                       className="p-2"
                       style={{
                         margin: "auto",
@@ -72,10 +72,10 @@ export default function Information() {
                         right: "0",
                       }}
                     >
-                      <p>📞</p>
-                      성원언어상담연구소 (송파점)
-                      <p>02-412-0505</p>
-                    </h5>
+                      <h4>📞</h4>
+                      <h5>성원언어상담연구소 (송파점)</h5>
+                      <h5>02-412-0505</h5>
+                    </div>
                   </Card>
                 </a>
               </Col>
@@ -88,7 +88,7 @@ export default function Information() {
                       padding: "1rem 0rem",
                     }}
                   >
-                    <h5
+                    <div
                       className="p-2"
                       style={{
                         margin: "auto",
@@ -96,10 +96,11 @@ export default function Information() {
                         right: "0",
                       }}
                     >
-                      <p>📞</p>
-                      성원언어심리센터 (위례점)
-                      <p> 031-757-0504</p>
-                    </h5>
+                      <h4>📞</h4>
+                      <h5> 성원언어심리센터 (위례점)</h5>
+
+                      <h5> 031-757-0504</h5>
+                    </div>
                   </Card>
                 </a>
               </Col>

@@ -69,7 +69,7 @@ const MapContainer = () => {
         </Col>
 
         <Col xs={11} md={6}>
-          <a href="tel:031-757-0504">
+          <a href="tel:02-412-0505">
             <Card
               style={{
                 margin: "auto",
