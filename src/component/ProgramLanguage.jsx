@@ -144,7 +144,7 @@ export default function History() {
                   }}
                 >
                   <h6>언어발달</h6>
-                  <h6>난독(읽기쓰기)</h6>
+                  <h6>난독(읽기 쓰기)</h6>
                   <h6>조음(발음)</h6>
                   <h6>말더듬 말빠름증</h6>
                   <h6>음성장애</h6>
@@ -323,9 +323,9 @@ export default function History() {
                           학령기 아동 언어 그룹
                         </Card.Header>
                         <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item  style={{ lineHeight: "2rem", paddingLeft: "2rem", paddingRight: "2rem" }}>
                             현재 학교 생활을 하고 있는 초등 저학년을 대상으로
-                            2-4명의 짝그룹이나 소그룹 형태로 구성됩니다.
+                            2-4명의 짝그룹이나  소그룹 형태로 구성됩니다.
                           </ListGroup.Item>
                           <ListGroup.Item style={{ lineHeight: "2rem" }}>
                             아동들이 가정은 물론 학교와 지역 사회에서 일어날
@@ -334,7 +334,7 @@ export default function History() {
                             상황에서의 적응력을 키워주게 됩니다. 또한 학교나
                             집단 내에서 지켜야하는 규칙을 이해하고 기억하는
                             훈련을 통해 또래와의 기본적인 사회 기술(대화와
-                            대인기술) 습득에 도움을 주기위한 프로그램입니다.
+                            대인기술) 습득에 도움을 주기 위한 프로그램입니다.
                           </ListGroup.Item>
                         </ListGroup>
                       </Card>
@@ -506,66 +506,7 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
-                        <Card
-                          className="mb-3"
-                          style={{
-                            height: "90%",
-                          }}
-                        >
-                          <Card.Header
-                            className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
-                            }}
-                          >
-                            <Card.Title>K-BNT-C</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              아동용 한국판 보스턴 이름대기 검사
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text
-                            className="p-2"
-                            style={{ margin: "auto", left: "0", right: "0" }}
-                          >
-                            3세~14세 아동의 이름대기 능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
-
-                      {/* 1-1 */}
-                      <Col xs={6} lg={3}>
-                        <Card
-                          className="mb-3"
-                          style={{
-                            height: "90%",
-                          }}
-                        >
-                          <Card.Header
-                            className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
-                            }}
-                          >
-                            <Card.Title>K-BNT</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              한국 보스턴 이름대기 검사
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text
-                            className="p-2"
-                            style={{ margin: "auto", left: "0", right: "0" }}
-                          >
-                            15세 이상 성인의 이름대기 능력
-                          </Card.Text>
-                        </Card>
-                      </Col>
+                    
 
                       <Col xs={6} lg={3}>
                         <Card
@@ -597,6 +538,101 @@ export default function History() {
                           </Card.Text>
                         </Card>
                       </Col>
+
+
+     {/* 1-1 */}
+     <Col xs={6} lg={3}>
+                        <Card
+                          className="mb-3"
+                          style={{
+                            height: "90%",
+                          }}
+                        >
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                            }}
+                          >
+                            <Card.Title>CPLC </Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            >
+                              아동 화용언어 체크리스트
+                            </Card.Subtitle>
+                          </Card.Header>
+                          <Card.Text
+                            className="p-2"
+                            style={{ margin: "auto", left: "0", right: "0" }}
+                          >
+                            언어적 상호작용의 강점과 약점을 파악하고 담화관리능력, 상황에 따른 적용능력, 의사소통 의도 등을 평가
+                          </Card.Text>
+                        </Card>
+                      </Col>
+
+   {/* 1 */}
+   <Col xs={6} lg={3}>
+                        <Card
+                          className="mb-3"
+                          style={{
+                            height: "90%",
+                          }}
+                        >
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                            }}
+                          >
+                            <Card.Title>LSSC</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            >
+                              학령기 아동 언어 검사
+                            </Card.Subtitle>
+                          </Card.Header>
+                          <Card.Text
+                            className="p-2"
+                            style={{ margin: "auto", left: "0", right: "0" }}
+                          >
+                            학령기 아동의 언어능력 평가 및 언어지체 혹은
+                            언어장애 판별
+                          </Card.Text>
+                        </Card>
+                      </Col>
+
+                       {/* 1-1 */}
+     <Col xs={6} lg={3}>
+                        <Card
+                          className="mb-3"
+                          style={{
+                            height: "90%",
+                          }}
+                        >
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                            }}
+                          >
+                            <Card.Title>KOPLAC</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            >
+                              한국 아동 메타-화용언어 검사
+                            </Card.Subtitle>
+                          </Card.Header>
+                          <Card.Text
+                            className="p-2"
+                            style={{ margin: "auto", left: "0", right: "0" }}
+                          >
+                          만 5세~12세 아동의 메타-화용언어 능력을 요소별(의사소통조율 /이야기 담화정보/ 상위언어)로 평가하여 발달정도와 지연여부 판별</Card.Text>
+                        </Card>
+                      </Col>
+
 
                       {/* 6 */}
                     </Row>
@@ -751,37 +787,7 @@ export default function History() {
                       학령기 학습
                     </Card.Title>
                     <Row className="justify-content-lg-center">
-                      {/* 1 */}
-                      <Col xs={6} lg={3}>
-                        <Card
-                          className="mb-3"
-                          style={{
-                            height: "90%",
-                          }}
-                        >
-                          <Card.Header
-                            className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
-                            }}
-                          >
-                            <Card.Title>LSSC</Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              학령기 아동 언어 검사
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text
-                            className="p-2"
-                            style={{ margin: "auto", left: "0", right: "0" }}
-                          >
-                            학령기 아동의 언어능력 평가 및 언어지체 혹은
-                            언어장애 판별
-                          </Card.Text>
-                        </Card>
-                      </Col>
+                   
                       {/* 1-1 */}
                       <Col xs={6} lg={3}>
                         <Card

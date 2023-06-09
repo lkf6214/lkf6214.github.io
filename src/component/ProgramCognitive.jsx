@@ -37,7 +37,7 @@ export default function History() {
               </Card.Title>
               <Card.Title className="p-2 m-2" style={{ lineHeight: "2rem" }}>
                 아동의 개별적인 인지적 특성, 인지영역 별 강점 및 약점을 파악하고
-                인지 능력을 효율적으로 발휘하도록 촉진, 보완하기 위한 교육적
+                인지 능력을 효율적으로 발휘하도록 촉진 보완하기 위한 교육적
                 중재입니다.
               </Card.Title>
               <img
@@ -283,7 +283,7 @@ export default function History() {
                         // backgroundColor: "rgb(13, 77, 5, 0.1)",
                       }}
                     >
-                      문자변별 및 낱말을 다른 사람들이 이해할 수 있는 언어음으로
+                      문자 및 낱말을 다른 사람들이 이해할 수 있는 언어음으로
                       읽는 문항들로 구성하여 읽기능력을 길러줍니다. 또한 낱말의
                       철자를 잘 알도록 지도하며 기초쓰기 능력을 길러줍니다.
                     </Col>
@@ -320,7 +320,7 @@ export default function History() {
                         // backgroundColor: "rgb(13, 77, 5, 0.1)",
                       }}
                     >
-                      수인지 등 기초적인 수학 지식과 개념을 확장 및 능력을 향상
+                      수 인지 등 기초적인 수학 지식과 개념을 확장 및 능력을 향상
                       시킵니다.
                     </Col>
                   </Row>

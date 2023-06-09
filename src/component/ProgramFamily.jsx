@@ -93,12 +93,12 @@ export default function History() {
                           영유아(20개월 이상)부터 초등학생 자녀를 가진 부모
                         </li>
                         <li>
-                          아이 양육에 어려움을 느끼거나 아이에 대한 이해가
+                          아이양육에 어려움을 느끼거나 아이에 대한 이해가
                           부족하신 분
                         </li>
                         <li>양육에 대한 기술이나 방법을 잘 모르시는 분</li>
                         <li>
-                          애착형성에 필요하거나 부모 자녀관계계에 어려움을
+                          애착형성에 필요하거나 부모 자녀관계에 어려움을
                           느끼시는 분
                         </li>
                         <li>
@@ -242,7 +242,7 @@ export default function History() {
                             아동의 말더듬 문제 개선을 위한 부모의 역할과 실제로
                             아동 말더듬을 증가시키는 주변 원인을 탐색하고, 가정
                             내 언어환경을 개선하여 아동의 유창성을 중진시키기
-                            위한 교육 프로그램입니다.
+                            위한 교육프로그램입니다.
                           </ListGroup.Item>
                         </ListGroup>
                       </Card>
@@ -328,7 +328,7 @@ export default function History() {
                     <h6>부모상담 및 부모교육</h6>
                   </Box>
                   <Row className="justify-content-lg-center">
-                    <Col xs={12} lg={6}>
+                    <Col xs={12} lg={6} className="p-3 pt-1">
                       <img
                         className="p-1"
                         alt="ProgramImage"
@@ -336,7 +336,7 @@ export default function History() {
                         width={"100%"}
                       />
                     </Col>
-                    <Col lg className="p-3">
+                    <Col lg className="p-3 pt-1">
                       <Card style={{ height: "100%" }}>
                         <Card.Header
                           className="h5"
@@ -348,7 +348,7 @@ export default function History() {
                           부모상담 및 부모교육
                         </Card.Header>
                         <ListGroup variant="flush">
-                          <ListGroup.Item style={{ lineHeight: "2rem" }}>
+                          <ListGroup.Item  style={{ lineHeight: "2rem" }}>
                             아동의 정서, 행동 발달상의 문제를 파악하여 부모
                             아동간의 상호작용을 증진시키고 긍정적인 애착관계를
                             형성시킴으로써 자녀의 바람직한 행동을 증가시키고

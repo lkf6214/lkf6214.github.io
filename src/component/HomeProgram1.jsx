@@ -87,10 +87,16 @@ export default function HomeProgram() {
               <Paper elevation={3}>
                 <h6>온맘 : 맞춤형 학부모 상담</h6>
               </Paper>
-
               <Paper elevation={3}>
                 <h6>권리증진센터 : 장애인 의사소통 지원 서비스</h6>
               </Paper>
+              <Paper elevation={3}>
+                <h6>이화여자대학교 대학원 언어병리학과 임상실습</h6>
+              </Paper>
+              <Paper elevation={3}>
+                <h6>서울대학교병원 지역언어협력센터</h6>
+              </Paper>
+              
             </Box>
           </div>
 

@@ -88,7 +88,7 @@ export default function History() {
                         }}
                       >
                         <li>
-                          정신지체, 발달 장애 등 발달적 어려움을 가진 유아,
+                          인지문제, 발달 장애 등 발달적 어려움을 가진 유아,
                           아동, 청소년 및 성인
                         </li>
                         <li>
@@ -166,147 +166,15 @@ export default function History() {
                     },
                   }}
                 >
-                  <h6>개인 심리 치료</h6>
-                  <h6>발달 놀이 치료</h6>
+                  <h6>심리 치료</h6>
+                  <h6>발달놀이치료</h6>
                   <h6>소집단 치료</h6>
                   <h6>모아 상호작용 증진 치료</h6>
-                  <h6>부모상담 및 부모교육</h6>
+                  <h6>부모상담</h6>
+                  <h6>부모교육</h6>
                 </Box>
 
-                {/* <Row className="justify-content-lg-center">
-                  <Col xs={6} lg={4} className="p-3">
-                    <Card>
-                      <Card.Header
-                        className="h5"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                        }}
-                      >
-                        개인 심리 치료
-                      </Card.Header>
-                      <ListGroup variant="flush">
-                        <ListGroup.Item
-                          style={{
-                            lineHeight: "2rem",
-                          }}
-                        >
-                          치료자와 내담 아동이 일대일 놀이를 통해 정서적,
-                          행동적, 사회적 어려움을 완화 시키도록 돕는 치료
-                        </ListGroup.Item>
-                      </ListGroup>
-                    </Card>
-                  </Col>
-
-                  <Col xs={6} lg={4} className="p-3">
-                    <Card>
-                      <Card.Header
-                        className="h5"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                        }}
-                      >
-                        발달 놀이 치료
-                      </Card.Header>
-                      <ListGroup variant="flush">
-                        <ListGroup.Item
-                          style={{
-                            lineHeight: "2rem",
-
-                            textAlign: "left",
-                          }}
-                        >
-                          발달 지연이있는 내담 아동을 대상으로 놀이를 통해
-                          발달을 촉진시킬 수 있도록 돕는 치료
-                        </ListGroup.Item>
-                      </ListGroup>
-                    </Card>
-                  </Col>
-
-                  <Col xs={6} lg={4} className="p-3">
-                    <Card>
-                      <Card.Header
-                        className="h5"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                        }}
-                      >
-                        소집단 치료
-                      </Card.Header>
-                      <ListGroup variant="flush">
-                        <ListGroup.Item
-                          style={{
-                            lineHeight: "2rem",
-
-                            textAlign: "left",
-                          }}
-                        >
-                          두 명 이상의 내담 아동을 대상으로 치료자가 대인 관계
-                          어려움을 완화시키고 사 회성을 증진시킬 수 있도록 하는
-                          치료로, 내담 아동의 특성에 따라 치료자도 2인 이상이
-                          참여
-                        </ListGroup.Item>
-                      </ListGroup>
-                    </Card>
-                  </Col>
-
-                  <Col xs={6} lg={4} className="p-3">
-                    <Card>
-                      <Card.Header
-                        className="h5"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                        }}
-                      >
-                        모아 상호 작용 증진 치료
-                      </Card.Header>
-                      <ListGroup variant="flush">
-                        <ListGroup.Item
-                          style={{
-                            lineHeight: "2rem",
-
-                            textAlign: "left",
-                          }}
-                        >
-                          어머니와 아동 간 상호 작용을 증진시키고 애착 관계를
-                          향상시키기 위해 어머니와 아동을 대상으로 진행하는
-                          프로그램
-                        </ListGroup.Item>
-                      </ListGroup>
-                    </Card>
-                  </Col>
-                  <Col xs={6} lg={4} className="p-3">
-                    <Card>
-                      <Card.Header
-                        className="h5"
-                        style={{
-                          color: "#cf9866",
-                          fontWeight: "600",
-                        }}
-                      >
-                        부모 상담 및 부모 교육
-                      </Card.Header>
-                      <ListGroup variant="flush">
-                        <ListGroup.Item
-                          style={{
-                            lineHeight: "2rem",
-
-                            textAlign: "left",
-                          }}
-                        >
-                          부모 역할의 어려움이나 부모를 개인적으로 변화시키고
-                          자하는 목표를 위해 개인 상담을 진행하며, 부모를
-                          대상으로 자녀를 이해하고 부모로서의 효능감을 가지며
-                          스트레스에 대처할 수 있도록 부모 교육을 실시
-                        </ListGroup.Item>
-                      </ListGroup>
-                    </Card>
-                  </Col>
-                </Row> */}
-
+                
                 <Container className="p-2">
                   <Row className="justify-content-center">
                     <Col
@@ -374,7 +242,7 @@ export default function History() {
                         // backgroundColor: "rgb(13, 77, 5, 0.1)",
                       }}
                     >
-                      발달 지연이있는 내담 아동을 대상으로 놀이를 통해 발달을
+                      발달이 느린 내담 아동을 대상으로 놀이를 통해 발달을
                       촉진시킬 수 있도록 돕는 치료
                     </Col>
                   </Row>
@@ -413,7 +281,7 @@ export default function History() {
                     >
                       두 명 이상의 내담 아동을 대상으로 치료자가 대인 관계
                       어려움을 완화시키고 사 회성을 증진시킬 수 있도록 하는
-                      치료로, 내담 아동의 특성에 따라 치료자도 2인 이상이 참여
+                      치료
                     </Col>
 
                     <Col
@@ -466,7 +334,7 @@ export default function History() {
                         marginLeft: "0.5rem",
                       }}
                     >
-                      부모상담 및 부모교육
+                      부모상담
                     </Col>
                     <Col
                       xs={8}
@@ -482,10 +350,41 @@ export default function History() {
                         // backgroundColor: "rgb(13, 77, 5, 0.1)",
                       }}
                     >
-                      부모 역할의 어려움이나 부모를 개인적으로 변화시키고 자하는
-                      목표를 위해 개인 상담을 진행하며, 부모를 대상으로 자녀를
-                      이해하고 부모로서의 효능감을 가지며 스트레스에 대처할 수
-                      있도록 부모 교육을 실시
+                     - 부모 역할의 어려움을 해결하고 부모를 자녀와의 긍정적인 관계 형성을 위해 변화시키기위한 개인상담
+                    </Col>
+
+
+                    <Col
+                      xs={3}
+                      xl={1}
+                      className=" mb-2"
+                      style={{
+                        // border: "5px solid #ffffffc6",
+                        borderRadius: "1rem",
+                        backgroundColor: "rgb(13, 77, 5, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        marginLeft: "0.5rem",
+                      }}
+                    >
+                     부모교육
+                    </Col>
+                    <Col
+                      xs={8}
+                      xl={4}
+                      className="p-3 mb-2 "
+                      style={{
+                        border: "5px solid rgb(13, 77, 5, 0.1)",
+                        borderRadius: "1rem",
+                        textAlign: "left",
+                        marginRight: "0.5rem",
+                        display: "flex",
+                        alignItems: "center",
+                        // backgroundColor: "rgb(13, 77, 5, 0.1)",
+                      }}
+                    >
+                      - 부모를 대상으로 자녀를 이해하고 부모로서의 효능감을 가지며 스트레스에 대처할 수 있도록 부모교육을 실시
                     </Col>
                   </Row>
                 </Container>
@@ -632,16 +531,16 @@ export default function History() {
                         style={{ lineHeight: "2rem" }}
                       >
                         사회성 그룹치료는 또래와 어울리면서 친구를 사귀는
-                        즐거움을 체험하여, 친사회적 기술 및 바람직한 상호작용을
+                        즐거움을 체험하고 친사회적 기술 및 바람직한 상호작용을
                         배움으로써 유연한 또래와의 관계를 유지하도록 돕는
                         프로그램입니다. <br />
                         사회성 그룹치료 속 놀이를 통하여 자신에 대하여 파악할 수
                         있으며, 새로운 친구를 사귀고, 문제가 발생하였을 때
                         갈등을 대처하는 능력과 효율적인 문제해결 능력을 키울
-                        뿐만 아니라, 친구들과 적응하고 협동하고, 인내하는 방법을
+                        뿐만 아니라, 친구들과 적응하고 협동하고 인내하는 방법을
                         깨달으며 사회성을 증진할 수 있습니다. 사회적 기술의
                         습득뿐만 아니라 원만한 또래관계를 형성하는 데 방해가
-                        되는 문제를 직접 다룸으로써, 아동이 속한 사회적인
+                        되는 문제를 직접 다룸으로써 아동이 속한 사회적인
                         관계에서 정서적인 지지를 받고 협업, 책임감 및 자존감을
                         높일 수 있습니다.
                       </Card.Title>
@@ -680,7 +579,7 @@ export default function History() {
                           style={{
                             color: "#e37114",
                             fontWeight: "600",
-                            fontSize: "1rem",
+                            fontSize: "1.1rem",
                           }}
                         >
                           놀이 평가 / 발달 평가 / 부모 및 가족평가
@@ -700,14 +599,14 @@ export default function History() {
                           </Card.Header>
                           <ListGroup variant="flush">
                             <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                              영유아기부터 초등저학년 아동의 심리적 상태와
+                              초등 저학년 아동의 심리적 상태와
                               양육자와의 관계의 질을 알아보기 위한 평가입니다.
                               검사자와의 개별적인 놀이활동과 양육자와의 모-아
                               상호작용 평가로 이루어집니다. 평가 후 양육코칭을
                               받을 수 있는 검사입니다.
                             </ListGroup.Item>
                             <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                              검사도구: 한국 아동 인성 평정척도(KPRC), 아동
+                              검사도구 : 한국 아동 인성 평정척도(KPRC), 아동
                               상호작용검사(CIBT), 영유아 기질 및
                               비전형행동척도(K-TABS)
                             </ListGroup.Item>
@@ -757,7 +656,7 @@ export default function History() {
                               수 있도록 하는 데 목적이 있습니다.
                             </ListGroup.Item>
                             <ListGroup.Item style={{ lineHeight: "2rem" }}>
-                              검사도구: 사회성숙도 검사(SMS), 아동발달
+                              검사도구 : 사회성숙도 검사(SMS), 아동발달
                               검사(K-CDI), 자폐선별 검사(K-CARS), 아동상호작용
                               검사(CIBT), 기질 및 성격 검사(J-TCI)
                             </ListGroup.Item>
@@ -822,7 +721,7 @@ export default function History() {
                       style={{
                         color: "#e37114",
                         fontWeight: "600",
-                        fontSize: "1rem",
+                        fontSize: "1.1rem",
                       }}
                     >
                       종합심리검사
