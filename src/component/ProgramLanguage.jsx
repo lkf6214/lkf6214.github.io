@@ -788,6 +788,38 @@ export default function History() {
                     </Card.Title>
                     <Row className="justify-content-lg-center">
                    
+   {/* 1-1 */}
+   <Col xs={6} lg={3}>
+                        <Card
+                          className="mb-3"
+                          style={{
+                            height: "90%",
+                          }}
+                        >
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                            }}
+                          >
+                            <Card.Title>KISE-BATT</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            >
+                              기초학력검사
+                            </Card.Subtitle>
+                          </Card.Header>
+                          <Card.Text
+                            className="p-2"
+                            style={{ margin: "auto", left: "0", right: "0" }}
+                          >
+                            만 5세에서 14세 학령기 아동을 대상의 기초학력 검사
+                          </Card.Text>
+                        </Card>
+                      </Col>
+
+
                       {/* 1-1 */}
                       <Col xs={6} lg={3}>
                         <Card
@@ -819,8 +851,15 @@ export default function History() {
                           </Card.Text>
                         </Card>
                       </Col>
+
+
                       <Col xs={6} lg={3}>
-                        <Card className="mb-2">
+                        <Card
+                          className="mb-3"
+                          style={{
+                            height: "90%",
+                          }}
+                        >
                           <Card.Header
                             className="p-1"
                             style={{
@@ -831,8 +870,7 @@ export default function History() {
                             <Card.Subtitle
                               className=" text-muted"
                               style={{ fontSize: "0.8rem" }}
-                            >
-                              기초학습기능 수행평가체제: 읽기
+                            > 기초학습기능 수행평가체제: 읽기
                             </Card.Subtitle>
                           </Card.Header>
                           <Card.Text
@@ -844,12 +882,51 @@ export default function History() {
                           </Card.Text>
                         </Card>
                       </Col>
-                      <Col lg={9} className="p-4 pb-1">
+
+                      <Col xs={6} lg={3}>
+                        <Card
+                          className="mb-3"
+                          style={{
+                            height: "90%",
+                          }}
+                        >
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                            }}
+                          >
+                            <Card.Title>C-TONI-2</Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            >
+                                비언어성 지능검사    
+                            </Card.Subtitle>
+                          </Card.Header>
+                          <Card.Text
+                            className="p-2"
+                            style={{ margin: "auto", left: "0", right: "0" }}
+                          >
+                            만 2세~ 7세 11개월 아동의 비언어적 지능 평가
+                          </Card.Text>
+                        </Card>
+                      </Col>
+
+
+                      
+                    
+
+                      <Col lg={9} className="p-3 pb-1">
                         * 이 밖에도 MCDI-K(영유아의 어휘목록 평가), 상징놀이
                         검사, 의사소통기능 평가, 실어증검사, 자발화 분석과 같은
                         비공식적인 질적인 평가를 함께 실시함으로써 보다 정확한
                         아동의 언어수준을 평가할 수 있습니다.
                       </Col>
+
+
+
+
                     </Row>
                   </Container>
 
