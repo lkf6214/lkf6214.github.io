@@ -383,11 +383,11 @@ export default function History() {
 
                     <Row className="justify-content-lg-center">
                       {/* 1 */}
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -415,11 +415,11 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -445,11 +445,11 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -476,11 +476,11 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -508,11 +508,11 @@ export default function History() {
 
                     
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -540,43 +540,13 @@ export default function History() {
                       </Col>
 
 
-     {/* 1-1 */}
-     <Col xs={6} lg={3}>
-                        <Card
-                          className="mb-3"
-                          style={{
-                            height: "90%",
-                          }}
-                        >
-                          <Card.Header
-                            className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
-                            }}
-                          >
-                            <Card.Title>CPLC </Card.Title>
-                            <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              아동 화용언어 체크리스트
-                            </Card.Subtitle>
-                          </Card.Header>
-                          <Card.Text
-                            className="p-2"
-                            style={{ margin: "auto", left: "0", right: "0" }}
-                          >
-                            언어적 상호작용의 강점과 약점을 파악하고 담화관리능력, 상황에 따른 적용능력, 의사소통 의도 등을 평가
-                          </Card.Text>
-                        </Card>
-                      </Col>
 
    {/* 1 */}
-   <Col xs={6} lg={3}>
+   <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -603,12 +573,45 @@ export default function History() {
                         </Card>
                       </Col>
 
-                       {/* 1-1 */}
-     <Col xs={6} lg={3}>
+     {/* 1-1 */}
+
+     <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
+                          }}
+                        >
+                          <Card.Header
+                            className="p-1"
+                            style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                            }}
+                          >
+                            <Card.Title>CPLC </Card.Title>
+                            <Card.Subtitle
+                              className=" text-muted"
+                              style={{ fontSize: "0.8rem" }}
+                            >
+                              아동 화용언어 체크리스트
+                            </Card.Subtitle>
+                          </Card.Header>
+                          <Card.Text
+                            className="p-2"
+                            style={{ margin: "auto", left: "0", right: "0", }}
+                          >
+                            언어적 상호작용의 강점과 약점을 파악하고 담화관리능력, 상황에 따른 적용능력, 의사소통 의도 등을 평가
+                          </Card.Text>
+                        </Card>
+                      </Col>
+
+
+                       {/* 1-1 */}
+                       <Col xs={6} lg={3} className="pb-3">
+                        <Card
+                          className="mb-3"
+                          style={{
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -629,7 +632,7 @@ export default function History() {
                             className="p-2"
                             style={{ margin: "auto", left: "0", right: "0" }}
                           >
-                          만 5세~12세 아동의 메타-화용언어 능력을 요소별(의사소통조율 /이야기 담화정보/ 상위언어)로 평가하여 발달정도와 지연여부 판별</Card.Text>
+                          만 5세~12세 아동의 메타-화용언어 능력을 요소별(의사소통조율/이야기 담화정보/상위언어)로 평가하여 발달정도와 지연여부 판별</Card.Text>
                         </Card>
                       </Col>
 
@@ -651,11 +654,11 @@ export default function History() {
                     </Card.Title>
                     <Row className="justify-content-lg-center">
                       {/* 1 */}
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -683,11 +686,11 @@ export default function History() {
                         </Card>
                       </Col>
                       {/* 1-1 */}
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -713,11 +716,11 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -743,11 +746,11 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -789,11 +792,11 @@ export default function History() {
                     <Row className="justify-content-lg-center">
                    
    {/* 1-1 */}
-   <Col xs={6} lg={3}>
+   <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -821,11 +824,11 @@ export default function History() {
 
 
                       {/* 1-1 */}
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -853,11 +856,11 @@ export default function History() {
                       </Col>
 
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header
@@ -883,11 +886,11 @@ export default function History() {
                         </Card>
                       </Col>
 
-                      <Col xs={6} lg={3}>
+                      <Col xs={6} lg={3} className="pb-3">
                         <Card
                           className="mb-3"
                           style={{
-                            height: "90%",
+                                                        height: "100%",
                           }}
                         >
                           <Card.Header

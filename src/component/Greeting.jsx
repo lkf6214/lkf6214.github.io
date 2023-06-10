@@ -23,7 +23,7 @@ export default function Greeting() {
               <Col xs={12} lg={10}>
                 <img
                   alt="greetingImage"
-                  src="/img/greeting.jpeg"
+                  src="/img/메인인사말2.jpg"
                   width={"100%"}
                 />
               </Col>
