@@ -57,7 +57,7 @@ const MapContainer = () => {
           <h5 className="pb-3">
             주소: 서울 송파구 올림픽로35길 10 파크리오B상가 505-2호
           </h5>
-          <h5 className="pb-3">주차 등록: 1시간 무료 </h5>
+          <h5 className="pb-3">주차 등록: 1시간 30분 무료 </h5>
           <h5
             className="pb-3"
             style={{

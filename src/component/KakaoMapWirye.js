@@ -61,7 +61,7 @@ const MapContainer = () => {
               주소 : 경기도 성남시 수정구 위례광장로 320 아이에스센트럴타워
               608호
             </h5>
-            <h5 className="pb-3">주차 등록: 1시간 무료 </h5>
+            <h5 className="pb-3">주차 등록: 1시간 30분 무료 </h5>
             <h5
               className="pb-3"
               style={{

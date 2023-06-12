@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
+import { padding } from "@mui/system";
 
 export default function History() {
   return (
@@ -144,7 +145,7 @@ export default function History() {
                   }}
                 >
                   <h6>언어발달</h6>
-                  <h6>난독(읽기 쓰기)</h6>
+                  <h6>난독<br/>(읽기/쓰기)</h6>
                   <h6>조음(발음)</h6>
                   <h6>말더듬 말빠름증</h6>
                   <h6>음성장애</h6>
@@ -393,7 +394,7 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>SELSI </Card.Title>
@@ -424,8 +425,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>K-SNAP</Card.Title>
@@ -454,8 +455,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>PRES</Card.Title>
@@ -485,8 +486,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>REVT</Card.Title>
@@ -517,17 +518,12 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-3 pb-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "30%", display: "flex", flexDirection: "column", justifyContent: "center", padding: "0.2rem"
                             }}
                           >
-                            <Card.Title>언어문제해결력검사</Card.Title>
-                            {/* <Card.Subtitle
-                              className=" text-muted"
-                              style={{ fontSize: "0.8rem" }}
-                            >
-                              언어문제해결력검사
-                            </Card.Subtitle> */}
+                            <Card.Title  style={{ fontSize: "1rem"}}>언어문제해결력검사</Card.Title>
+                     
                           </Card.Header>
                           <Card.Text
                             className="p-2"
@@ -551,8 +547,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "30%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>LSSC</Card.Title>
@@ -584,8 +580,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "30%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>CPLC </Card.Title>
@@ -616,8 +612,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "30%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>KOPLAC</Card.Title>
@@ -664,9 +660,9 @@ export default function History() {
                           <Card.Header
                             className="p-1"
                             style={{
-                              // backgroundColor: "rgb(93, 176, 220, 0.3)",
+                   
 
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>APAC</Card.Title>
@@ -695,8 +691,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>U-TAP</Card.Title>
@@ -725,8 +721,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>OSMSE-R</Card.Title>
@@ -755,8 +751,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>P-FA</Card.Title>
@@ -801,8 +797,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>KISE-BATT</Card.Title>
@@ -833,8 +829,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>KOLRA</Card.Title>
@@ -865,8 +861,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>BASA:R</Card.Title>
@@ -895,8 +891,8 @@ export default function History() {
                         >
                           <Card.Header
                             className="p-1"
-                            style={{
-                              backgroundColor: "rgb(13, 77, 5, 0.1)",
+                             style={{
+                              backgroundColor: "rgb(13, 77, 5, 0.1)", height: "40%", display: "flex", flexDirection: "column", justifyContent: "center"
                             }}
                           >
                             <Card.Title>C-TONI-2</Card.Title>
